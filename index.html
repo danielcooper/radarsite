@@ -39,16 +39,25 @@
 		 
 		 #topnav {
 			margin: 0px 0 0 260px;
-			padding: 42px 0 0 0;
+			padding: 42px 0 20px 0;
 			width: 430px;
 		 }
 		 
 		 #topnav a {
+			position: relative;
+			display: inline block;
 			color: #a4a4a4;
-			padding: 0 15px 0 0;
+			padding: 0 15px 21px 15px;
 			text-decoration: none;
-			font-size: 16px;
+			font-size: 16px
 		 }
+		 
+		 #topnav a.selected {
+			background-image:url("images/toppointer.png");
+			background-repeat:no-repeat;
+			background-position:center bottom;
+		 }
+		 
 		 
 		 #toprightnav {
 			float: right;
@@ -164,7 +173,7 @@
 			</table>
 		</div>
 		<div id="topnav">
-			<a href="/">Search</a>
+			<a href="/" class="selected">Search</a>
 			<a href="/">Find Agents</a>
 			<a href="/">Get Valuation</a>
 			<a href="/">About Us</a>
