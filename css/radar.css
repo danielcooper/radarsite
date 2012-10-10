@@ -5,7 +5,7 @@
 			font-size:14px;
 			overflow:auto;
 		}
-	
+		
 		#header {
 			height:81px;
 			background-image:url("../images/bannerbackground.png");
@@ -159,7 +159,8 @@
 		}
 		
 		#wrapper3 a {
-			font-weight: normal;
+			font-size: 12px;
+			font-weight: bold;
 			color:#429140;
 			padding: 0 5px 0 5px;
 			text-decoration:underline;
@@ -201,7 +202,7 @@
 		
 		#header2 form label {
 			color:#ffffff;
-			font-size:11px;
+			font-size:12px;
 			font-weight:normal;
 			display: inline;
 		}
@@ -238,4 +239,10 @@
 			font-size: 20px;
 			margin: 0 0 0 0;
 			padding-top: 3px;
+		}
+		
+		.silverfade {
+			height:367px;
+			background-image:url("../images/greybackground.png");
+			background-repeat:repeat-x;
 		}
