@@ -208,3 +208,27 @@
 			width: 920px;
 		}
 		
+		#inlineviews  {
+			margin-top: 10px;
+			padding: 0px 0 0 0;
+		}
+		
+		#inlineviews a {
+			display: inline;
+			color: #494949;
+			font-weight: bold;
+			font-size: 13px;
+			text-decoration:none;
+			padding:6px 15px 8px 15px;
+		}
+		
+		#inlineviews #group2 {
+			display: inline;
+			margin-left: 0px;
+		}
+		
+		#inlineviews  .selected {
+			background-image:url("../images/viewsortbg.png");
+			background-repeat:no-repeat;
+			background-position:center bottom;
+		}
