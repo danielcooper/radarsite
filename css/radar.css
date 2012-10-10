@@ -232,3 +232,10 @@
 			background-repeat:no-repeat;
 			background-position:center bottom;
 		}
+
+		.silverfade {
+			height:367px;
+			background-image:url("../images/greybackground.png");
+			background-repeat:repeat-x;
+		}
+		
