@@ -4,22 +4,18 @@
 	<title>Radarhomes.co.uk</title>
 	<link href="css/bootstrap.css" rel="stylesheet" type="text/css">
 	<link href="css/radar.css" rel="stylesheet" type="text/css">
-	<style type="text/css">	
-		#topnav a.selected {
+	<style>
+	#topnav a.selected {
 			background-image:url("images/greentoppointer.png");
 			background-repeat:no-repeat;
 			background-position:center bottom;
 			color:#ffffff;
 		 }
-		 
-		 .container {
-			
-		}
 	</style>
 </head>
 <body>
 <div id="header">
-	<div class="container">
+	<div class="wrapper">
 		<div id="mainlogo">
 			<a href="#">
 				<img src="images/radarlogosm1.png" border="0"/>
@@ -56,7 +52,7 @@
 	</div>
 </div>
 <div id="header2">
-	<div class="container">
+	<div id="wrapper2">
 		<form>
 			<input type="text" id="location" value="  Location: e.g. 'Salisbury', 'PL3', 'PL3 7NL'"/>		
 			<select>
@@ -81,27 +77,49 @@
 			</select>
 			<input type="image" name="refinesubmit" src="images/refinebutton.png" id="refinebutton" width="142" height="29" border="0" style="height:29px;width:142px;border:none;"/>	
 			<label for="location" style="margin-left: 13px;">Location</label>
-			<label for="pricemin" style="margin-left: 222px;">Price Min</label>
-			<label for="pricemax" style="margin-left: 73px;">Price Max</label>
-			<label for="type" style="margin-left: 72px;">Type</label>
-			<label for="beds" style="margin-left: 97px;">Bedrooms</label>		
-			<span style="float:right;font-size:12px;font-weight:normal;color:#404c41;margin:2px 48px 0 0;">More options</span>
+			<label for="pricemin" style="margin-left: 232px;">Price Min</label>
+			<label for="pricemax" style="margin-left: 78px;">Price Max</label>
+			<label for="type" style="margin-left: 77px;">Type</label>
+			<label for="beds" style="margin-left: 101px;">Bedrooms</label>		
+			<span style="float:right;font-size:12px;font-weight:normal;color:#404c41;margin:2px 55px 0 0;">More options</span>
 		</form>
 	</div>
 </div>
 <div id="header3">
-	<div class="container">
-		<form>
-			<input type="image" name="savesearch" src="images/savesearch.png" id="savesearch" width="144" height="26" border="0"/>	
-			<input type="image" name="emailalert" src="images/emailalertbutton.png" id="emailalert" width="144" height="26" border="0" />	
-		</form>
-		<h1>Property for sale in Exeter, Devon</h1>
-		<span style="font-size:18px;color:#979797;font-weight:normal;">
-			Displaying <span style="font-weight:bold;color:#7c7c7c">20 - 30</span> of <span style="font-weight:bold;color:#7c7c7c">86</span> results
-		</span>
-		<span style="color:#429140;font-weight:bold;font-size:12px;">&lt;<a href="#">Previous 10</a><a href="#">Next 10</a>&gt;</span>
+	<div id="wrapper3">
+			<form>
+				<input type="image" name="savesearch" src="images/savesearch.png" id="savesearch" width="144" height="26" border="0"/>	
+				<input type="image" name="emailalert" src="images/emailalertbutton.png" id="emailalert" width="144" height="26" border="0" />	
+			</form>
+	
+			<h1>Property for sale in Exeter, Devon</h1>
+			
+			<span style="font-size:18px;color:#979797;font-weight:normal;">
+				Displaying <span style="font-weight:bold;color:#7c7c7c">20 - 30</span> of <span style="font-weight:bold;color:#7c7c7c">86</span> results
+			</span>
+			
+			<span style="color:#429140;font-weight:bold;font-size:12px;">&lt;<a href="#">Previous 10</a><a href="#">Next 10</a>&gt;</span>
 	</div>
 </div>
+
+<div class="silverfade">
+
+<br />
+<!-- actual property listings begin -->
+<div class="container">
+	<div class="row-fluid">
+		<div class="span8">
+			<!--Body content-->
+		
+		</div>
+		<div class="span4">
+			<!--Sidebar content-->
+			
+		</div>
+	</div>
+</div>
+
+</div> <!-- silver fade -->
 </body>
 </html>
 
