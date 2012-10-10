@@ -45,9 +45,17 @@
 		#header2 form {
 			float:left;
 			margin: 14px 0 0 0;
-		width:976px;
+			width:976px;
 	
 		}
+		
+		#header2 form label {
+			color:#ffffff;
+			font-size:11px;
+			font-weight:bold;
+			display: inline;
+		}
+		
 	
 		#header2 form input {
 			margin: 0px 3px 0 0;
@@ -199,28 +207,36 @@
 	<div id="wrapper2">
 	<form>
 			
-				<input type="text" value="  Location: e.g. 'Salisbury', 'PL3', 'PL3 7NL'"/>			
+				<input type="text" id="location" value="  Location: e.g. 'Salisbury', 'PL3', 'PL3 7NL'"/>		
+				
 				<select>
-					<option selected="selected" value="Price Min">Price Min</option>
+					<option selected="selected" id="pricemin" value="Price Min">Price Min</option>
 					<option value="50000">50,000</option>
 					<option value="70000">75,000</option>
 				</select>
+				
 				<select>
-					<option selected="selected" value="Price Max">Price Max</option>
+					<option selected="selected" id="pricemax" value="Price Max">Price Max</option>
 					<option value="50000">50,000</option>
 					<option value="70000">75,000</option>
 				</select>
 				<select>	
-					<option selected="selected" value="Type">Type</option>
+					<option selected="selected" id="type" value="Type">Type</option>
 					<option value="house">House</option>
 					<option value="flat">Flat</option>
 				</select>
 				<select>
-					<option selected="selected" value="Beds">Beds</option>
+					<option selected="selected" id="beds" value="Beds">Beds</option>
 					<option value="1">1+</option>
 					<option value="2">2+</option>	
 				</select>
-				<input type="image" name="refinesubmit" src="images/refinebutton.png" width="142" height="29" border="0" style="height:29px;width:142px;"/>	
+				<input type="image" name="refinesubmit" src="images/refinebutton.png" id="refinebutton" width="142" height="29" border="0" style="height:29px;width:142px;border:none;"/>	
+				 <label for="location" style="margin-left: 12px;">Location</label>
+				 <label for="pricemin" style="margin-left: 233px;">Price Min</label>
+				 <label for="pricemax" style="margin-left: 77px;">Price Max</label>
+				 <label for="type" style="margin-left: 76px;">Type</label>
+				 <label for="beds" style="margin-left: 100px;">Beds</label>		
+				 <span style="float:right;font-size:12px;font-weight:bold;color:#404c41;margin:2px 55px 0 0;">More options</span>
 		</form>
 	</div>
 </div>
