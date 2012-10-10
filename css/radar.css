@@ -33,24 +33,24 @@
 			padding: 42px 0 20px 0;
 			width: 430px;
 			text-shadow: 1px 1px 1px #000000;
-
 		 }
 		 
 		 #topnav a {
 			position: relative;
 			display: inline block;
 			color: #a4a4a4;
-			padding: 0 8px 21px 8px;
+			padding: 0 8px 20px 8px;
 			text-decoration: none;
 			font-size: 16px;
 			font-weight:bold;
 		 }
 		 
-		 #topnav a.selected {
+		 <!--#topnav a.selected {
 			background-image:url("");
 			background-repeat:no-repeat;
 			background-position:center bottom;
-		 }
+			color:#ffffff;
+		 }-->
 
 		 #toprightnav {
 			float: right;
