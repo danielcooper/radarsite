@@ -277,6 +277,7 @@
 		}
 		
 		.property .agentlogo {
+			width:72px;
 			float:right;
 			border:0;
 		}
