@@ -254,7 +254,7 @@
 		
 		.property {
 			width:620px;
-			padding-top:25px;
+			padding-top:20px;
 		}
 		
 		.property  table {
@@ -317,24 +317,25 @@
 		}
 		
 		.sidebox {
-			margin-top: 27px;
+			margin-top: 22px;
 			margin-left: 15px;
 			padding-top: 0px;
 			width:270px;
 			height: 260px;
-			background: #e9e9e9;
+			background: #e8e8e8;
+			color:#e8e8e8;
 		}
 
 		.sidebox .sideboxheader {
-			padding: 10px 5px 5px 10px;
-			background-color:#b5b5b5;
-		}
-		
-		.sidebox .sideboxheader {
-			padding: 14px 5px 5px 10px;
-			color:#ebebeb;
+			background-color:#b5b5b5;	
+			padding: 14px 5px 5px 17px;
 			font-size:18px;
 			font-weight:bold;
+		}
+		
+		.sidebox .sideboxheader  p {
+			color:#ebebeb;
+			
 		}
 		
 		.sidebox .sideboxcontent {
