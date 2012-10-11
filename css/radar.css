@@ -123,7 +123,7 @@
 		#header3 {
 			background-color: #e0e0e0;
 			background-repeat:repeat-x;
-			height: 100px;
+			height: 110px;
 			border-bottom: 1px solid #bcbcbc;
 			border-top: 1px solid #bcbcbc;
 		}	
@@ -150,8 +150,8 @@
 		
 		#header3 h1 {
 			font-size: 20px;
-			margin: 0 0 0 0;
-			padding-top: 3px;
+			margin: 5px 0 0 0;
+			padding-top: 0px;
 		}		
 
 		#bodytext {
@@ -209,7 +209,7 @@
 		}
 		
 		#inlineviews  {
-			margin: 10px 0 0 0;
+			margin: 19px 0 0 0;
 			padding: 0px 0 0 0;
 		}
 		
@@ -223,7 +223,6 @@
 		
 		#inlineviews #group1 {
 			display: inline;
-			margin-left: 0px;
 		}
 		
 		#inlineviews #group2 {
