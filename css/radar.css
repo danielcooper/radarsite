@@ -261,6 +261,7 @@
 		.property  table {
 			float:left;
 			border: 8px solid #ededed;
+			width: 158px;
 		}
 		
 		.property  table td {
@@ -276,7 +277,7 @@
 		}
 		
 		.property .agentlogo {
-			float: right;
+			float:right;
 			border:0;
 		}
 		
