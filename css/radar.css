@@ -210,7 +210,7 @@
 		
 		#inlineviews  {
 			margin: 19px 0 0 0;
-			padding: 0px 0 0 0;
+			padding: 0 0 0 0;
 		}
 		
 		#inlineviews a {
@@ -233,14 +233,14 @@
 			background-image:url("../images/viewlistbg.png");
 			background-repeat:no-repeat;
 			background-position:center bottom;
-			padding: 7px 15px 7px 15px;	
+			padding: 7px 15px 8px 15px;	
 		}
 		
 		#inlineviews  #group2 .selected {
 			background-image:url("../images/viewsortbg.png");
 			background-repeat:no-repeat;
 			background-position:center bottom;
-			padding: 9px 19px 7px 19px;	
+			padding: 9px 19px 8px 19px;	
 		}
 		
 		#inlineviews .titles {
@@ -253,10 +253,60 @@
 			margin-left: 40px;
 		}
 		
-		
-		.silverfade {
-			height:367px;
-			background-image:url("../images/greybackground.png");
-			background-repeat:repeat-x;
+		.property {
+			width:650px;
+			padding-top:25px;
 		}
 		
+		.property  table {
+			float:left;
+			border: 8px solid #ededed;
+		}
+		
+		.property  table td {
+			background-color: #ededed;
+			margin: 0;
+			padding: 0;
+			text-align:center;
+			border: 8px solid #ededed;
+		}
+		
+		.property  table img {
+			border:0;
+		}
+		
+		.property .agentlogo {
+			float: right;
+			border:0;
+		}
+		
+		.property .propertytext { 	
+			margin: 0 0 0 175px;
+		}
+		
+		.propertytext .propertyheading a {
+			color: #ff5a00;
+			font-weight: bold;
+			font-size: 16px;
+			text-decoration:none;
+		}
+		
+		.propertytext .secondaryheading {
+			color:#434343;
+			font-weight:bold;
+			font-size: 16px;
+		}
+		
+		.propertytext  .propertysummary {
+			color: #606060;
+			text-align:justify;		
+		}
+		
+		.propertytext .contacttools a{
+			color:#006f00;
+			text-decoration:underline;
+		}
+	
+		.propertytext .contacttools p{
+			color:#006f00;
+		}
