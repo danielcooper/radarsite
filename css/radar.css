@@ -338,11 +338,11 @@
 		}
 
 		#sidebox2 img {
-			padding:17px;
+			border: 1px solid #bcbdb7;
 		}
 		
 		.sideboxcontent {
-			padding: 14px 17px 0 17px;
+			padding: 14px 17px 0 16px;
 		}
 			
 		.sideboxheader {
@@ -354,7 +354,7 @@
 		
 		.sideboxheader  p {
 			color:#ebebeb;
-			padding: 10px 0 0 17px;
+			padding: 11px 0 0 17px;
 		}
 		
 		.sidephoto { 
