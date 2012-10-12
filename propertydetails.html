@@ -13,9 +13,8 @@
 			width: 18px;
 		 }
 		 
-		#header4 {
-			background-image:url("images/greybackground.png");
-			background-repeat:repeat-x;
+		 .container {
+			margin-bottom:50px;
 		}
 	</style>
 </head>
@@ -186,13 +185,13 @@
 		</div>
 		<div class="span4">
 			<!--Sidebar content-->
-			<div class="sidebox">
+			<div id="sidebox1">
 				<div class="sideboxheader">
 					<p>Need help?  Call Lisa.</p>
 				</div>
 				<div class="sideboxcontent">
 					<div class="sidephoto">
-						<img src="images/lisa.png" />
+						<img src="images/lisa.png" border="0"/>
 					</div>
 					<div class="sidetext">
 						<p>
@@ -204,14 +203,25 @@
 						</p>
 						<p>
 							<a href="#">Find out more</a> or call<br />
-							01234 567890
+							<span style="color:#000000;">01234 567890</span>
 						</p>
 					</div>
 				</div>
 			</div>
+			<div id="sidebox2">
+					<div class="sideboxheader">
+						<p>View results on a map</p>
+					</div>
+					<img src="images/sidemap.png" />
+			</div>
+			<div id="sidebox3">
+					<div class="sideboxheader">
+						<p>Top ten local agents</p>
+					</div>
+					
+			</div>
 		</div>
 	</div>
-</div>
 </div>
 </body>
 </html>

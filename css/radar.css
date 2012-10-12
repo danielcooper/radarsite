@@ -316,51 +316,62 @@
 			color:#ededed;
 		}
 		
-		.sidebox {
-			margin-top: 22px;
-			margin-left: 15px;
-			padding-top: 0px;
-			width:270px;
-			height: 260px;
+		#sidebox1 {
+			height: 268px;
+			width:272px;
 			background: #e8e8e8;
-			color:#e8e8e8;
+			margin: 20px 0 0 8px;
+		}
+		
+		#sidebox2 {
+			height: 320px;
+			width: 272px;
+			background: #e8e8e8;
+			margin: 20px 0 0 8px;
+		}
+		
+		#sidebox3 {
+			height: 265px;
+			width: 272px;
+			background: #e8e8e8;
+			margin: 20px 0 0 8px;
 		}
 
-		.sidebox .sideboxheader {
+		#sidebox2 img {
+			padding:17px;
+		}
+		
+		.sideboxcontent {
+			padding: 17px;
+		}
+			
+		.sideboxheader {
 			background-color:#b5b5b5;	
 			padding: 14px 5px 5px 17px;
 			font-size:18px;
 			font-weight:bold;
 		}
 		
-		.sidebox .sideboxheader  p {
+		.sideboxheader  p {
 			color:#ebebeb;
-			
 		}
 		
-		.sidebox .sideboxcontent {
-			padding: 12px 0 0 10px;
-		}
-		
-		.sidebox  .sidephoto { 
+		.sidephoto { 
 			float: left;
 			width:84px;
-			padding: 5px 12px 0 7px;
+			margin-top:3px;
 		}
 			
-		.sidebox .sidetext  p {
+		.sidetext  p {
 			float: right;
 			font-size: 12px;
 			font-weight:bold;
 			line-height:16px;
-			width:140px;
+			width:145px;
 			color: #7b7b7b;
-			margin-right: 15px;
-
 		}
 		
-		.sidebox .sidetext a {
+		.sidetext a {
 			color:#2e8b23;
 			text-decoration:underline;
 		}
-			
