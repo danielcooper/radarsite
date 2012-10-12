@@ -72,6 +72,7 @@
 		 #toprightnav a {
 			color: #ffffff;
 			font-size: 11px;
+			font-weight:normal;
 			border-bottom: 1px dotted #ffffff;
 			text-decoration: none;
 		 }
@@ -248,14 +249,14 @@
 			background-image:url("../images/viewlistbg.png");
 			background-repeat:no-repeat;
 			background-position:center bottom;
-			padding: 7px 15px 8px 15px;	
+			padding: 10px 17px 8px 17px;	
 		}
 		
 		#inlineviews  #group2 .selected {
 			background-image:url("../images/viewsortbg.png");
 			background-repeat:no-repeat;
 			background-position:center bottom;
-			padding: 9px 19px 8px 19px;	
+			padding: 11px 21px 8px 21px;	
 		}
 		
 		#inlineviews .titles {
