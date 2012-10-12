@@ -270,7 +270,7 @@
 		}
 		
 		.topprop {
-			padding-top:20px;
+			margin-top:20px;
 		}
 		
 		.property {
@@ -444,3 +444,52 @@
 			font-weight:bold;
 			line-height: 16px;
 		}
+		
+		#pagination{
+			color:#2e8b23;
+			font-weight:bold;
+		}
+		
+		#pagination a{
+			text-decoration: underline;
+		}
+		
+		#pagination table{
+			color:#2e8b23;
+			width: 940px;
+		}
+		
+		#pagination td{
+			width:33.3%;
+		}
+	
+		#pagination .pages {
+			color:#979797;
+			text-align:center;
+		}
+		
+		#pagination .pages a{
+			color:#979797;
+		}
+		
+		#header5 {
+			height:200px;
+			background:#c7c7c7;
+		}
+		
+		#footer {
+			padding: 20px 0 0 0;
+		}
+		
+		#footer .titles{
+			color:#ffffff;
+			font-weight:bold;
+			font-size:16px;
+		}
+		
+		#footer .links a{
+			color:#575757;
+			font-weight:bold;
+			font-size:14px;
+		}
+		
