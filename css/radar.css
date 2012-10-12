@@ -274,13 +274,13 @@
 			padding-top:20px;
 		}
 		
-		.property  table {
+		.propertytable {
 			float:left;
 			border: 8px solid #ededed;
 			width: 158px;
 		}
 		
-		.property  table td {
+		.propertytable td {
 			background-color: #ededed;
 			margin: 0;
 			padding: 0;
@@ -288,7 +288,7 @@
 			border: 8px solid #ededed;
 		}
 		
-		.property  table img {
+		.propertytable img {
 			border:0;
 		}
 		
