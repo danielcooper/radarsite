@@ -269,9 +269,12 @@
 			margin-left: 40px;
 		}
 		
+		.topprop {
+			padding-top:20px;
+		}
+		
 		.property {
 			width:620px;
-			padding-top:20px;
 		}
 		
 		.propertytable {
