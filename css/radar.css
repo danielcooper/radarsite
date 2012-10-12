@@ -8,6 +8,7 @@
 		a {
 			color: #2E8B23;
 			text-decoration:none;
+			font-weight:bold;
 		}
 		
 		a:active {
@@ -358,10 +359,31 @@
 		
 		.sideboxcontent {
 			padding: 14px 14px 0 16px;
+			font-size: 12px;
+			font-weight:bold;
+			line-height:16px;
 		}
 		
 		#sidebox3 .sideboxcontent {
 			padding: 14px 0px 0 8px;
+		}
+		
+		#sidebox4 {
+			height: 440px;
+			width: 272px;
+			background: #e8e8e8;
+			margin: 20px 0 0 8px;
+		}
+		
+		#sidebox5 {
+			height: 140px;
+			width: 272px;
+			background: #e8e8e8;
+			margin: 20px 0 0 8px;
+		}
+		
+		#sidebox4 .sideboxcontent {
+			padding: 8px 0px 0 2px;
 		}
 		
 		.sideboxcontent ol  li{
@@ -400,4 +422,20 @@
 		.sidetext a {
 			color:#2e8b23;
 			text-decoration:underline;
+		}
+		
+		.agentrecord {
+			padding: 7px 0 0px 15px;
+		}
+		
+		.agentrecord img {
+			float:left;
+			margin-top:4px;
+		}
+		
+		.agentrecord p {
+			margin: 0 0 0 48px;
+			font-size: 12px;
+			font-weight:bold;
+			line-height: 16px;
 		}
