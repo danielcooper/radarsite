@@ -317,7 +317,7 @@
 		}
 		
 		#sidebox1 {
-			height: 268px;
+			height: 255px;
 			width:272px;
 			background: #e8e8e8;
 			margin: 20px 0 0 8px;
@@ -342,18 +342,19 @@
 		}
 		
 		.sideboxcontent {
-			padding: 17px;
+			padding: 14px 17px 0 17px;
 		}
 			
 		.sideboxheader {
 			background-color:#b5b5b5;	
-			padding: 14px 5px 5px 17px;
 			font-size:18px;
+			height:42px;
 			font-weight:bold;
 		}
 		
 		.sideboxheader  p {
 			color:#ebebeb;
+			padding: 10px 0 0 17px;
 		}
 		
 		.sidephoto { 
