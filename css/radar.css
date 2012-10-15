@@ -282,14 +282,14 @@
 			background-image:url("../images/viewlistbg.png");
 			background-repeat:no-repeat;
 			background-position:center bottom;
-			padding: 10px 17px 8px 17px;	
+			padding: 10px 17px 9px 17px;	
 		}
 		
 		#inlineviews  #group2 .selected {
 			background-image:url("../images/viewsortbg.png");
 			background-repeat:no-repeat;
 			background-position:center bottom;
-			padding: 11px 21px 8px 21px;	
+			padding: 11px 21px 9px 21px;	
 		}
 		
 		#inlineviews .titles {
