@@ -2,7 +2,8 @@
 			background-image:url("../images/greybackground.png");
 			background-repeat:repeat-x;
 			font-family:"Gotham", Arial, Sans-serif;
-			font-size:14px;
+			font-size:12px;
+			line-height:18px;
 		}
 		
 		a {
@@ -137,8 +138,10 @@
 		
 		#header3 h1 {
 			font-size: 20px;
-			margin: 5px 0 0 0;
+			margin: 14px 0 0 0;
 			padding-top: 0px;
+			width:450px;
+			line-height:24px;
 		}		
 
 		#header4 {
@@ -255,7 +258,7 @@
 		}
 		
 		#inlineviews  {
-			margin: 19px 0 0 0;
+			margin: 29px 0 0 0;
 			padding: 0 0 0 0;
 		}
 		
@@ -293,6 +296,7 @@
 			color:#acacac;
 			font-weight:bold;
 			margin: 0 12px 0 0;
+			font-size: 12px;
 		}
 		
 		#inlineviews  #group2 .titles {
@@ -309,16 +313,15 @@
 		
 		.propertytable {
 			float:left;
-			border: 8px solid #ededed;
 			width: 158px;
 		}
 		
 		.propertytable td {
-			background-color: #ededed;
+			background-color: #e5e5e5;
 			margin: 0;
 			padding: 0;
 			text-align:center;
-			border: 8px solid #ededed;
+			border: 8px solid #e5e5e5;
 		}
 		
 		.propertytable img {
