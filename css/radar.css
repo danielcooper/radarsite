@@ -3,6 +3,9 @@
 			background-repeat:repeat-x;
 			font-family:"Gotham", Arial, Sans-serif;
 			font-size:12px;
+		}
+		
+		p {
 			line-height:18px;
 		}
 		
@@ -258,8 +261,8 @@
 		}
 		
 		#inlineviews  {
-			margin: 29px 0 0 0;
-			padding: 0 0 0 0;
+			margin: 26px 0 0 0;
+			height:30px;
 		}
 		
 		#inlineviews a {
@@ -281,15 +284,15 @@
 		#inlineviews  #group1 .selected {
 			background-image:url("../images/viewlistbg.png");
 			background-repeat:no-repeat;
-			background-position:center bottom;
-			padding: 10px 17px 9px 17px;	
+			background-position:center;
+			padding: 8px 17px 11px 17px;	
 		}
 		
 		#inlineviews  #group2 .selected {
 			background-image:url("../images/viewsortbg.png");
 			background-repeat:no-repeat;
-			background-position:center bottom;
-			padding: 11px 21px 9px 21px;	
+			background-position:center;
+			padding: 8px 19px 10px 19px;	
 		}
 		
 		#inlineviews .titles {
@@ -508,6 +511,7 @@
 		#header5 {
 			height:200px;
 			background:#c7c7c7;
+			border-top: 1px solid #BCBCBC;
 		}
 		
 		#footer {
