@@ -13,13 +13,54 @@
 			width: 18px;
 		 }
 		 
-		 .container {
+		.container {
 			margin-bottom:50px;
 		}
 		
 		#header4 {
 			background-image:url("images/greybackgroundpropdetails.png");
 			background-repeat:repeat-x;
+		}
+		
+		legend {
+			background:#78ab72;
+			height:60px;
+			padding-top:10px;
+		}
+		
+		legend p {
+			color:#ebebeb;
+			margin: 0 0 0 20px;
+			line-height:25px;
+		}
+		
+		.form-horizontal .control-label {
+			width:80px;
+			text-align:left;
+			font-size: 12px;
+			font-weight:bold;
+		}
+		
+		.form-horizontal .controls {
+			margin-left: 50px;
+		}
+		
+		.form-horizontal .controls label{
+			font-size: 12px;
+			font-weight:bold;
+		}
+		
+		.form-horizontal .form-actions {
+			border:0;
+			background-color:#ffffff;
+			margin-left: 460px;
+			background-color:whiteSmoke;
+			padding:0 0 20px 0;
+		}
+		
+		.form-horizontal {
+			background-color:whiteSmoke;
+			margin-left:0px;
 		}
 	</style>
 </head>
@@ -458,7 +499,119 @@
 				</tr>
 			</table>
 		</div>
+		<br />
+		<br />
+			
+			
+		<div class="row">
+			<form class="form-horizontal">  
+				<legend>
+					<p>Contact local agents</p>
+					<p style="color:#d1d1d1;font-size:16px;">Send a message to agents matching your Exeter search below</p>
+					
+				</legend>
+				<div class="span4">
+					<fieldset>  
+						<div class="control-group">
+							<label class="control-label" for="input01">Your name</label>  
+							<div class="controls">  
+								<input type="text" class="input-small" id="input01" placeholder="First">  
+								<input type="text" class="input-small" id="input02" placeholder="Last">  
+							</div>
+						</div>
+						<div class="control-group">
+							<label class="control-label" for="textarea">Textarea</label>
+							<div class="controls">
+								<textarea id="textarea" class="input-medium" rows="3"></textarea>
+							</div>
+						</div>
+						<div class="control-group">
+						<label class="control-label" for="telephone">Telephone</label>
+							<div class="controls">  
+								<input type="text" class="input-small" id="telephone"> 
+							</div>
+						</div>
+						<div class="control-group">
+							<label class="control-label" for="email">Email</label>
+							<div class="controls">  
+								<input type="text" class="input-small" id="email"> 
+							</div>
+						</div>
+						<div class="control-group">
+							<div class="controls"> 
+							<label class="checkbox">
+								<input type="checkbox" id="optionsCheckbox" value="option1">
+								Request free valuation
+							</label>
+							</div>
+						</div>
+						<p style="font-size:10px;color:#949494;line-height:11px;">By sending your request to agents, you accept<br /> Radarhomes terms and conditions</p>
+					</fieldset>
+				</div>
+				<div class="span4">
+					<fieldset>  
+						<div class="control-group">
+							<div class="controls"> 
+								<label class="checkbox">
+									<input type="checkbox" id="optionsCheckbox" value="option1">
+									Wilkinson Grant & Co, EX1<br />
+									01392 888888
+								</label>
+							</div>
+							<div class="controls"> 
+								<label class="checkbox">
+									<input type="checkbox" id="optionsCheckbox" value="option1">
+									Wilkinson Grant & Co, EX1<br />
+									01392 888888
+								</label>
+							</div>
+							<div class="controls"> 
+								<label class="checkbox">
+									<input type="checkbox" id="optionsCheckbox" value="option1">
+									Wilkinson Grant & Co, EX1<br />
+									01392 888888
+								</label>
+							</div>
+							<div class="controls"> 
+								<label class="checkbox">
+									<input type="checkbox" id="optionsCheckbox" value="option1">
+									Wilkinson Grant & Co, EX1<br />
+									01392 888888
+								</label>
+							</div>
+							<div class="controls"> 
+								<label class="checkbox">
+									<input type="checkbox" id="optionsCheckbox" value="option1">
+									Wilkinson Grant & Co, EX1<br />
+									01392 888888
+								</label>
+							</div>
+							<div class="controls"> 
+								<label class="checkbox">
+									<input type="checkbox" id="optionsCheckbox" value="option1">
+									Wilkinson Grant & Co, EX1<br />
+									01392 888888
+								</label>
+							</div>	
+							<label class="checkbox" style="margin: 15px 0 0 30px;font-weight:bold;font-size:12px">
+								Select All | None
+							</label>
+						</div>
+					</fieldset>
+				</div>
+				
+					<fieldset>
+						<div class="form-actions">
+							<button type="submit" class="btn btn-primary">Save changes</button>
+						</div>	
+					</fieldset>
+				
+			</form>
 		</div>
+			
+			
+		</div> <!-- Span 8 column end -->
+	
 		<!--Sidebar content-->
 		<div class="span4">
 			<div id="sidebox1">
@@ -575,10 +728,10 @@
 					<a href="#">Properties for sale in Exmouth</a>
 				</div>
 			</div>
-		</div>
-		</div>
-	</div>
-</div>
+		</div> <!-- Span 4 end div -->
+	</div> <!-- Row end div -->
+</div> <!-- Container end div -->
+</div> <!-- Header 4 end div -->
 <div id="header5">
 	<!-- Utilises 4 Bootstrap columns -->
 	<!-- Bootstrap container -->
