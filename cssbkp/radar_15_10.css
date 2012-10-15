@@ -1,7 +1,3 @@
-		.span3 {
-			
-		}
-		
 		body {
 			background-image:url("../images/greybackground.png");
 			background-repeat:repeat-x;
@@ -46,7 +42,7 @@
 		 }
 		 
 		 #topnav {
-			margin: 0px 0 0 0px;
+			margin: 0px 0 0 260px;
 			padding: 42px 0 20px 0;
 			width: 430px;
 			text-shadow: 1px 1px 1px #000000;
@@ -70,10 +66,11 @@
 		 }-->
 
 		 #toprightnav {
+			float: right;
 			width: 200px;
-			margin: 10px 0 0 0;
+			margin: 0 0 0 0;
+			text-align: right;
 			padding: 0;
-			text-align:right;
 		 }
 		 
 		 #toprightnav a {
