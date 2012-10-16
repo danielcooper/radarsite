@@ -71,9 +71,18 @@
 
 		 #toprightnav {
 			width: 200px;
-			margin: 10px 0 0 0;
+			margin: 12px 0 0 0;
 			padding: 0;
-			text-align:right;
+		 }
+		 
+		 #toprightnav .socialcluster {
+			float:right;
+			margin:2px 4px 0px 0px;
+		}
+		 
+		 #toprightnav .avatar {
+			float:right;
+			margin: 6px 6px 0 0px;
 		 }
 		 
 		 #toprightnav a {
@@ -87,6 +96,7 @@
 		 #toprightnav p {
 			color: #ffffff;
 			font-size: 11px;
+			width:100px;
 		}
 		
 		#toprightnav table {
@@ -314,7 +324,7 @@
 		}
 		
 		.topprop {
-			margin-top:20px;
+			margin-top:21px;
 		}
 	
 		.particulars  .agentlogo {
