@@ -369,7 +369,11 @@
 		}
 		
 		.secondaryimages {
-			
+			width:160px;
+		}
+		
+		.mainimage	{
+			width:160px;
 		}
 		
 		.secondaryimages a{
