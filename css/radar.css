@@ -40,9 +40,9 @@
 		}
 			
 		#mainlogo {
-			 width: 190px;
+			 width: 250px;
 			 float: left;
-			 margin: 28px 0 0 0px;
+			 margin: 19px 0 0 2px;
 		 }
 		 
 		 #topnav {
@@ -139,7 +139,7 @@
 			box-shadow: none;
 		}
 		
-		#header3 form .btn-primary {
+		#header3 form .btn {
 			margin:0 0 0 6px;
 			width:150px;
 		}
