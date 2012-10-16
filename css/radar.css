@@ -1,5 +1,5 @@
-		.span3 {
-			
+		.span2, .span6, .span5, .span8 {
+		
 		}
 		
 		body {
@@ -100,7 +100,7 @@
 		#header2 {
 			background-color: #7fb079; 
 			background-repeat:repeat-x;
-			height: 75px;
+			height: 60px;
 		}
 		
 		#header2 form {
@@ -109,13 +109,14 @@
 		}
 		
 		#header2 form .btn-primary {
-			margin:0;
+			margin:0 0 0 3px;
+			width:87px;
 		}
 		
 		#header3 {
 			background-color: #d4d4d4;
 			background-repeat:repeat-x;
-			height: 110px;
+			height: 100px;
 			border-bottom: 1px solid #bcbcbc;
 			border-top: 1px solid #bcbcbc;
 		}	
@@ -130,15 +131,16 @@
 		
 		#header3 .well {
 			float:right;
-			width:305px;
-			margin:18px 18px 0 0;
+			width:320px;
+			margin:18px 16px 0 0;
 			padding: 0;
 			background-color:transparent;
 			border:none;
+			box-shadow: none;
 		}
 		
 		#header3 form .btn-primary {
-			margin:0;
+			margin:0 0 0 6px;
 			width:150px;
 		}
 		
@@ -207,6 +209,7 @@
 			border: 1px solid #000000;
 			color:#000000;
 			font-weight:bold;
+			margin-right:4px;
 		}
 		
 		#bodytext {
@@ -264,7 +267,7 @@
 		}
 		
 		#inlineviews  {
-			margin: 26px 0 0 0;
+			margin: 16px 0 0 0;
 			height:30px;
 		}
 		
@@ -312,11 +315,7 @@
 		.topprop {
 			margin-top:20px;
 		}
-		
-		.property {
-			width:620px;
-		}
-		
+	
 		.propertytable {
 			float:left;
 			width: 158px;
@@ -334,14 +333,17 @@
 			border:0;
 		}
 		
-		.property .agentlogo {
-			width:72px;
+		.particulars  .agentlogo {
+			width:130px;
 			float:right;
 			border:0;
+			text-align:right;
 		}
 		
-		.property .propertytext { 	
-			margin: 0 0 0 175px;
+	
+		.particulars {
+			float:right;
+			width:444px;
 		}
 		
 		.propertytext .propertyheading a {
@@ -372,8 +374,31 @@
 			color:#006f00;
 		}
 		
+		.propertyimages img{
+			border:0px solid #e8e8e8;
+			padding:8px;
+		}
+		
+		
+		.propertyimages {
+			float:left;
+			border:1px solid #dddddd;
+			background-color:#e8e8e8;
+			text-align:center;
+		}
+		
+		.secondaryimages {
+		
+		}
+		
+		.secondaryimages img {
+			padding:0 2px 8px 2px;
+			
+		}
+		
 		hr {
 			color:#ededed;
+			margin: 15px 0 3px 0;
 		}
 		
 		#sidebox1 {
@@ -424,7 +449,7 @@
 			height: 140px;
 			width: 272px;
 			background: #e8e8e8;
-			margin: 20px 0 0 8px;
+			margin: 20px 0 20px 8px;
 		}
 		
 		#sidebox4 .sideboxcontent {
@@ -488,6 +513,7 @@
 		#pagination{
 			color:#2e8b23;
 			font-weight:bold;
+			margin-top:15px;
 		}
 		
 		#pagination a{
