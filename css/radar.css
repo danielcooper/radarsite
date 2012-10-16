@@ -397,7 +397,7 @@
 		
 		hr {
 			color:#ededed;
-			margin: 5px 0 3px 0;
+			margin: 4px 0 14px 0;
 		}
 		
 		#sidebox1 {
@@ -405,6 +405,7 @@
 			width:272px;
 			background: #e8e8e8;
 			margin: 20px 0 0 8px;
+			border: 1px solid #DCDCDC;
 		}
 		
 		#sidebox2 {
@@ -412,6 +413,7 @@
 			width: 272px;
 			background: #e8e8e8;
 			margin: 20px 0 0 8px;
+			border: 1px solid #DCDCDC;
 		}
 		
 		#sidebox3 {
@@ -419,6 +421,7 @@
 			width: 272px;
 			background: #e8e8e8;
 			margin: 20px 0 0 8px;
+			border: 1px solid #DCDCDC;
 		}
 
 		#sidebox2 img {
@@ -438,10 +441,11 @@
 		}
 		
 		#sidebox4 {
-			height: 440px;
+			height: 470px;
 			width: 272px;
 			background: #e8e8e8;
 			margin: 20px 0 0 8px;
+			border: 1px solid #DCDCDC;
 		}
 		
 		#sidebox5 {
@@ -449,6 +453,7 @@
 			width: 272px;
 			background: #e8e8e8;
 			margin: 20px 0 20px 8px;
+			border: 1px solid #DCDCDC;
 		}
 		
 		#sidebox4 .sideboxcontent {
@@ -465,7 +470,7 @@
 			background-color:#b5b5b5;	
 			font-size:18px;
 			height:42px;
-			font-weight:bold;
+			font-weight:bold;	
 		}
 		
 		.sideboxheader  p {
@@ -494,16 +499,16 @@
 		}
 		
 		.agentrecord {
-			padding: 7px 0 0px 15px;
+			padding: 7px 0 8px 15px;
 		}
 		
 		.agentrecord img {
 			float:left;
-			margin-top:4px;
+			margin-top:0px;
 		}
 		
 		.agentrecord p {
-			margin: 0 0 0 48px;
+			margin: 0 0 0 58px;
 			font-size: 12px;
 			font-weight:bold;
 			line-height: 16px;
@@ -539,7 +544,7 @@
 		
 		#header5 {
 			height:200px;
-			background:#c7c7c7;
+			background:#D4D4D4;
 			border-top: 1px solid #BCBCBC;
 		}
 		
@@ -548,13 +553,13 @@
 		}
 		
 		#footer .titles{
-			color:#ffffff;
+			color:#444444;
 			font-weight:bold;
 			font-size:16px;
 		}
 		
 		#footer .links a{
-			color:#575757;
+			color:#979797;
 			font-weight:bold;
 			font-size:14px;
 		}
