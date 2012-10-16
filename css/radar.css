@@ -123,6 +123,23 @@
 			width:87px;
 		}
 		
+		.btn-primary {
+			background-color:#ef9702;
+			background-image: -moz-linear-gradient(center top , #ffc51c, #ef9702);
+			font-weight:bold;
+			font-size:14px;
+		}
+		
+		.btn-primary:hover,
+		.btn-primary:active,
+		.btn-primary.active,
+		.btn-primary.disabled,
+		.btn-primary[disabled] {
+		  color: #ffffff;
+		  background-color: #ef9702;
+		  *background-color: #ef9702;
+		}
+		
 		#header3 {
 			background-color: #d4d4d4;
 			background-repeat:repeat-x;
