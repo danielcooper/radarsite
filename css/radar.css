@@ -316,23 +316,6 @@
 			margin-top:20px;
 		}
 	
-		.propertytable {
-			float:left;
-			width: 158px;
-		}
-		
-		.propertytable td {
-			background-color: #e5e5e5;
-			margin: 0;
-			padding: 0;
-			text-align:center;
-			border: 8px solid #e5e5e5;
-		}
-		
-		.propertytable img {
-			border:0;
-		}
-		
 		.particulars  .agentlogo {
 			width:130px;
 			float:right;
@@ -340,10 +323,9 @@
 			text-align:right;
 		}
 		
-	
 		.particulars {
 			float:right;
-			width:444px;
+			width:434px;
 		}
 		
 		.propertytext .propertyheading a {
@@ -375,25 +357,37 @@
 		}
 		
 		.propertyimages img{
-			border:0px solid #e8e8e8;
-			padding:8px;
+			padding:0px;
 		}
-		
 		
 		.propertyimages {
 			float:left;
-			border:1px solid #dddddd;
 			background-color:#e8e8e8;
 			text-align:center;
+			padding:7px;
+			border:1px solid #dcdcdc;
 		}
 		
 		.secondaryimages {
-		
+			
 		}
 		
+		.secondaryimages a{
+			margin:0;
+			padding:0;
+		}
+		
+		
 		.secondaryimages img {
-			padding:0 2px 8px 2px;
-			
+			padding:9px 0 0 0;
+		}
+		
+		.secondaryimages .secimg1 {
+			margin-right:6px
+		}
+		
+		.secondaryimages .secimg2 {
+			margin-left:6px
 		}
 		
 		hr {
