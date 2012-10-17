@@ -269,8 +269,23 @@
 			margin-bottom:0;
 		}
 		
+		#header4 .checklist .control-group {
+			max-height:300px;
+			border:1px solid;
+			width: 250px;
+			overflow:auto;
+			background-color:#efffe6;
+			border:1px solid #eef3eb;
+			margin:25px 0 10px 0;;
+		}
+		
+		#header4 .checklist .control-group .controls{
+			border-top:1px solid #eef3eb;
+			padding-left:7px;
+		}	
+		
 		#header4 .well button {
-			margin: 10px 0 0 115px;
+			margin: 20px 0 0 115px;
 		}
 		
 		#header4 .well fieldset {
