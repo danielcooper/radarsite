@@ -78,6 +78,7 @@
 		 #toprightnav .socialcluster {
 			float:right;
 			margin:6px 2px 0px 0px;
+			width:47px;
 		}
 		 
 		 #toprightnav .avatar {
@@ -88,6 +89,8 @@
 		 
 		 #toprightnav .social{
 			padding:0 0px 5px 0px;
+			height:22px;
+			width:22px;
 		 }
 		 
 		 #toprightnav a {

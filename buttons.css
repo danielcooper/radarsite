@@ -1,5 +1,4 @@
-.btn-primary {
-			background-color:#ef9702;
+		.btn-primary { ffe013
 			*background-color: #ca7f00;
 			background-image: -moz-linear-gradient(center top, #ef9702, #ffc51c);
 			background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#ffb83f), to(#ca7f00)); 
@@ -25,7 +24,7 @@
 		.btn-primary:active,
 			.btn-primary.active {
 			  background-color: #ffc51c \9; // darker still
-			}
+		}
 		
 .btn-primary {
   color: #ffffff; //white
