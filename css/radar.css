@@ -234,11 +234,12 @@
 			background-repeat:repeat-x;
 		}
 		
-		#header4 legend {
+		#header4 #formlegend {
 			background-color:#545454;
 			height:60px;
 			padding-top:10px;
 			border: 0;
+			margin:0 0 10px 0;
 			border-top-left-radius: 4px;
 			border-top-right-radius: 4px;
 			-moz-border-radius-topleft: 4px;
@@ -247,10 +248,11 @@
 			-webkit-border-top-right-radius: 4px;
 		}
 		
-		#header4 legend p {
+		#header4 #formlegend p {
 			color:#E8E8E8;
-			margin: 0 0 0 31px;
+			margin: 0 0 0 20px;
 			line-height:25px;
+			font-size:20px;
 		}
 	
 		#header4 .well { 
@@ -280,7 +282,7 @@
 		#header4 .checklist .control-group {
 			max-height:300px;
 			border:1px solid;
-			width: 250px;
+			width: 270px;
 			overflow:auto;
 			background-color:#efffe6;
 			border:1px solid #eef3eb;
@@ -293,11 +295,11 @@
 		}	
 		
 		#header4 .well button {
-			margin: 20px 0 0 115px;
+			margin: 20px 0 0 132px;
 		}
 		
 		#header4 .well fieldset {
-			margin-left: 12px;
+			
 		}
 		
 		#header2 .form-inline {
