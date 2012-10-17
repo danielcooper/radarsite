@@ -260,6 +260,8 @@
 			width:620px;
 			border: none;
 			background-color:#e8e8e8;
+			min-height:525px;
+			height:525px
 		}
 		
 		#header4 .well label {
