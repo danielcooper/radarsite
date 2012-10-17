@@ -1,5 +1,5 @@
-		.span2, .span6, .span5, .span8 {
-		
+		.span3 {
+			
 		}
 		
 		body {
@@ -71,18 +71,23 @@
 
 		 #toprightnav {
 			width: 200px;
-			margin: 12px 0 0 0;
-			padding: 0;
+			margin: 12px 0px 0 0;
+			padding:0;
 		 }
 		 
 		 #toprightnav .socialcluster {
 			float:right;
-			margin:2px 4px 0px 0px;
+			margin:6px 2px 0px 0px;
 		}
 		 
 		 #toprightnav .avatar {
 			float:right;
-			margin: 6px 6px 0 0px;
+			margin: 6px 3px 0 0px;
+			
+		 }
+		 
+		 #toprightnav .social{
+			padding:0 0px 5px 0px;
 		 }
 		 
 		 #toprightnav a {
