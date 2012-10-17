@@ -181,15 +181,15 @@
 		}
 			
 		#header3 form .btn-primary {
-			background-color:#eefe6a;
-			*background-color: #eefe6a;
-			background-image: -moz-linear-gradient(center top, #eefe6a, #ffe013);
-			background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#eefe6a), to(#ffe013)); 
-			background-image: -webkit-linear-gradient(top, #eefe6a, #ffe013);
-			background-image: -o-linear-gradient(top, #eefe6a, #ffe013);
-			background-image: linear-gradient(to bottom, #eefe6a, #ffe013);
-			background-image: -moz-linear-gradient(top, #eefe6a, #ffe013); 
-			border-color: #eefe6a #ffe013 #ffe013; 
+			background-color:#ffe013;
+			*background-color: #ffe013;
+			background-image: -moz-linear-gradient(center top, #ffe013, #ffe013);
+			background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#ffe013), to(#ffe013)); 
+			background-image: -webkit-linear-gradient(top, #ffe013, #ffe013);
+			background-image: -o-linear-gradient(top, #ffe013, #ffe013);
+			background-image: linear-gradient(to bottom, #ffe013, #ffe013);
+			background-image: -moz-linear-gradient(top, #ffe013, #ffe013); 
+			border-color: #ffe013 #ffe013 #ffdd00; 
 		    filter: progid:dximagetransform.microsoft.gradient(startColorstr='#ffeefe6a', endColorstr='#ffeefe6a', GradientType=0);
 			margin:0 0 0 6px;
 			width:160px;
@@ -202,7 +202,7 @@
 		.btn-primary.active,
 		.btn-primary.disabled,
 		.btn-primary[disabled] {
-				color:#979797;
+			  color:#979797;
 			  background-color: #ffe013;
 			  *background-color: #ffe013;
 		}
