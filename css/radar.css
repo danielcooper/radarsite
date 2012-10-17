@@ -183,14 +183,14 @@
 		#header3 form .btn-primary {
 			background-color:#eefe6a;
 			*background-color: #eefe6a;
-			background-image: -moz-linear-gradient(center top, #ffe013, #eefe6a);
-			background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#ffe013), to(#eefe6a)); 
-			background-image: -webkit-linear-gradient(top, #ffe013, #eefe6a);
-			background-image: -o-linear-gradient(top, #ffe013, #eefe6a);
-			background-image: linear-gradient(to bottom, #ffe013, #eefe6a);
-			background-image: -moz-linear-gradient(top, #ffe013, #eefe6a); 
-			border-color: #ffe013 #eefe6a #cbe113; 
-		    filter: progid:dximagetransform.microsoft.gradient(startColorstr='#ffffe013', endColorstr='#ffeefe6a', GradientType=0);
+			background-image: -moz-linear-gradient(center top, #eefe6a, #ffe013);
+			background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#eefe6a), to(#ffe013)); 
+			background-image: -webkit-linear-gradient(top, #eefe6a, #ffe013);
+			background-image: -o-linear-gradient(top, #eefe6a, #ffe013);
+			background-image: linear-gradient(to bottom, #eefe6a, #ffe013);
+			background-image: -moz-linear-gradient(top, #eefe6a, #ffe013); 
+			border-color: #eefe6a #ffe013 #ffe013; 
+		    filter: progid:dximagetransform.microsoft.gradient(startColorstr='#ffeefe6a', endColorstr='#ffeefe6a', GradientType=0);
 			margin:0 0 0 6px;
 			width:160px;
 			color:#979797;
@@ -203,14 +203,14 @@
 		.btn-primary.disabled,
 		.btn-primary[disabled] {
 				color:#979797;
-			  background-color: #eefe6a;
-			  *background-color: #eefe6a;
+			  background-color: #ffe013;
+			  *background-color: #ffe013;
 		}
 		
 		#header3 form .btn-primary:active,
 			.btn-primary.active {
 			color:#979797;
-			  background-color: #eefe6a \9;
+			 background-color: #ffe013 \9;
 		}
 		
 		
