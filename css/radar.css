@@ -203,7 +203,7 @@
 		.btn-primary.disabled,
 		.btn-primary[disabled] {
 			 color:#ffffff;
-			 background-color:#EF9702;
+			 background-color:#ef9702;
 			*background-color: #ef9702;
 			background-image: -moz-linear-gradient(center top, #ffc51c, #ef9702);
 			background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#ffc51c), to(#ef9702)); 
@@ -211,13 +211,13 @@
 			background-image: -o-linear-gradient(top, #ffc51c, #ef9702);
 			background-image: linear-gradient(to bottom, #ffc51c, #ef9702);
 			background-image: -moz-linear-gradient(top, #ffc51c, #ef9702); 
-			border-color: #EF9702 #EF9702 #EF9702; 	  
+			border-color: #ef9702 #ef9702 #ef9702; 	  
 		}
 		
 		#header3 form .btn-primary:active,
 			.btn-primary.active {
 			 color:#ffffff;
-			 background-color:#EF9702;
+			 background-color:#ef9702;
 			*background-color: #ef9702;
 			background-image: -moz-linear-gradient(center top, #ffc51c, #ef9702);
 			background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#ffc51c), to(#ef9702)); 
@@ -225,12 +225,9 @@
 			background-image: -o-linear-gradient(top, #ffc51c, #ef9702);
 			background-image: linear-gradient(to bottom, #ffc51c, #ef9702);
 			background-image: -moz-linear-gradient(top, #ffc51c, #ef9702); 
-			border-color: #EF9702 #EF9702 #EF9702; 	 
-			background-color: #EF9702 \9;
+			border-color: #ef9702 #ef9702 #ef9702; 	 
+			background-color: #ef9702 \9;
 		}
-		
-		
-		
 		
 		#header3 h1 {
 			font-size: 20px;
