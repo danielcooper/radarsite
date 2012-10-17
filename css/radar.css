@@ -109,7 +109,7 @@
 		}
 		
 		#header2 {
-			background-color: #7fb079; 
+			background-color:#7bb075; <!-- was #7fb079; -->
 			background-repeat:repeat-x;
 			height: 60px;
 		}
