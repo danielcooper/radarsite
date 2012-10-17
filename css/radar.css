@@ -203,14 +203,14 @@
 		.btn-primary.disabled,
 		.btn-primary[disabled] {
 			  color:#979797;
-			  background-color: #ffe013;
-			  *background-color: #ffe013;
+			  background-color: #ffe643;
+			  *background-color: #ffe643;
 		}
 		
 		#header3 form .btn-primary:active,
 			.btn-primary.active {
 			color:#979797;
-			 background-color: #ffe013 \9;
+			 background-color: #ffe643 \9;
 		}
 		
 		
@@ -280,7 +280,7 @@
 		
 		#header2 .form-inline input, select {
 			border: 1px solid #000000;
-			color:#000000;
+			color:#606060;
 			font-weight:bold;
 			margin-right:4px;
 		}
