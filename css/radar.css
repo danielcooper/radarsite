@@ -631,6 +631,10 @@
 			font-weight:normal;
 		}
 		
+		#propdetailssidebox1 #agentlinks img {
+			margin:0 4px 2px 0;
+		}
+		
 		#sidebox1 {
 			height: 225px;
 			width:272px;
