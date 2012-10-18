@@ -125,7 +125,7 @@
 		}
 		
 		#propdetailsheader2 {
-			background-color:#7bb075; <!-- was #7fb079; -->
+			background-color:#7bb075;
 			background-repeat:repeat-x;
 			height: 60px;
 		}
@@ -137,8 +137,6 @@
 			background-color:transparent;
 			border:none;
 			box-shadow:none;
-			text-align:center;
-			width:918px;
 		}
 		
 		#propdetailsheader2 form .btn-primary {
@@ -148,6 +146,7 @@
 		
 		#propdetailsheader2 #centrebuttons {
 			display:inline;
+			margin: 0 120px 0 120px;
 		}
 		
 		#propdetailsheader2 #leftbutton {
@@ -157,7 +156,6 @@
 		
 		#propdetailsheader2 #rightbutton {
 			display:inline;
-			float:right;
 		}
 		
 		#propdetailsheader2 #centrebuttons .btn-primary {
