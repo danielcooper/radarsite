@@ -387,6 +387,10 @@
 			
 		}
 		
+		#header4 .mainpropimage {
+			margin-top:20px;
+		}
+		
 		#header2 .form-inline {
 			background-color:transparent;
 			border: none;
@@ -599,6 +603,19 @@
 			color:#ededed;
 			margin: 0px 0 15px 0; <!-- works with margin on propertyimages to space evenly -->
 		}
+		
+		#propdetailssidebox1 {
+			height: 500px;
+			width:272px;
+			background: #e8e8e8;
+			margin: 20px 0 0 8px;
+			border: 1px solid #DCDCDC;
+		}
+		
+		#propdetailssidebox1 .sidephoto{
+			
+		}
+		
 		
 		#sidebox1 {
 			height: 225px;
