@@ -124,6 +124,81 @@
 			width:87px;
 		}
 		
+		#propdetailsheader2 {
+			background-color:#7bb075; <!-- was #7fb079; -->
+			background-repeat:repeat-x;
+			height: 60px;
+		}
+		
+		
+		#propdetailsheader2 form {
+			margin: 15px 0 0 0;
+			padding: 0;
+			background-color:transparent;
+			border:none;
+			box-shadow:none;
+			text-align:center;
+			width:918px;
+		}
+		
+		#propdetailsheader2 form .btn-primary {
+			margin:0 0 0 3px;
+			width:165px;
+		}
+		
+		#propdetailsheader2 #centrebuttons {
+			display:inline;
+		}
+		
+		#propdetailsheader2 #leftbutton {
+		
+			float:left;
+		}
+		
+		#propdetailsheader2 #rightbutton {
+			
+			float:right;
+		}
+		
+		#propdetailsheader2 #centrebuttons .btn-primary {
+			background-color:#a1a1a1;
+			*background-color: #a1a1a1;
+			background-image: -moz-linear-gradient(center top, #cfcdcd, #a1a1a1);
+			background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#cfcdcd), to(#a1a1a1)); 
+			background-image: -webkit-linear-gradient(top, #cfcdcd, #a1a1a1);
+			background-image: -o-linear-gradient(top, #cfcdcd, #a1a1a1);
+			background-image: linear-gradient(to bottom, #cfcdcd, #a1a1a1);
+			background-image: -moz-linear-gradient(top, #cfcdcd, #a1a1a1); 
+			border-color: #a1a1a1 #a1a1a1 #a1a1a1; 
+			filter: progid:dximagetransform.microsoft.gradient(startColorstr='#ffcfcdcd', endColorstr='#ffa1a1a1', GradientType=0);
+			margin:0 0 0 6px;
+			width:162px;
+			color:#ffffff;
+			text-shadow:none;
+		}
+		
+		#propdetailsheader2 #centrebuttons .btn-primary:hover,
+		.btn-primary:active,
+		.btn-primary.active,
+		.btn-primary.disabled,
+		.btn-primary[disabled] {
+			background-color:#ef9702;
+			*background-color: #ef9702;
+			background-image: -moz-linear-gradient(center top, #ffc51c, #ef9702);
+			background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#ffc51c), to(#ef9702)); 
+			background-image: -webkit-linear-gradient(top, #ffc51c, #ef9702);
+			background-image: -o-linear-gradient(top, #ffc51c, #ef9702);
+			background-image: linear-gradient(to bottom, #ffc51c, #ef9702);
+			background-image: -moz-linear-gradient(top, #ffc51c, #ef9702); 
+			border-color: #ffc51c #ef9702 #d38502; 
+			filter: progid:dximagetransform.microsoft.gradient(startColorstr='#ffef9702', endColorstr='#ffffc51c', GradientType=0);
+		} 
+		
+		#propdetailsheader2 #centrebuttons btn-primary:active,
+			.btn-primary.active {
+				background-color:#ef9702 \9; 
+		}
+		
 		.btn-primary {
 			background-color:#ef9702;
 			*background-color: #ef9702;
@@ -216,7 +291,7 @@
 			filter: progid:dximagetransform.microsoft.gradient(startColorstr='#ffef9702', endColorstr='#ffffc51c', GradientType=0);
 		} 
 		
-		#header3 form .btn-primary:active,
+		#header3 form btn-primary:active,
 			.btn-primary.active {
 				background-color:#ef9702 \9; 
 		}
@@ -229,6 +304,16 @@
 			line-height:24px;
 		}		
 
+		#header3 #pricelarge {
+			float:right;
+		}
+		
+		#header3 .secondarytitle {
+			font-size:16px;
+			color:#979797;
+			font-weight:bold;
+		}
+			
 		#header4 {
 			background-image:url("../images/greybackgroundpropdetails.png");
 			background-repeat:repeat-x;
@@ -379,7 +464,7 @@
 			font-weight: bold;
 			font-size: 12px;
 			text-decoration:none;
-			padding: 0 8px 0 8px;
+			padding: 0 10px 0 10px;
 		}
 		
 		#inlineviews #group1 {
@@ -403,6 +488,14 @@
 			background-position:center;
 			padding: 8px 19px 10px 19px;	
 		}
+		
+		#inlineviews  #group3 .selected {
+			background-image:url("../images/viewsortbg.png");
+			background-repeat:no-repeat;
+			background-position:center;
+			padding: 8px 32px 10px 32px;	
+		}
+		
 		
 		#inlineviews .titles {
 			color:#acacac;
