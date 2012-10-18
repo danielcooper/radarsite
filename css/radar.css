@@ -618,12 +618,12 @@
 		
 		#propdetailssidebox1 .sideboxcontent {
 			padding: 14px 14px 0 16px;
-			height: 170px;
+			height: 500px;
 		}
 		
 		#propdetailssidebox1 .sideboxcontent a{
 			text-decoration:underline;
-			padding-top:15px;
+			line-height:25px;
 		}
 		
 		#propdetailssidebox1 .sideboxcontent p{
