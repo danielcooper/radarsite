@@ -391,7 +391,7 @@
 		}
 		
 		#header4 .mainpropimage {
-			margin-top:20px;
+			margin-top:21px;
 		}
 		
 		#header2 .form-inline {
@@ -608,7 +608,7 @@
 		}
 		
 		#propdetailssidebox1 {
-			height: 500px;
+			height: 490px;
 			width:272px;
 			background: #e8e8e8;
 			margin: 20px 0 0 8px;
@@ -618,7 +618,7 @@
 		
 		#propdetailssidebox1 .sideboxcontent {
 			padding: 14px 14px 0 16px;
-			height: 500px;
+			height: 490px;
 		}
 		
 		#propdetailssidebox1 .sideboxcontent a{
@@ -781,6 +781,7 @@
 			height:200px;
 			background:#D4D4D4;
 			border-top: 1px solid #BCBCBC;
+			margin-top:50px;
 		}
 		
 		#footer {
