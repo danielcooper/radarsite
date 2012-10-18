@@ -29,6 +29,11 @@
 			text-decoration:none;
 		}
 		
+		h1 {
+			 font-size: 20px;
+			line-height: 24px;
+		}
+		
 		#header {
 			height:81px;
 			background-image:url("../images/bannerbackground.png");
@@ -146,7 +151,7 @@
 		
 		#propdetailsheader2 #centrebuttons {
 			display:inline;
-			margin: 0 120px 0 120px;
+			margin: 0 117px 0 117px;
 		}
 		
 		#propdetailsheader2 #leftbutton {
@@ -170,7 +175,7 @@
 			border-color: #a1a1a1 #a1a1a1 #a1a1a1; 
 			filter: progid:dximagetransform.microsoft.gradient(startColorstr='#ffcfcdcd', endColorstr='#ffa1a1a1', GradientType=0);
 			margin:0 0 0 6px;
-			width:162px;
+			width:165px;
 			color:#ffffff;
 			text-shadow:none;
 		}
@@ -608,6 +613,22 @@
 			background: #e8e8e8;
 			margin: 20px 0 0 8px;
 			border: 1px solid #DCDCDC;
+		}
+		
+		
+		#propdetailssidebox1 .sideboxcontent {
+			padding: 14px 14px 0 16px;
+			height: 170px;
+		}
+		
+		#propdetailssidebox1 .sideboxcontent  a{
+			text-decoration:underline;
+			padding-bottom:5px;
+		}
+		
+		#propdetailssidebox1 .sideboxcontent p{
+			margin-top:10px;
+			font-weight:normal;
 		}
 		
 		#propdetailssidebox1 .sidephoto{
