@@ -151,12 +151,12 @@
 		}
 		
 		#propdetailsheader2 #leftbutton {
-		
+			display:inline;
 			float:left;
 		}
 		
 		#propdetailsheader2 #rightbutton {
-			
+			display:inline;
 			float:right;
 		}
 		
