@@ -442,8 +442,42 @@
 		}
 		
 		#header4 #photoreel .imagearrowleft {
+			
+		}
+		
+		#photoreel a.leftarrow  {
+			background-image:url("../images/leftarrow.png");
+			background-repeat:no-repeat;
+			height:66px;
+			width:29px;
 			float:left;
-			margin:0 8px 0 0;
+			margin-right:10px;
+		}
+	
+		#photoreel a:hover.leftarrow  {
+			background-image:url("../images/leftarrowroll.png");
+			background-repeat:no-repeat;
+			height:66px;
+			width:29px;
+			float:left;
+		}
+		
+		#photoreel a.rightarrow  {
+			background-image:url("../images/rightarrow.png");
+			background-repeat:no-repeat;
+			height:66px;
+			width:29px;
+			float:right;
+			margin-left:10px;
+			margin-right:1px;
+		}
+	
+		#photoreel a:hover.rightarrow  {
+			background-image:url("../images/rightarrowroll.png");
+			background-repeat:no-repeat;
+			height:66px;
+			width:29px;
+			float:right;
 		}
 		
 		#header4 #photoreel .imagearrowright {
@@ -674,7 +708,7 @@
 		}
 		
 		#propdetailssidebox1 {
-			height: 490px;
+			height: 550px;
 			width:272px;
 			background: #e8e8e8;
 			margin: 20px 0 0 8px;
