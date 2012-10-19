@@ -441,13 +441,23 @@
 			margin-top:10px;
 		}
 		
+		#header4 #photoreel .imagearrowleft {
+			float:left;
+			margin:0 8px 0 0;
+		}
+		
+		#header4 #photoreel .imagearrowright {
+			float:right;
+		}
+		
+		
 		#header4 #photoreel img {
 			display:inline;
-			margin: 0 8px 0 0;
+			margin: 0 5px 0 0;
 		}
 		
 		#header4 #photoreel #reelimages {
-			margin-left:40px;
+			margin-left:0px;
 		}
 		
 		#header2 .form-inline {
