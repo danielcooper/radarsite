@@ -146,7 +146,7 @@
 		
 		#propdetailsheader2 form .btn-primary {
 			margin:0 0 0 3px;
-			width:170px;
+			width:165px;
 		}
 		
 		#propdetailsheader2 #centrebuttons {
@@ -499,6 +499,7 @@
 			display:inline;
 			float:right;
 			width:165px;
+			margin-right:20px;
 		}
 		
 		#header4point5 .form-inline {
