@@ -327,7 +327,7 @@
 			background-color:#545454;
 			height:60px;
 			padding:10px 4px 0 4px;
-			margin:10px 0 0px 0;
+			margin:20px 0 0px 18px;
 			border-top-left-radius: 4px;
 			border-top-right-radius: 4px;
 			-moz-border-radius-topleft: 4px;
@@ -376,6 +376,7 @@
 			border-bottom: 1px solid #DCDCDC;
 			border-top:none;
 			border-radius: 0px 0px 4px 4px;
+			margin-left:18px;
 		}
 		
 		#header4 .well label {
@@ -478,6 +479,42 @@
 		#header4 #photoreel .imagearrowleft {
 			
 		}
+		
+		
+		#header4point5 {
+			background-color:#DCDCDC;
+			background-repeat:repeat-x;
+			height:50px;
+			border-top: 1px solid #BCBCBC;
+			margin-top:50px;
+		}
+		
+		#header4point5 #leftbutton button{
+			display:inline;
+			float:left;
+			width:165px;
+		}
+		
+		#header4point5 #rightbutton button{
+			display:inline;
+			float:right;
+			width:165px;
+		}
+		
+		#header4point5 .form-inline {
+			background-color:transparent;
+			border: none;
+			box-shadow: none;
+			margin-bottom:0;
+			padding:10px 0 0 0;
+		}
+		
+		#header4point5 .form-inline input, select {
+			border: 1px solid #000000;
+			color:#606060;
+			font-weight:bold;
+		}
+		
 		
 		#photoreel a.leftarrow  {
 			background-image:url("../images/leftarrow.png");
@@ -919,7 +956,7 @@
 			height:200px;
 			background:#D4D4D4;
 			border-top: 1px solid #BCBCBC;
-			margin-top:150px;
+			margin-top:0px;
 		}
 		
 		#footer {
