@@ -715,10 +715,13 @@
 		}
 		
 		.propertytext .secondaryheading p{
+			margin-bottom:3px;
+		}
+		
+		.propertytext .secondaryheading a{
 			color:#434343;
 			font-weight:bold;
 			font-size: 16px;
-			margin-bottom:3px;
 		}
 		
 		.propertytext  .propertysummary p{
