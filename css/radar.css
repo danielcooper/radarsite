@@ -714,15 +714,16 @@
 			margin-bottom:4px;
 		}
 		
-		.propertytext .secondaryheading {
+		.propertytext .secondaryheading p{
 			color:#434343;
 			font-weight:bold;
 			font-size: 16px;
+			margin-bottom:3px;
 		}
 		
-		.propertytext  .propertysummary {
-			color: #606060;
-			text-align:justify;		
+		.propertytext  .propertysummary p{
+			text-align:justify;	
+			margin-bottom:2px;
 		}
 		
 		.propertytext .contacttools a{
@@ -733,6 +734,7 @@
 	
 		.propertytext .contacttools p{
 			color:#006f00;
+			margin-bottom:0;
 		}
 		
 		.propertyimages img{
@@ -745,7 +747,7 @@
 			text-align:center;
 			padding:7px;
 			border:1px solid #dcdcdc;
-			margin-bottom:15px; <!-- this helps space the hr below premium listings -->
+			margin-bottom:8px; <!-- this helps space the hr below premium listings -->
 		}
 		
 		.secondaryimages {
@@ -776,7 +778,7 @@
 		
 		hr {
 			color:#ededed;
-			margin: 0px 0 15px 0; <!-- works with margin on propertyimages to space evenly -->
+			margin: 0px 0 8px 0; <!-- works with margin on propertyimages to space evenly -->
 		}
 		
 		#propdetailssidebox1 {
@@ -809,6 +811,21 @@
 		
 		#propdetailssidebox1 #agentlinks a{
 			font-size:14px;
+		}
+		
+		#shortlistsidebox {
+			width:272px;
+			background: #e8e8e8;
+			margin: 20px 0 0 8px;
+			border: 1px solid #DCDCDC;
+		}
+		
+		#locationsidebox {	
+			height: 225px;
+			width:272px;
+			background: #e8e8e8;
+			margin: 20px 0 0 8px;
+			border: 1px solid #DCDCDC;
 		}
 		
 		#sidebox1 {
@@ -891,7 +908,6 @@
 		
 		.sidephoto { 
 			float: left;
-			width:84px;
 			margin-top:3px;
 		}
 			
