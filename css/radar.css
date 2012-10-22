@@ -795,13 +795,12 @@
 	}
 
 	#shortlistsidebox .shortlistrec {
-		width:240px;
+		width:238px;
 		margin-bottom:3px;
 		height:60px;
 	}
 	
 	#shortlistsidebox .shortlistrec img{
-		display:inline;
 		margin-top:5px;
 	}
 	
@@ -826,7 +825,7 @@
 	}
 	
 	#locationsidebox {	
-		height: 190px;
+		height: 200px;
 	}
 
 	.sidebox {
@@ -859,7 +858,7 @@
 	.sideboxcontent p {
 		font-weight:bold;
 	}
-
+	
 	#sidebox3 .sideboxcontent {
 		padding: 14px 0px 0 8px;
 	}
@@ -899,7 +898,7 @@
 	}
 
 	.sidephoto img { 
-		padding: 4px 6px 0 0;
+		padding: 4px 6px 2px 0;
 	}
 		
 	.sidetext  p {
