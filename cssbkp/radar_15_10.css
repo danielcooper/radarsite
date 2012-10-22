@@ -1,0 +1,533 @@
+		body {
+			background-image:url("../images/greybackground.png");
+			background-repeat:repeat-x;
+			font-family:"Gotham", Arial, Sans-serif;
+			font-size:12px;
+		}
+		
+		p {
+			line-height:18px;
+		}
+		
+		a {
+			color: #2E8B23;
+			text-decoration:none;
+			font-weight:bold;
+		}
+		
+		a:active {
+			color: #2E8B23;
+			text-decoration:none;
+		}
+		
+		a:hover {
+			color: #2E8B23;
+			text-decoration:none;
+		}
+		
+		#header {
+			height:81px;
+			background-image:url("../images/bannerbackground.png");
+			background-repeat:repeat-x;
+		}
+			
+		#header a:hover {
+			color:#ffffff;
+		}
+			
+		#mainlogo {
+			 width: 190px;
+			 float: left;
+			 margin: 28px 0 0 0px;
+		 }
+		 
+		 #topnav {
+			margin: 0px 0 0 260px;
+			padding: 42px 0 20px 0;
+			width: 430px;
+			text-shadow: 1px 1px 1px #000000;
+		 }
+		 
+		 #topnav a {
+			position: relative;
+			display: inline block;
+			color: #a4a4a4;
+			padding: 0 8px 20px 8px;
+			text-decoration: none;
+			font-size: 16px;
+			font-weight:bold;
+		 }
+		 
+		 <!--#topnav a.selected {
+			background-image:url("");
+			background-repeat:no-repeat;
+			background-position:center bottom;
+			color:#ffffff;
+		 }-->
+
+		 #toprightnav {
+			float: right;
+			width: 200px;
+			margin: 0 0 0 0;
+			text-align: right;
+			padding: 0;
+		 }
+		 
+		 #toprightnav a {
+			color: #ffffff;
+			font-size: 11px;
+			font-weight:normal;
+			border-bottom: 1px dotted #ffffff;
+			text-decoration: none;
+		 }
+		 
+		 #toprightnav p {
+			color: #ffffff;
+			font-size: 11px;
+		}
+		
+		#toprightnav table {
+			margin: 0 0 0 0;
+		}
+		
+		#toprightnav table  td {
+			padding: 0 10px 0 0;
+		}
+		
+		#header2 {
+			background-color: #7fb079; 
+			background-repeat:repeat-x;
+			height: 75px;
+		}
+		
+		#header2 form {
+			margin: 15px 0 0 0;
+			padding: 0;
+		}
+		
+		#header2 form .btn-primary {
+			margin:0;
+		}
+		
+		#header3 {
+			background-color: #d4d4d4;
+			background-repeat:repeat-x;
+			height: 110px;
+			border-bottom: 1px solid #bcbcbc;
+			border-top: 1px solid #bcbcbc;
+		}	
+			
+		#header3 a {
+			font-size: 12px;
+			font-weight: bold;
+			color:#429140;
+			padding: 0 5px 0 5px;
+			text-decoration:underline;
+		}
+		
+		#header3 .well {
+			float:right;
+			width:305px;
+			margin:18px 18px 0 0;
+			padding: 0;
+			background-color:transparent;
+			border:none;
+		}
+		
+		#header3 form .btn-primary {
+			margin:0;
+			width:150px;
+		}
+		
+		#header3 h1 {
+			font-size: 20px;
+			margin: 14px 0 0 0;
+			padding-top: 0px;
+			width:450px;
+			line-height:24px;
+		}		
+
+		#header4 {
+			background-image:url("../images/greybackgroundpropdetails.png");
+			background-repeat:repeat-x;
+		}
+		
+		#header4 legend {
+			background:#78ab72;
+			height:60px;
+			padding-top:10px;
+			border: 0;
+		}
+		
+		#header4 legend p {
+			color:#ebebeb;
+			margin: 0 0 0 31px;
+			line-height:25px;
+		}
+	
+		#header4 .well { 
+			margin-top:40px;
+			padding:0;
+			margin-left: 19px;
+			width:620px;
+			border: none;
+		}
+		
+		#header4 .well label {
+			font-size:12px;
+			font-weight:bold;
+		}
+
+		#header4 .well .span4 {
+			width:290px; <!-- Overidden Bootstrap 300px span4 to fit two form columns in -->
+		}
+		
+		#header4 .well .control-group {
+			margin-bottom:0;
+		}
+		
+		#header4 .well button {
+			margin: 10px 0 0 115px;
+		}
+		
+		#header4 .well fieldset {
+			margin-left: 12px;
+		}
+		
+		#header2 .form-inline {
+			background-color:transparent;
+			border: none;
+			box-shadow: none;
+		}
+		
+		#header2 .form-inline input, select {
+			border: 1px solid #000000;
+			color:#000000;
+			font-weight:bold;
+		}
+		
+		#bodytext {
+			width: 500px;
+			margin: 10px 0 0 420px;
+			line-height:125%;
+			padding: 0;
+		}		
+		
+		#mainsearch {
+			width:977px;
+			background-image:url("../images/buysearchnorent.png");
+			background-repeat:no-repeat;
+			height: 190px;
+			margin: 18px 0 0 0;
+		}
+		
+		#mainsearch form {
+			float:left;
+			margin: 32px 0 0 0;
+		}
+	
+		#mainsearch form input {
+			font-size: 16px;
+			font-weight: bold;
+			color: #d9d9d9;
+			width: 663px;
+			border: 1px solid #486745;
+			height: 30px;
+			-webkit-box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+			-moz-box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+			box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+			-webkit-border-radius: 7px; -moz-border-radius: 7px; border-radius: 7px;		
+		}
+
+		#mainsearch form select {
+			width: 163px;
+			height: 30px;
+			border: 1px solid #486745;
+			-webkit-box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+			-moz-box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+			box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
+			cursor: pointer;
+			margin: 0 3px 0 0;
+		}
+		
+		#mainsearch .row1 {
+			margin: 0 0 3px 33px;
+			
+		}
+		
+		#mainsearch .row2 {
+			margin: 0 0 0 33px;
+			width: 920px;
+		}
+		
+		#inlineviews  {
+			margin: 26px 0 0 0;
+			height:30px;
+		}
+		
+		#inlineviews a {
+			color: #494949;
+			font-weight: bold;
+			font-size: 12px;
+			text-decoration:none;
+			padding: 0 8px 0 8px;
+		}
+		
+		#inlineviews #group1 {
+			display: inline;
+		}
+		
+		#inlineviews #group2 {
+			display: inline;
+		}
+		
+		#inlineviews  #group1 .selected {
+			background-image:url("../images/viewlistbg.png");
+			background-repeat:no-repeat;
+			background-position:center;
+			padding: 8px 17px 11px 17px;	
+		}
+		
+		#inlineviews  #group2 .selected {
+			background-image:url("../images/viewsortbg.png");
+			background-repeat:no-repeat;
+			background-position:center;
+			padding: 8px 19px 10px 19px;	
+		}
+		
+		#inlineviews .titles {
+			color:#acacac;
+			font-weight:bold;
+			margin: 0 12px 0 0;
+			font-size: 12px;
+		}
+		
+		#inlineviews  #group2 .titles {
+			margin-left: 40px;
+		}
+		
+		.topprop {
+			margin-top:20px;
+		}
+		
+		.property {
+			width:620px;
+		}
+		
+		.propertytable {
+			float:left;
+			width: 158px;
+		}
+		
+		.propertytable td {
+			background-color: #e5e5e5;
+			margin: 0;
+			padding: 0;
+			text-align:center;
+			border: 8px solid #e5e5e5;
+		}
+		
+		.propertytable img {
+			border:0;
+		}
+		
+		.property .agentlogo {
+			width:72px;
+			float:right;
+			border:0;
+		}
+		
+		.property .propertytext { 	
+			margin: 0 0 0 175px;
+		}
+		
+		.propertytext .propertyheading a {
+			color: #ff5a00;
+			font-weight: bold;
+			font-size: 16px;
+			text-decoration:none;
+		}
+		
+		.propertytext .secondaryheading {
+			color:#434343;
+			font-weight:bold;
+			font-size: 16px;
+		}
+		
+		.propertytext  .propertysummary {
+			color: #606060;
+			text-align:justify;		
+		}
+		
+		.propertytext .contacttools a{
+			color:#006f00;
+			text-decoration:underline;
+			font-weight:normal;
+		}
+	
+		.propertytext .contacttools p{
+			color:#006f00;
+		}
+		
+		hr {
+			color:#ededed;
+		}
+		
+		#sidebox1 {
+			height: 225px;
+			width:272px;
+			background: #e8e8e8;
+			margin: 20px 0 0 8px;
+		}
+		
+		#sidebox2 {
+			height: 320px;
+			width: 272px;
+			background: #e8e8e8;
+			margin: 20px 0 0 8px;
+		}
+		
+		#sidebox3 {
+			height: 250px;
+			width: 272px;
+			background: #e8e8e8;
+			margin: 20px 0 0 8px;
+		}
+
+		#sidebox2 img {
+			border: 1px solid #bcbdb7;
+		}
+		
+		.sideboxcontent {
+			padding: 14px 14px 0 16px;
+			font-size: 12px;
+			font-weight:bold;
+			line-height:16px;
+			height: 170px;
+		}
+		
+		#sidebox3 .sideboxcontent {
+			padding: 14px 0px 0 8px;
+		}
+		
+		#sidebox4 {
+			height: 440px;
+			width: 272px;
+			background: #e8e8e8;
+			margin: 20px 0 0 8px;
+		}
+		
+		#sidebox5 {
+			height: 140px;
+			width: 272px;
+			background: #e8e8e8;
+			margin: 20px 0 0 8px;
+		}
+		
+		#sidebox4 .sideboxcontent {
+			padding: 8px 0px 0 2px;
+		}
+		
+		.sideboxcontent ol  li{
+			font-size: 11px;
+			font-weight:bold;
+			line-height:14px;
+		}
+			
+		.sideboxheader {
+			background-color:#b5b5b5;	
+			font-size:18px;
+			height:42px;
+			font-weight:bold;
+		}
+		
+		.sideboxheader  p {
+			color:#ebebeb;
+			padding: 11px 0 0 17px;
+		}
+		
+		.sidephoto { 
+			float: left;
+			width:84px;
+			margin-top:3px;
+		}
+			
+		.sidetext  p {
+			float: right;
+			font-size: 12px;
+			font-weight:bold;
+			line-height:16px;
+			width:145px;
+			color: #7b7b7b;
+		}
+		
+		.sidetext a {
+			color:#2e8b23;
+			text-decoration:underline;
+		}
+		
+		.agentrecord {
+			padding: 7px 0 0px 15px;
+		}
+		
+		.agentrecord img {
+			float:left;
+			margin-top:4px;
+		}
+		
+		.agentrecord p {
+			margin: 0 0 0 48px;
+			font-size: 12px;
+			font-weight:bold;
+			line-height: 16px;
+		}
+		
+		#pagination{
+			color:#2e8b23;
+			font-weight:bold;
+		}
+		
+		#pagination a{
+			text-decoration: underline;
+		}
+		
+		#pagination table{
+			color:#2e8b23;
+			width: 620px;
+		}
+		
+		#pagination td{
+			width:33.3%;
+		}
+	
+		#pagination .pages {
+			color:#979797;
+			text-align:center;
+		}
+		
+		#pagination .pages a{
+			color:#979797;
+		}
+		
+		#header5 {
+			height:200px;
+			background:#c7c7c7;
+			border-top: 1px solid #BCBCBC;
+		}
+		
+		#footer {
+			padding: 20px 0 0 0;
+		}
+		
+		#footer .titles{
+			color:#ffffff;
+			font-weight:bold;
+			font-size:16px;
+		}
+		
+		#footer .links a{
+			color:#575757;
+			font-weight:bold;
+			font-size:14px;
+		}
+		

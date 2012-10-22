@@ -1,0 +1,78 @@
+		.btn-primary { ffe013
+			*background-color: #ca7f00;
+			background-image: -moz-linear-gradient(center top, #ef9702, #ffc51c);
+			background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#ffb83f), to(#ca7f00)); 
+			background-image: -webkit-linear-gradient(top, #ffb83f, #ca7f00);
+			background-image: -o-linear-gradient(top, #ffb83f, #ca7f00);
+			background-image: linear-gradient(to bottom, #ffb83f, #ca7f00);
+			background-image: -moz-linear-gradient(top, #ffb83f, #ca7f00); 
+			border-color: #ffb83f #ca7f00 #d38502; 
+		    filter: progid:dximagetransform.microsoft.gradient(startColorstr='#ffffb83f', endColorstr='#ffca7f00', GradientType=0);
+			font-size:15px;
+		}
+		
+		.btn-primary:hover,
+		.btn-primary:active,
+		.btn-primary.active,
+		.btn-primary.disabled,
+		.btn-primary[disabled] {
+			  color: #ffffff;
+			  background-color: #ffc51c;
+			  *background-color: #ffc51c;
+		}
+		
+		.btn-primary:active,
+			.btn-primary.active {
+			  background-color: #ffc51c \9; // darker still
+		}
+		
+.btn-primary {
+  color: #ffffff; //white
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+  background-color: #006dcc;  // fundamental background color
+  *background-color: #0044cc; // slightly darker bg color?
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#0088cc), to(#0044cc)); // 1st: very light blue, 2nd: dark as per above
+  background-image: -webkit-linear-gradient(top, #0088cc, #0044cc); // as above
+  background-image: -o-linear-gradient(top, #0088cc, #0044cc); // as above
+  background-image: linear-gradient(to bottom, #0088cc, #0044cc); // as above
+  background-image: -moz-linear-gradient(top, #0088cc, #0044cc); // as above
+  background-repeat: repeat-x;
+  border-color: #0044cc #0044cc #002a80; // first two as above, last is VERY dark
+  border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+  filter: progid:dximagetransform.microsoft.gradient(startColorstr='#ff0088cc', endColorstr='#ff0044cc', GradientType=0); // colors above + ff proceed
+  filter: progid:dximagetransform.microsoft.gradient(enabled=false);
+}
+
+------------------
+
+.btn-primary {
+  color: #ffffff; //white
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+  background-color: #006dcc;  // fundamental background color
+  *background-color: #0044cc; // slightly darker bg color?
+  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#0088cc), to(#0044cc)); // 1st: very light blue, 2nd: dark as per above
+  background-image: -webkit-linear-gradient(top, #0088cc, #0044cc); // as above
+  background-image: -o-linear-gradient(top, #0088cc, #0044cc); // as above
+  background-image: linear-gradient(to bottom, #0088cc, #0044cc); // as above
+  background-image: -moz-linear-gradient(top, #0088cc, #0044cc); // as above
+  background-repeat: repeat-x;
+  border-color: #0044cc #0044cc #002a80; // first two as above, last is VERY dark
+  border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+  filter: progid:dximagetransform.microsoft.gradient(startColorstr='#ff0088cc', endColorstr='#ff0044cc', GradientType=0); // colors above + ff proceed
+  filter: progid:dximagetransform.microsoft.gradient(enabled=false);
+}
+
+.btn-primary:hover,
+.btn-primary:active,
+.btn-primary.active,
+.btn-primary.disabled,
+.btn-primary[disabled] {
+  color: #ffffff;
+  background-color: #0044cc; // as above
+  *background-color: #003bb3; // darkish blue
+}
+
+.btn-primary:active,
+.btn-primary.active {
+  background-color: #003399 \9; // darker still
+}

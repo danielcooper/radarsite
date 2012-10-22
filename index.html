@@ -1,195 +1,54 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
-<html>
 <head>
 	<title>Radarhomes.co.uk</title>
 	<link href="css/bootstrap.css" rel="stylesheet" type="text/css">
-	<style type="text/css">
-		body {
-			background-image:url("images/greybackground.png");
-			background-repeat:repeat-x;
-			padding: 0;
-			margin: 0;
-			font-family:"Gotham", Arial, Sans-serif;
-			font-size:14px;
-		}
-	
-		#header {
-			height:81px;
-			background-image:url("images/bannerbackground.png");
-			background-repeat:repeat-x;
-			width: auto;
-			padding: 0;
-			margin: 0;
-		}
-			
-		#header a:hover {
-			color:#ffffff;
-		}
-			
-		.wrapper {
-			height: 80px;
-			width:976px;
-			margin: 0 auto;
-		}
-			
-		#mainlogo {
-			 width: 190px;
-			 float: left;
-			 margin: 14px 0 0 0;
-		 }
-		 
-		 #topnav {
-			margin: 0px 0 0 260px;
-			padding: 42px 0 20px 0;
-			width: 430px;
-		 }
-		 
-		 #topnav a {
-			position: relative;
-			display: inline block;
-			color: #a4a4a4;
-			padding: 0 8px 21px 8px;
-			text-decoration: none;
-			font-size: 16px
-		 }
-		 
-		 #topnav a.selected {
-			background-image:url("images/toppointer.png");
-			background-repeat:no-repeat;
-			background-position:center bottom;
-		 }
-
-		 #toprightnav {
-			float: right;
-			width: 210px;
-			margin: 0 0 0 0;
-			text-align: right;
-		 }
-		 
-		 #toprightnav a {
-			color: #ffffff;
-			font-size: 12px;
-			border-bottom: 1px dotted #ffffff;
-			text-decoration: none;
-		 }
-		 
-		 #toprightnav p {
-			color: #ffffff;
-			font-size: 12px;
-		}
-		
-		#toprightnav table {
-			margin: 6px 0 0 0;
-		}
-		
-		#container {
-			width: 976px;
-			margin: 0 auto;
-			margin-top:0;
-		}
-		
-		#bodytext {
-			width: 500px;
-			margin: 10px 0 0 420px;
-			line-height:125%;
-			padding: 0;
-		}
-		
-		h1 {
-			font-weight:normal;
-			font-size:42px;
-		}
-		
-		#mainsearch {
-			width: 1000px;
-			background-image:url("images/buysearchnorent.png");
-			background-repeat:no-repeat;
-			height: 190px;
-			margin: 18px 0 0 0;
-		}
-		
-		#mainsearch form {
-			float:left;
-			margin: 57px 0 0 0;
-		}
-	
-		#mainsearch form input {
-			font-size: 16px;
-			font-weight: bold;
-			color: #d9d9d9;
-			width: 663px;
-			border: 1px solid #486745;
-			height: 30px;
-			-webkit-box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
-			-moz-box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
-			box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
-			-webkit-border-radius: 7px; -moz-border-radius: 7px; border-radius: 7px;		
-		}
-
-		#mainsearch form select {
-			width: 163px;
-			height: 30px;
-			border: 1px solid #486745;
-			-webkit-box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
-			-moz-box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
-			box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
-			cursor: pointer;
-			margin: 0 3px 0 0;
-		}
-		
-		#mainsearch .row1 {
-			margin: 0 0 3px 33px;
-			width: 905px;
-		}
-		
-		#mainsearch .row2 {
-			margin: 0 0 0 33px;
-			width: 920px;
-		}
-	</style>
+	<link href="css/radar.css" rel="stylesheet" type="text/css">
 </head>
 <body>
 <div id="header">
-	<div class="wrapper">
-		<div id="mainlogo">
-			<a href="#">
-				<img src="images/radarlogosm.png" border="0"/>
-			</a>
-		</div>
-		<div id="toprightnav">
-			<table border="0" cellpadding="4">
-				<tr>
-					<td>
-						<p>
-							Welcome back, Sam<br/>
-							<a href="#">24 saved properties</a><br />
-							<a href="#">3 saved searches</a>
-						</p>
-					</td>
-					<td>
-						<img src="images/cust.png"  />
-					</td>
-					<td>
-						<img src="images/fb.png" /><br />
-						<img src="images/tt.png" /><br />
-						<img src="images/li.png" />
-					</td>
-				</tr>
-			</table>
-		</div>
-		<div id="topnav">
-			<a href="index.html" class="selected">Search</a>
-			<a href="/">Find Agents</a>
-			<a href="/">Get Valuation</a>
-			<a href="/">About Us</a>
+	<!-- Bootstrap container -->
+	<div class="container">
+		<!-- Bootstrap row with three columns -->
+		<div class="row">
+			<div class="span3">
+				<div id="mainlogo">
+					<a href="#">
+						<img src="images/logocoukfinal.png" border="0"/>
+					</a>
+				</div>
+			</div>
+			<div class="span5">
+				<div id="topnav">
+					<a href="http://danielcooper.github.com/radarsite/propertyresults.html" class="selected">Search</a>
+					<a href="#">Find Agents</a>
+					<a href="#">Get Valuation</a>
+					<a href="#">About Us</a>
+				</div>
+			</div>
+			<div class="span4">
+				<div id="toprightnav">		
+					<div class="socialcluster">
+						<img src="images/facebooksmall.png" height="22" width="22" class="social" />
+						<img src="images/twittersmall.png" height="22" width="22" class="social"/><br />
+						<img src="images/linkedinsmall.png" height="22" width="22" class="social"/>
+						<img src="images/googleplussmall.png" height="22" width="22" class="social"/>
+					</div>
+					<img src="images/cust.png" class="avatar"/>
+					<p>
+						Welcome back, Genevieve<br />
+						<a href="#">24 saved properties</a><br />
+						<a href="#">3 saved searches</a>
+					</p>
+				</div>
+			</div>
 		</div>
 	</div>
 </div>
-<div id="container">
+<div class="container">
 	<div id="mainsearch">
-		<a href="rentmodule.html">
-			<img src="images/rentbutton.png" style="position:absolute;left:540px;top:99px;" />
+		<a href="#">
+			<img src="images/rentbutton.png" style="float:middle;margin-left:188px;" />
 		</a>
 		<form>
 			<div class="row1">
@@ -219,44 +78,43 @@
 				</select>
 				<span style="float:right;font-size:12px;font-weight:normal;color:#ffffff;margin:10px 15px 0 0;">More search options</span>
 			</div>
-			
 		</form>
 	</div>
-		<div id="bodytext">
-			<img src="images/thediff.png" />
-			<br />
-			<br />
-			<p style="font-weight:bold;">Need Help? Get help.</p>
-			<p>
-				Our search assistants are real life human beings (based in the UK) who are here
+	<div id="bodytext">
+		<img src="images/thediff.png" />
+		<br />
+		<br />
+		<p style="font-weight:bold;">Need Help? Get help.</p>
+		<p>
+			Test:Our search assistants are real life human beings (based in the UK) who are here
 			to help you find a property.  When you speak to our experts, we take the time
 			to get a real understanding for what you are looking for, and will tirelessly
 			work through our extensive database of properties to create a list that matches your
 			requirements.
-			</p>	
-			<p style="font-weight:bold;">Social Integration</p>
-			<p>
-				As well as being able to sign into our site simply using your Facebook, Twitter or 
-				LinkedIn account, Radarhomes can (optionally) integrate tightly with these services, 
-				to make your home-searching experience more fulfilling.
-			</p>	
-			<p style="font-weight:bold;">Account Optional</p>
-			<p>
-				Although our services works better if you sign in, we recognise that not everyone
-				wants to create an account.  If you simply want to browse our properties (and even save
-				properties and custom searches), you still can, no login required.
-			</p>
-			<p style="font-weight:bold;">Draw A Map</p>
-			<p>
-				Our map technology allows us to display your search results in a unique way.  First draw your 
-				search map, the see a list of results side by side.
-			</p>
-			<p style="font-weight:bold;">Almost Ad-Free</p>
-			<p>
-				Because we're owned by our Estate Agent members, we are able to keep our advertising to an absolute
-				minimum.  This results in a cleaner and easier-to-use website, with less bias to your property searches.
-			</p>
-		</div>
+		</p>	
+		<p style="font-weight:bold;">Social Integration</p>
+		<p>
+			As well as being able to sign into our site simply using your Facebook, Twitter or 
+			LinkedIn account, Radarhomes can (optionally) integrate tightly with these services, 
+			to make your home-searching experience more fulfilling.
+		</p>	
+		<p style="font-weight:bold;">Account Optional</p>
+		<p>
+			Although our services works better if you sign in, we recognise that not everyone
+			wants to create an account.  If you simply want to browse our properties (and even save
+			properties and custom searches), you still can, no login required.
+		</p>
+		<p style="font-weight:bold;">Draw A Map</p>
+		<p>
+			Our map technology allows us to display your search results in a unique way.  First draw your 
+			search map, the see a list of results side by side.
+		</p>
+		<p style="font-weight:bold;">Almost Ad-Free</p>
+		<p>
+			Because we're owned by our Estate Agent members, we are able to keep our advertising to an absolute
+			minimum.  This results in a cleaner and easier-to-use website, with less bias to your property searches.
+		</p>
+	</div>
 </div>
 </body>
 </html>

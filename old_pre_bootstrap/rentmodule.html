@@ -1,166 +1,23 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
-<html>
 <head>
 	<title>Radarhomes.co.uk</title>
 	<link href="css/bootstrap.css" rel="stylesheet" type="text/css">
-	<style type="text/css">
-		body {
-			background-image:url("images/greybackground.png");
-			background-repeat:repeat-x;
-			padding: 0;
-			margin: 0;
-			font-family:"Gotham", Arial, Sans-serif;
-			font-size:14px;
-		}
-	
-		#header {
-			height:81px;
-			background-image:url("images/bannerbackground.png");
-			background-repeat:repeat-x;
-			width: auto;
-			padding: 0;
-			margin: 0;
-		}
-			
-		#header a:hover {
-			color:#ffffff;
-		}
-			
-		.wrapper {
-			height: 80px;
-			width:976px;
-			margin: 0 auto;
-		}
-			
-		#mainlogo {
-			 width: 190px;
-			 float: left;
-			 margin: 14px 0 0 0;
-		 }
-		 
-		 #topnav {
-			margin: 0px 0 0 260px;
-			padding: 42px 0 20px 0;
-			width: 430px;
-		 }
-		 
-		 #topnav a {
-			position: relative;
-			display: inline block;
-			color: #a4a4a4;
-			padding: 0 8px 21px 8px;
-			text-decoration: none;
-			font-size: 16px
-		 }
-		 
-		 #topnav a.selected {
-			background-image:url("images/toppointer.png");
-			background-repeat:no-repeat;
-			background-position:center bottom;
-		 }
-
-		 #toprightnav {
-			float: right;
-			width: 210px;
-			margin: 0 0 0 0;
-			text-align: right;
-		 }
-		 
-		 #toprightnav a {
-			color: #ffffff;
-			font-size: 12px;
-			border-bottom: 1px dotted #ffffff;
-			text-decoration: none;
-		 }
-		 
-		 #toprightnav p {
-			color: #ffffff;
-			font-size: 12px;
-		}
-		
-		#toprightnav table {
-			margin: 6px 0 0 0;
-		}
-		
-		#container {
-			width: 976px;
-			margin: 0 auto;
-			margin-top:0;
-		}
-		
-		#bodytext {
-			width: 500px;
-			margin: 10px 0 0 420px;
-			line-height:125%;
-			padding: 0;
-		}
-		
-		h1 {
-			font-weight:normal;
-			font-size:42px;
-		}
-		
-		#mainsearch {
-			width: 1000px;
-			background-image:url("images/searchboxrent.png");
-			background-repeat:no-repeat;
-			height: 190px;
-			margin: 18px 0 0 0;
-		}
-		
-		#mainsearch form {
-			float:left;
-			margin: 57px 0 0 0;
-		}
-	
-		#mainsearch form input {
-			font-size: 16px;
-			font-weight: bold;
-			color: #d9d9d9;
-			width: 663px;
-			border: 1px solid #486745;
-			height: 30px;
-			-webkit-box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
-			-moz-box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
-			box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
-			-webkit-border-radius: 7px; -moz-border-radius: 7px; border-radius: 7px;		
-		}
-
-		#mainsearch form select {
-			width: 163px;
-			height: 30px;
-			border: 1px solid #486745;
-			-webkit-box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
-			-moz-box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
-			box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
-			cursor: pointer;
-			margin: 0 3px 0 0;
-		}
-		
-		#mainsearch .row1 {
-			margin: 0 0 3px 33px;
-			width: 905px;
-		}
-		
-		#mainsearch .row2 {
-			margin: 0 0 0 33px;
-			width: 920px;
-		}
-	</style>
+	<link href="css/radar.css" rel="stylesheet" type="text/css">
+	<link href="css/rentsearch.css" rel="stylesheet" type="text/css">
 </head>
 <body>
 <div id="header">
 	<div class="wrapper">
 		<div id="mainlogo">
 			<a href="#">
-				<img src="images/radarlogosm.png" border="0"/>
+				<img src="images/radarlogosm1.png" border="0"/>
 			</a>
 		</div>
 		<div id="toprightnav">
-			<table border="0" cellpadding="4">
+			<table border="0" cellpadding="0">
 				<tr>
-					<td>
+					<td valign="bottom">
 						<p>
 							Welcome back, Sam<br/>
 							<a href="#">24 saved properties</a><br />
@@ -173,7 +30,8 @@
 					<td>
 						<img src="images/fb.png" /><br />
 						<img src="images/tt.png" /><br />
-						<img src="images/li.png" />
+						<img src="images/li.png" /><br />
+						<img src="images/gplus.png" />
 					</td>
 				</tr>
 			</table>
@@ -187,9 +45,9 @@
 	</div>
 </div>
 <div id="container">
-	<div id="mainsearch">
+	<div id="rentmainsearch">
 		<a href="index.html">
-			<img src="images/salesbutton.png" style="position:absolute;left:540px;top:99px;" />
+			<img src="images/salesbutton.png" style="float:middle;margin-left:188px;" />
 		</a>
 		<form>
 			<div class="row1">
