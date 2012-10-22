@@ -779,6 +779,36 @@
 		height: 200px;
 	}
 
+	#shortlistsidebox .sidetext  p {
+		float: right;
+		font-weight:bold;
+		width:126px;
+		color: #7b7b7b;
+		line-height:16px;
+		margin-right:35px;
+	}
+	
+	#shortlistsidebox .sidephoto { 
+		float: left;
+	}
+	
+	#shortlistsidebox .shortlistrec {
+		margin-bottom: 3px;
+		height:60px;
+	}
+	
+	#shortlistsidebox  .shortlistrec a {
+		
+	
+	}
+	
+	#shortlistsidebox .shortlistrec a:hover {
+		background-image:url("../images/red-cross-md.png");
+		background-repeat:no-repeat;
+		background-position:top right;
+		float:right;
+	}
+	
 	#locationsidebox {	
 		height: 225px;
 	}
@@ -858,6 +888,7 @@
 		font-weight:bold;
 		width:145px;
 		color: #7b7b7b;
+		line-height:16px;
 	}
 
 	.sidetext a {
