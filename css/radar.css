@@ -718,32 +718,29 @@
 		float:left;
 		background-color:#e8e8e8;
 		text-align:center;
-		padding:7px;
+		padding:8px;
 		border:1px solid #dcdcdc;
 		margin-bottom:15px; <!-- this helps space the hr below premium listings -->
 	}
 
 	.secondaryimages {
-		width:160px;
+		margin-top:8px;
+		text-align:left;
 	}
-
+	
+	.secondaryimages img{
+		border: 1px solid #DCDCDC;
+	}
+	
 	.mainimage	{
 		width:160px;
+		margin-right:1px;
 	}
 
-	.secondaryimages a{
-		margin:0;
-		padding:0;
+	.mainimage img {
+		border:1px solid #DCDCDC;
 	}
-
-	.secondaryimages img {
-		padding:9px 0 0 0;
-	}
-
-	.secondaryimages .secimg1 {
-		margin-right:6px;	
-	}
-
+	
 	hr {
 		color:#ededed;
 		margin: 0px 0 14px 0; <!-- works with margin on propertyimages to space evenly -->
@@ -783,9 +780,9 @@
 	}
 	
 	#featured_property_data ul li {
-		font-size: 11px;
 		list-style: none outside none;
 		color:#7B7B7B;
+		font-weight:bold;
 	}
 
 	#shortlistsidebox .listrecord {
