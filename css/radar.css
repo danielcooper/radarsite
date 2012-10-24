@@ -28,7 +28,6 @@
 	h1 {
 		font-size: 20px;
 		line-height: 24px;
-		margin-bottom:0;
 	}
 
 	#header {
@@ -292,6 +291,7 @@
 		font-size: 20px;
 		margin: 14px 0 0 0;
 		padding-top: 0px;
+		color:#000000
 	}
 
 	#header3 #pricelarge {
@@ -401,6 +401,25 @@
 		height: 70px;
 	}
 	
+	#staffform {
+		float:left;
+		width:350px;
+		border:1px solid;
+	}
+	
+	#staffform .form-horizontal {
+	
+	}
+	
+	#staffform .form-horizontal .control-label {
+		text-align:left;
+		width: 100px;
+	}
+	
+	#staffform .form-horizontal .controls {
+		margin-left:0;
+	}
+
 	#staffheader {
 		margin-top:14px;
 	}
@@ -425,7 +444,7 @@
 		padding-left:7px;
 	}
 	
-	#header4 .well button {
+	#header4.well button {
 		margin: 20px 0 0 132px;
 	}
 
@@ -434,7 +453,6 @@
 	}
 
 	#header4 .form-horizontal label.control-label{
-		width:100px;
 		width:100px;
 		text-align:left;
 		padding-left:20px;	
@@ -784,17 +802,17 @@
 		height: 540px;
 	}
 
-	#propdetailssidebox1, #staffsidebox1 .sideboxcontent {
+	#propdetailssidebox1 .sideboxcontent {
 		padding: 14px 14px 0 16px;
 	}
 
-	#propdetailssidebox1, #staffsidebox1 .sideboxcontent a{
+	#propdetailssidebox1 .sideboxcontent a{
 		text-decoration:underline;
 		line-height:25px;
 		font-size:14px;
 	}
 
-	#propdetailssidebox1, #staffsidebox1 .sideboxcontent p{
+	#propdetailssidebox1 .sideboxcontent p{
 		margin-top:10px;
 		font-weight:normal;
 	}
