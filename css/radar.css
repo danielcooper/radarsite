@@ -44,6 +44,7 @@
 		 width: 250px;
 		 float: left;
 		 margin: 21px 0 0 2px;
+		 margin: 21px 0 0 2px;
 	}
 
 	#topnav {
@@ -65,16 +66,16 @@
 
 	#toprightnav {
 		width: 277px;
-		margin: 12px 0px 0 0;
+		margin: 12px 0 0 5px;
 		padding:0;
 	}
 
 	#toprightnav .socialcluster {
 		float:right;
 		margin:7px 0px 0px 5px;
-		width:47px;
+		width:50px;
 	}
-
+	
 	#toprightnav .avatar {
 		float:right;
 		margin: 6px 1px 0 8px;
@@ -133,7 +134,7 @@
 
 	#propdetailsheader2 form .btn-primary {
 		margin:0 0 0 3px;
-		width:165px;
+		width:170px;
 	}
 
 	#propdetailsheader2 #centrebuttons {
@@ -162,7 +163,7 @@
 		border-color: #a1a1a1 #a1a1a1 #a1a1a1; 
 		filter: progid:dximagetransform.microsoft.gradient(startColorstr='#ffcfcdcd', endColorstr='#ffa1a1a1', GradientType=0);
 		margin:0 0 0 6px;
-		width:165px;
+		width:180px;
 		color:#ffffff;
 		text-shadow:none;
 	}
