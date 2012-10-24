@@ -817,7 +817,7 @@
 	}
 
 	#sidebox1 {
-		height: 235px;
+		min-height: 225px;
 	}
 
 	#sidebox2 {
