@@ -45,7 +45,7 @@
 	#mainlogo {
 		 width: 250px;
 		 float: left;
-		 margin: 15px 0 0 2px;
+		 margin: 17px 0 0 2px;
 	}
 
 	#topnav {
@@ -119,13 +119,18 @@
 		width:87px;
 	}
 
-	#propdetailsheader2 {
+	#smallergreenheader #staffbuttons button{
+		margin-right: 10px;
+		margin-left:0;
+	}
+	
+	#smallergreenheader {
 		background-color:#7bb075;
 		background-repeat:repeat-x;
 		height: 60px;
 	}
 
-	#propdetailsheader2 form {
+	#smallergreenheader form {
 		margin: 15px 0 0 0;
 		padding: 0;
 		background-color:transparent;
@@ -133,26 +138,26 @@
 		box-shadow:none;
 	}
 
-	#propdetailsheader2 form .btn-primary {
+	#smallergreenheader form .btn-primary {
 		margin:0 0 0 3px;
 		width:170px;
 	}
 
-	#propdetailsheader2 #centrebuttons {
+	#smallergreenheader #centrebuttons {
 		display:inline;
 		margin: 0 98px 0 98px;
 	}
 
-	#propdetailsheader2 #leftbutton {
+	#smallergreenheader #leftbutton {
 		display:inline;
 		float:left;
 	}
 
-	#propdetailsheader2 #rightbutton {
+	#smallergreenheader #rightbutton {
 		display:inline;
 	}
 
-	#propdetailsheader2 #centrebuttons .btn-primary {
+	#smallergreenheader #centrebuttons .btn-primary {
 		background-color:#a1a1a1;
 		*background-color: #a1a1a1;
 		background-image: -moz-linear-gradient(center top, #cfcdcd, #a1a1a1);
@@ -169,7 +174,7 @@
 		text-shadow:none;
 	}
 
-	#propdetailsheader2 #centrebuttons .btn-primary:hover,
+	#smallergreenheader #centrebuttons .btn-primary:hover,
 	.btn-primary:active,
 	.btn-primary.active,
 	.btn-primary.disabled,
@@ -186,7 +191,7 @@
 		filter: progid:dximagetransform.microsoft.gradient(startColorstr='#ffef9702', endColorstr='#ffffc51c', GradientType=0);
 	}
  
-	#propdetailsheader2 #centrebuttons btn-primary:active,
+	#smallergreenheader #centrebuttons btn-primary:active,
 		.btn-primary.active {
 	background-color:#ef9702 \9; 
 	}
@@ -890,7 +895,7 @@
 	}
 	
 	#staffsidebox1 {
-		height:350px;
+		height:400px;
 	}
 
 	#sidebox1 {
@@ -1023,7 +1028,7 @@
 	}
 	
 	#header6 p {
-		margin: 15px 0 0 0;
+		margin: 17px 0 0 0;
 	}
 	
 	#header6 a {
