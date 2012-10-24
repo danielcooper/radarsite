@@ -58,7 +58,7 @@
 		position: relative;
 		display: inline block;
 		color: #a4a4a4;
-		padding: 0 8px 19px 8px;
+		padding: 0 8px 20px 8px;
 		text-decoration: none;
 		font-size: 16px;
 		font-weight:bold;
@@ -728,6 +728,7 @@
 	.secondaryimages {
 		margin-top:8px;
 		text-align:left;
+		width:162px;
 	}
 	
 	.secondaryimages img{
