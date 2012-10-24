@@ -145,12 +145,17 @@
 
 	#smallergreenheader #centrebuttons {
 		display:inline;
-		margin: 0 98px 0 98px;
+		margin: 0 100px 0 100px;
 	}
 
 	#smallergreenheader #leftbutton {
 		display:inline;
 		float:left;
+		
+	}
+	
+	#smallergreenheader #leftbutton button{
+		margin-left:0;
 	}
 
 	#smallergreenheader #rightbutton {
