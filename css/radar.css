@@ -382,7 +382,7 @@
 		max-height:300px;
 		border:1px solid;
 		width: 270px;
-		overflow:auto;
+		overflow:scroll;
 		background-color:#efffe6;
 		border:1px solid #eef3eb;
 		margin:25px 0 10px 0;;
