@@ -943,6 +943,10 @@
 		height: 330px;
 	}
 
+	#meetstaffsidebox .sideboxcontent {
+		padding: 8px 0px 0 2px;
+	}
+	
 	#sidebox4 .sideboxcontent {
 		padding: 8px 0px 0 2px;
 	}
