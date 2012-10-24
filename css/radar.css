@@ -395,6 +395,10 @@
 		overflow:scroll;
 	}
 	
+	#header4 .well .btn {
+		margin: 15px 0 0 130px;
+	}
+	
 	#header3staff {
 		background-color: #D4D4D4;
 		background-repeat: repeat-x;
@@ -491,7 +495,7 @@
 		border: 1px solid #CCC;
 	}
 
-	#propdetailsform .form-horizontal button {
+	#propdetailsform .form-horizontal .btn {
 		float:right;
 		margin-right:40px;
 	}
@@ -694,14 +698,14 @@
 		background-image:url("../images/viewlistbg.png");
 		background-repeat:no-repeat;
 		background-position:center center;
-		padding:11px 17px 10px 17px;	
+		padding:11px 17px 8px 17px;	
 	}
 
 	#inlineviews  #group2 a.selected {
 		background-image:url("../images/viewsortbg.png");
 		background-repeat:no-repeat;
 		background-position:center center;
-		padding: 11px 19px 9px 19px;	
+		padding: 11px 19px 7px 19px;	
 	}
 
 	#inlineviews  #group3 a.selected {
