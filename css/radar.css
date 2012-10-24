@@ -392,7 +392,7 @@
 	}
 
 	#header4 .checklist {
-		overflow:scroll;
+		overflow:auto;
 	}
 	
 	#header4 .well .btn {
