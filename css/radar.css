@@ -817,7 +817,7 @@
 	}
 
 	#sidebox1 {
-		height: 255px;
+		height: 225px;
 	}
 
 	#sidebox2 {
@@ -835,7 +835,13 @@
 	.sideboxcontent {
 		padding: 14px 14px 0 16px;
 	}
+	
+	.sideboxcontentlisa {
+		padding: 14px 14px 0 16px;
+		height:175px;
+	}
 
+	
 	.sideboxcontent p {
 		font-weight:bold;
 	}
