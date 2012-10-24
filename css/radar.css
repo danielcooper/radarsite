@@ -28,6 +28,7 @@
 	h1 {
 		font-size: 20px;
 		line-height: 24px;
+		margin-bottom:0;
 	}
 
 	#header {
@@ -297,7 +298,7 @@
 		float:right;
 	}
 
-	#header3 .secondarytitle {
+	#header3, #header3staff .secondarytitle {
 		font-size:16px;
 		color:#979797;
 		font-weight:bold;
@@ -390,6 +391,33 @@
 
 	#header4 .checklist {
 		overflow:scroll;
+	}
+	
+	#header3staff {
+		background-color: #D4D4D4;
+		background-repeat: repeat-x;
+		border-bottom: 1px solid #BCBCBC;
+		border-top: 1px solid #BCBCBC;
+		height: 70px;
+	}
+	
+	#staffheader {
+		margin-top:14px;
+	}
+	
+	#staffphoto {
+		float:left;
+		margin-top:36px;
+	}
+	
+	#staffbio {
+		float:right;
+		margin-top:32px;
+		width:400px;
+	}
+	
+	#staffbio p {
+		font-size:14px;
 	}
 	
 	#header4 .checklist .control-group .controls{
