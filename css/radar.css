@@ -966,7 +966,8 @@
 
 	#header6 {
 		height:50px;
-		background:#545454;
+		background-image:url("../images/bannerbackground.png");
+		background-repeat:repeat-x;
 		border-top: 1px solid #D4D4D4;
 		margin-top:0px;
 	}
