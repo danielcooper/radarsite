@@ -721,7 +721,8 @@
 		text-align:center;
 		padding:8px;
 		border:1px solid #dcdcdc;
-		margin-bottom:15px; <!-- this helps space the hr below premium listings -->
+		margin-bottom:15px;
+		margin-right:0;
 	}
 
 	.secondaryimages {
@@ -736,7 +737,6 @@
 	
 	.mainimage	{
 		width:160px;
-		margin-right:1px;
 	}
 
 	.mainimage img {
@@ -816,7 +816,7 @@
 	}
 
 	#sidebox1 {
-		height: 225px;
+		height: 235px;
 	}
 
 	#sidebox2 {
