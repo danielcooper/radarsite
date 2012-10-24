@@ -1,3 +1,5 @@
+
+	
 	body {
 		background-image:url("../images/greybackground.png");
 		background-repeat:repeat-x;
@@ -402,36 +404,49 @@
 	}
 	
 	#staffform {
-		float:left;
-		width:350px;
-		border:1px solid;
+		margin-top: 270px;
+		width:330px;
 	}
 	
-	#staffform .form-horizontal {
+	#staffform .btn{
+		float:right;
+		margin-right:30px;
+		width:150px;
+	}
 	
+	#staffform  .form-horizontal {
+		margin-top:20px;
 	}
 	
 	#staffform .form-horizontal .control-label {
 		text-align:left;
-		width: 100px;
+		width: 80px;
 	}
 	
 	#staffform .form-horizontal .controls {
 		margin-left:0;
 	}
 
+	#staffform  label.checkbox {
+		font-size:12px;
+	}
+	
 	#staffheader {
 		margin-top:14px;
 	}
 	
 	#staffphoto {
 		float:left;
-		margin-top:36px;
+		margin-top:20px;
+	}
+	
+	#staffphoto img {
+		border: 1px solid #bcbcbc
 	}
 	
 	#staffbio {
 		float:right;
-		margin-top:32px;
+		margin-top:18px;
 		width:400px;
 	}
 	
@@ -452,36 +467,36 @@
 		margin-top:21px;
 	}
 
-	#header4 .form-horizontal label.control-label{
+	#propdetailsform .form-horizontal label.control-label{
 		width:100px;
 		text-align:left;
 		padding-left:20px;	
 		margin-top:15px
 	}
 
-	#header4 .form-horizontal label.checkbox {
+	#propdetailsform .form-horizontal label.checkbox {
 		padding-left:38px;
 	}
 
-	#header4 .form-horizontal .controls {
+	#propdetailsform .form-horizontal .controls {
 		margin-left:0;
 		margin-top:15px;
 	}
 
-	#header4 .form-horizontal .control-group {
+	#propdetailsform .form-horizontal .control-group {
 		margin-bottom: 8px;
 	}
 
-	#header4 .form-horizontal select {
+	#propdetailsform .form-horizontal select {
 		border: 1px solid #CCC;
 	}
 
-	#header4 .form-horizontal button {
+	#propdetailsform .form-horizontal button {
 		float:right;
 		margin-right:40px;
 	}
 
-	#header4 .form-horizontal {
+	#propdetailsform .form-horizontal {
 		background-color: #E8E8E8;
 		min-height:430px;
 		box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
@@ -491,7 +506,7 @@
 		border-radius: 0px 0px 4px 4px;
 	}
 
-	#header4 .form-horizontal select {
+	#propdetailsform .form-horizontal select {
 		font-weight:normal;
 		color:#999999;
 	}
@@ -815,6 +830,11 @@
 	#propdetailssidebox1 .sideboxcontent p{
 		margin-top:10px;
 		font-weight:normal;
+	}
+
+	#staffsidebox1 .sideboxcontent p {
+		font-weight: normal;
+		margin-top: 10px;
 	}
 
 	#propdetailssidebox1 #agentlinks img {
