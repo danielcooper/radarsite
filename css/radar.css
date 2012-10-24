@@ -388,6 +388,10 @@
 		margin:25px 0 10px 0;;
 	}
 
+	#header4 .checklist {
+		overflow:scroll;
+	}
+	
 	#header4 .checklist .control-group .controls{
 		border-top:1px solid #eef3eb;
 		padding-left:7px;
