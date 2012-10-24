@@ -784,17 +784,17 @@
 		height: 540px;
 	}
 
-	#propdetailssidebox1 .sideboxcontent {
+	#propdetailssidebox1, #staffsidebox1 .sideboxcontent {
 		padding: 14px 14px 0 16px;
 	}
 
-	#propdetailssidebox1 .sideboxcontent a{
+	#propdetailssidebox1, #staffsidebox1 .sideboxcontent a{
 		text-decoration:underline;
 		line-height:25px;
 		font-size:14px;
 	}
 
-	#propdetailssidebox1 .sideboxcontent p{
+	#propdetailssidebox1, #staffsidebox1 .sideboxcontent p{
 		margin-top:10px;
 		font-weight:normal;
 	}
@@ -845,6 +845,10 @@
 	.sideboxheader  p {
 		color:#ffffff;
 		padding: 11px 0 0 17px;
+	}
+	
+	#staffsidebox1 {
+		height:350px;
 	}
 
 	#sidebox1 {
