@@ -404,7 +404,7 @@
 	}
 	
 	#staffform {
-		margin-top: 270px;
+		margin-top: 50px;
 		width:330px;
 	}
 	
@@ -923,6 +923,10 @@
 
 	#sidebox5 {
 		height: 160px;
+	}
+	
+	#meetstaffsidebox {
+		height: 330px;
 	}
 
 	#sidebox4 .sideboxcontent {
