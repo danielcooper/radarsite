@@ -605,7 +605,7 @@
 	}
 
 	#inlineviews  {
-		margin: 19px 0 0 0;
+		margin: 18px 0 0 0;
 		height:30px;
 	}
 
@@ -629,21 +629,21 @@
 		background-image:url("../images/viewlistbg.png");
 		background-repeat:no-repeat;
 		background-position:center center;
-		padding:11px 17px 8px 17px;	
+		padding:11px 17px 10px 17px;	
 	}
 
 	#inlineviews  #group2 a.selected {
 		background-image:url("../images/viewsortbg.png");
 		background-repeat:no-repeat;
 		background-position:center center;
-		padding: 11px 19px 7px 19px;	
+		padding: 11px 19px 9px 19px;	
 	}
 
 	#inlineviews  #group3 a.selected {
 		background-image:url("../images/viewsortbg.png");
 		background-repeat:no-repeat;
 		background-position:center center;
-		padding: 10px 32px 5px 32px;	
+		padding: 10px 32px 8px 32px;	
 	}
 
 	#inlineviews .titles {
