@@ -794,7 +794,7 @@
 	}
 
 	#locationsidebox {	
-		height: 200px;
+		height: 210px;
 	}
 
 	.sidebox {
@@ -817,7 +817,7 @@
 	}
 
 	#sidebox1 {
-		height: 240px;
+		height: 225px;
 	}
 
 	#sidebox2 {
@@ -864,25 +864,19 @@
 
 	.sidephoto { 
 		float: left;
+		padding: 0 15px 5px 0;
 	}
 
 	.sidephoto img { 
-		padding: 4px 6px 0 0;
+		padding: 4px 0 0 0;
 		border:1px solid #bcbcbcl;
 	}
 		
 	.sidetext  p {
-		float: right;
-		font-weight:bold;
-		width:145px;
-		color: #7b7b7b;
-		line-height:16px;
-	}
-	
-	.flowtext  p {
 		font-weight:bold;
 		color: #7b7b7b;
 		line-height:16px;
+		margin-left:95px;
 	}
 	
 	.sidetext a {
