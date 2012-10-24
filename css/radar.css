@@ -818,6 +818,7 @@
 
 	#sidebox1 {
 		min-height: 225px;
+		max-height: 235px;
 	}
 
 	#sidebox2 {
