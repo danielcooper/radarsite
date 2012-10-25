@@ -321,6 +321,7 @@
 	#header4 {
 		background-image:url("../images/greybackgroundpropdetails.png");
 		background-repeat:repeat-x;
+		margin-bottom:160px;
 	}
 
 	#header4 #resformlegend {
@@ -420,8 +421,13 @@
 	}
 	
 	.divider {
-		margin-top:55px;
+		margin-top:50px;
 		float:left;
+	}
+	
+	#stafftwitter {
+		height: 100px;
+		height: 100px;
 	}
 	
 	#staffform {
@@ -1067,7 +1073,7 @@
 	#header5 {
 		height:150px;
 		background:#7BB075;
-		border-top: 1px solid #BCBCBC;
+		border-top: 1px solid #5e5e5e;
 	}
 
 	#header6 {
@@ -1083,7 +1089,7 @@
 	}
 	
 	#header6 a {
-		color:#979797;
+		color:#DCDCDC;
 		font-weight:normal;
 	}
 	
