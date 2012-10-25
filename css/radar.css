@@ -1067,7 +1067,7 @@
 	#header5 {
 		height:150px;
 		background:#7BB075;
-		 border-top: 1px solid #BCBCBC;
+		border-top: 1px solid #BCBCBC;
 	}
 
 	#header6 {
@@ -1075,6 +1075,7 @@
 		background-image:url("../images/bannerbackground.png");
 		background-repeat:repeat-x;
 		margin-top:0px;
+		border-top: 1px solid #BCBCBC;
 	}
 	
 	#header6 p {
@@ -1091,13 +1092,13 @@
 	}
 
 	#footer .titles{
-		color:#ffffff;
+		color:#717171;;
 		font-weight:bold;
 		font-size:16px;
 	}
 
 	#footer .links a{
-		color:#ffffff;
+		color:#717171;;
 		font-weight:normal;
 		font-size:14px;
 	}
