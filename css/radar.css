@@ -291,7 +291,7 @@
 	#header4 {
 		background-image:url("../images/greybackgroundpropdetails.png");
 		background-repeat:repeat-x;
-		margin-bottom:120px;
+		margin-bottom:100px;
 	}
 
 	#header4 #resformlegend {
@@ -347,7 +347,7 @@
 		border-bottom: 1px solid #DCDCDC;
 		border-top:none;
 		border-radius: 0px 0px 4px 4px;
-		margin:0 0 100px 18px;
+		margin:0 0 20px 18px;
 	}
 
 	#header4 .well label {
@@ -456,7 +456,6 @@
 		background-repeat:repeat-x;
 		height:50px;
 		border-top: 1px solid #9e9e9e;
-		margin-top:50px;
 	}
 
 	#header4point5 .form-inline {
