@@ -400,6 +400,8 @@
 		margin-top:10px;
 	}
 	
+	/* Photoreel is in header4 - used to nav prop photos */
+	
 	#photoreel a.leftarrow  {
 		background-image:url("../images/leftarrow.png");
 		background-repeat:no-repeat;
@@ -945,8 +947,8 @@
 
 	#header5 {
 		height:150px;
-		background:#7BB075;
-		border-top: 1px solid #5e5e5e;
+		background:#E8E8E8;
+		border-top: 1px solid #DCDCDC;
 	}
 
 	#header6 {
@@ -971,18 +973,18 @@
 	}
 
 	#footer .titles{
-		color:#323232;
+		color:#979797;
 		font-weight:bold;
 		font-size:16px;
 	}
 
 	#footer .links a{
-		color:#323232;
+		color:#B5B5B5;
 		font-weight:normal;
 		font-size:14px;
 	}
 	
-	/* ------ buttons ------ */
+	/* ------------ BUTTONS ------------ */
 	
 	/* main orange buttons */
 	
@@ -1146,5 +1148,5 @@
 		margin-right:40px;
 	}
 	
-	/* ------ buttons END ------ */
+	/* ------------ BUTTONS END ------------ */
 
