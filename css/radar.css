@@ -421,7 +421,7 @@
 	}
 	
 	.divider {
-		margin-top:50px;
+		margin-top:40px;
 		float:left;
 	}
 	
@@ -431,7 +431,7 @@
 	}
 	
 	#staffform {
-		margin-top: 50px;
+		margin-top: 40px;
 		width:310px;
 	}
 	
@@ -464,7 +464,7 @@
 	
 	
 	#followstaff {
-		margin: 50px 0 0 20px;
+		margin: 40px 0 0 20px;
 	}
 	
 	#staffformcontainer .span4 {
