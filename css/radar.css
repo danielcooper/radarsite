@@ -6,6 +6,7 @@
 		font-family:"Gotham", Arial, Sans-serif;
 		font-size:12px;
 	}
+	
 
 	p {
 		line-height:18px;
@@ -30,6 +31,7 @@
 	h1 {
 		font-size: 20px;
 		line-height: 24px;
+		margin-bottom:0;
 	}
 
 	#header {
@@ -417,14 +419,55 @@
 		height: 70px;
 	}
 	
+	.divider {
+		margin-top:55px;
+		float:left;
+	}
+	
 	#staffform {
 		margin-top: 50px;
-		width:330px;
+		width:310px;
+	}
+	
+	#staffsocial img {
+		width:60px;
+		margin-bottom:15px;
+	}
+	
+	#staffsocial{
+		margin: 20px 0 5px 0;
+	}
+	
+	#staffsocial a {
+		font-size:14px;
+		text-decoration:underline;
+		margin-right:20px
+	}
+	
+	#staffsocial #links {
+		width:175px;
+		float:right;
+		margin:11px 30px 10px 0;
+	}
+	
+	#staffsocial #singlelinks {
+		width:175px;
+		float:right;
+		margin:18px 30px 10px 0;
+	}
+	
+	
+	#followstaff {
+		margin: 50px 0 0 20px;
+	}
+	
+	#staffformcontainer .span4 {
+		margin-left:0; 
 	}
 	
 	#staffform .btn{
 		float:right;
-		margin-right:30px;
+		margin-right:5px;
 		width:150px;
 	}
 	
