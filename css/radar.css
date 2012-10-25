@@ -1,5 +1,3 @@
-
-	
 	body {
 		background-image:url("../images/greybackground.png");
 		background-repeat:repeat-x;
@@ -7,7 +5,6 @@
 		font-size:12px;
 	}
 	
-
 	p {
 		line-height:18px;
 	}
@@ -34,6 +31,8 @@
 		margin-bottom:0;
 	}
 
+	/* ------ top header ------ */
+	
 	#header {
 		height:81px;
 		background-image:url("../images/bannerbackground.png");
@@ -44,12 +43,16 @@
 		color:#ffffff;
 	}
 
+	/* ------ top header END ------ */
+	
 	#mainlogo {
 		 width: 250px;
 		 float: left;
 		 margin: 17px 0 0 2px;
 	}
 
+	/* ------ main top navigation ------ */
+	
 	#topnav {
 		margin: 0px 0 0 0px;
 		padding: 42px 0 20px 0;
@@ -67,6 +70,10 @@
 		font-weight:bold;
 	}
 
+	/* ------ main top navigation END ------ */
+	
+	/* ------ top right customer login ------ */
+	
 	#toprightnav {
 		width: 277px;
 		margin: 12px 0 0 5px;
@@ -104,9 +111,13 @@
 		text-align:right;
 		margin-top:1px;
 	}
+	
+	/* ------ top right customer login END ------ */
 
+	/* ------ header2 green fill ------ */
+	
 	#header2 {
-		background-color:#7bb075; <!-- was #7fb079; -->
+		background-color:#7bb075;
 		background-repeat:repeat-x;
 		height: 60px;
 	}
@@ -116,15 +127,22 @@
 		padding: 0;
 	}
 
-	#header2 form .btn-primary {
-		margin:0 0 0 3px;
-		width:87px;
+	#header2 .form-inline {
+		background-color:transparent;
+		border: none;
+		box-shadow: none;
 	}
 
-	#smallergreenheader #staffbuttons button{
-		margin-right: 10px;
-		margin-left:0;
+	#header2 .form-inline input, select {
+		border: 1px solid #000000;
+		color:#606060;
+		font-weight:bold;
+		margin-right:4px;
 	}
+
+	/* ------ header2 green fill END ------ */	
+
+	/* ------ smaller green fill header on staff page etc ------ */	
 	
 	#smallergreenheader {
 		background-color:#7bb075;
@@ -140,11 +158,7 @@
 		box-shadow:none;
 	}
 
-	#smallergreenheader form .btn-primary {
-		margin:0 0 0 3px;
-		width:170px;
-	}
-
+	
 	#smallergreenheader #centrebuttons {
 		display:inline;
 		margin: 0 100px 0 100px;
@@ -156,85 +170,14 @@
 		
 	}
 	
-	#smallergreenheader #leftbutton button{
-		margin-left:0;
-	}
-
 	#smallergreenheader #rightbutton {
 		display:inline;
 	}
 
-	#smallergreenheader #centrebuttons .btn-primary {
-		background-color:#a1a1a1;
-		*background-color: #a1a1a1;
-		background-image: -moz-linear-gradient(center top, #cfcdcd, #a1a1a1);
-		background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#cfcdcd), to(#a1a1a1)); 
-		background-image: -webkit-linear-gradient(top, #cfcdcd, #a1a1a1);
-		background-image: -o-linear-gradient(top, #cfcdcd, #a1a1a1);
-		background-image: linear-gradient(to bottom, #cfcdcd, #a1a1a1);
-		background-image: -moz-linear-gradient(top, #cfcdcd, #a1a1a1); 
-		border-color: #a1a1a1 #a1a1a1 #a1a1a1; 
-		filter: progid:dximagetransform.microsoft.gradient(startColorstr='#ffcfcdcd', endColorstr='#ffa1a1a1', GradientType=0);
-		margin:0 0 0 6px;
-		width:180px;
-		color:#ffffff;
-		text-shadow:none;
-	}
-
-	#smallergreenheader #centrebuttons .btn-primary:hover,
-	.btn-primary:active,
-	.btn-primary.active,
-	.btn-primary.disabled,
-	.btn-primary[disabled] {
-		background-color:#ef9702;
-		*background-color: #ef9702;
-		background-image: -moz-linear-gradient(center top, #ffc51c, #ef9702);
-		background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#ffc51c), to(#ef9702)); 
-		background-image: -webkit-linear-gradient(top, #ffc51c, #ef9702);
-		background-image: -o-linear-gradient(top, #ffc51c, #ef9702);
-		background-image: linear-gradient(to bottom, #ffc51c, #ef9702);
-		background-image: -moz-linear-gradient(top, #ffc51c, #ef9702); 
-		border-color: #ffc51c #ef9702 #d38502; 
-		filter: progid:dximagetransform.microsoft.gradient(startColorstr='#ffef9702', endColorstr='#ffffc51c', GradientType=0);
-	}
- 
-	#smallergreenheader #centrebuttons btn-primary:active,
-		.btn-primary.active {
-	background-color:#ef9702 \9; 
-	}
-
-	.btn-primary {
-		background-color:#ef9702;
-		*background-color: #ef9702;
-		background-image: -moz-linear-gradient(center top, #ffc51c, #ef9702);
-		background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#ffc51c), to(#ef9702)); 
-		background-image: -webkit-linear-gradient(top, #ffc51c, #ef9702);
-		background-image: -o-linear-gradient(top, #ffc51c, #ef9702);
-		background-image: linear-gradient(to bottom, #ffc51c, #ef9702);
-		background-image: -moz-linear-gradient(top, #ffc51c, #ef9702); 
-		border-color: #ffc51c #ef9702 #d38502; 
-		filter: progid:dximagetransform.microsoft.gradient(startColorstr='#ffffc51c', endColorstr='#ffef9702', GradientType=0);
-		font-size:15px;
-		text-shadow:none;
-		font-weight:bold;
-	}
-
-	.btn-primary:hover,
-	.btn-primary:active,
-	.btn-primary.active,
-	.btn-primary.disabled,
-	.btn-primary[disabled] {
-		  color: #ffffff;
-		  background-color: #ef9702;
-		  *background-color: #ef9702; 
-		  filter: progid:dximagetransform.microsoft.gradient(startColorstr='#ffef9702', endColorstr='#ffffc51c', GradientType=0);
-	}
-
-	.btn-primary:active,
-		.btn-primary.active {
-		  background-color: #ef9702 \9; 
-	}
-
+	/* ------ smaller green fill header on staff page etc END ------ */	
+	
+	/* ------ header 3 - lighter grey fill ------ */
+	
 	#header3 {
 		background-color: #d4d4d4;
 		background-repeat:repeat-x;
@@ -262,45 +205,6 @@
 		
 	}
 	
-	#header3 form .btn-primary {
-		background-color:#a1a1a1;
-		*background-color: #a1a1a1;
-		background-image: -moz-linear-gradient(center top, #cfcdcd, #a1a1a1);
-		background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#cfcdcd), to(#a1a1a1)); 
-		background-image: -webkit-linear-gradient(top, #cfcdcd, #a1a1a1);
-		background-image: -o-linear-gradient(top, #cfcdcd, #a1a1a1);
-		background-image: linear-gradient(to bottom, #cfcdcd, #a1a1a1);
-		background-image: -moz-linear-gradient(top, #cfcdcd, #a1a1a1); 
-		border-color: #a1a1a1 #a1a1a1 #a1a1a1; 
-		filter: progid:dximagetransform.microsoft.gradient(startColorstr='#ffcfcdcd', endColorstr='#ffa1a1a1', GradientType=0);
-		margin:0 0 0 6px;
-		width:170px;
-		color:#ffffff;
-		text-shadow:none;
-	}
-
-	#header3 form .btn-primary:hover,
-	.btn-primary:active,
-	.btn-primary.active,
-	.btn-primary.disabled,
-	.btn-primary[disabled] {
-		background-color:#ef9702;
-		*background-color: #ef9702;
-		background-image: -moz-linear-gradient(center top, #ffc51c, #ef9702);
-		background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#ffc51c), to(#ef9702)); 
-		background-image: -webkit-linear-gradient(top, #ffc51c, #ef9702);
-		background-image: -o-linear-gradient(top, #ffc51c, #ef9702);
-		background-image: linear-gradient(to bottom, #ffc51c, #ef9702);
-		background-image: -moz-linear-gradient(top, #ffc51c, #ef9702); 
-		border-color: #ffc51c #ef9702 #d38502; 
-		filter: progid:dximagetransform.microsoft.gradient(startColorstr='#ffef9702', endColorstr='#ffffc51c', GradientType=0);
-	}
- 
-	#header3 form btn-primary:active,
-		.btn-primary.active {
-		background-color:#ef9702 \9; 
-	}
-
 	#header3 h1 {
 		font-size: 20px;
 		margin: 14px 0 0 0;
@@ -318,13 +222,82 @@
 		font-weight:bold;
 	}
 	
+	#header3staff {
+		background-color: #D4D4D4;
+		background-repeat: repeat-x;
+		border-bottom: 1px solid #BCBCBC;
+		border-top: 1px solid #BCBCBC;
+		height: 70px;
+	}
+	
+	/* ------ header 3 inline views - the inline tabs on results page etc ------ */
+	
+	#inlineviews  {
+		margin: 18px 0 0 0;
+		height:30px;
+	}
+
+	#inlineviews a {
+		color: #494949;
+		font-weight: bold;
+		font-size: 12px;
+		text-decoration:none;
+		padding: 0 10px 0 10px;
+	}
+
+	#inlineviews #group1 {
+		display: inline;
+	}
+
+	#inlineviews #group2 {
+		display: inline;
+	}
+
+	#inlineviews  #group1 a.selected {
+		background-image:url("../images/viewlistbg.png");
+		background-repeat:no-repeat;
+		background-position:center center;
+		padding:11px 17px 8px 17px;	
+	}
+
+	#inlineviews  #group2 a.selected {
+		background-image:url("../images/viewsortbg.png");
+		background-repeat:no-repeat;
+		background-position:center center;
+		padding: 11px 19px 7px 19px;	
+	}
+
+	#inlineviews  #group3 a.selected {
+		background-image:url("../images/viewsortbg.png");
+		background-repeat:no-repeat;
+		background-position:center center;
+		padding: 10px 32px 8px 32px;	
+	}
+
+	#inlineviews .titles {
+		color:#acacac;
+		font-weight:bold;
+		margin: 0 12px 0 0;
+		font-size: 12px;
+	}
+
+	#inlineviews  #group2 .titles {
+		margin-left: 40px;
+	}
+	
+	/* ------ header 3 inline views - the inline tabs on results page etc END ------ */
+
+	/* ------ header 3 - lighter grey fill END ------ */
+	
+	/* ------ header 4 - contains most content and grey fade at top ------ */
+	
 	#header4 {
 		background-image:url("../images/greybackgroundpropdetails.png");
 		background-repeat:repeat-x;
 		margin-bottom:120px;
 	}
 
-	#header4 #resformlegend {
+	#header4 #resformlegEND {
 		width:615px;
 		background-color:#545454;
 		height:60px;
@@ -338,14 +311,14 @@
 		-webkit-border-top-right-radius: 4px;
 	}
 
-	#header4 #resformlegend p {
+	#header4 #resformlegEND p {
 		color:#E8E8E8;
 		margin: 0 0 0 20px;
 		line-height:25px;
 		font-size:20px;
 	}
 
-	#header4 #formlegend {
+	#header4 #formlegEND {
 		background-color:#545454;
 		height:60px;
 		padding:10px 4px 0 4px;
@@ -358,7 +331,7 @@
 		-webkit-border-top-right-radius: 4px;
 	}
 
-	#header4 #formlegend p {
+	#header4 #formlegEND p {
 		color:#E8E8E8;
 		margin: 0 0 0 20px;
 		line-height:25px;
@@ -387,7 +360,8 @@
 	}
 
 	#header4 .well .span4 {
-		width:290px; <!-- Overidden Bootstrap 300px span4 to fit two form columns in -->
+		/* Overidden Bootstrap 300px span4 to fit two form columns in */
+		width:290px; 
 	}
 
 	#header4 .well .control-group {
@@ -408,170 +382,13 @@
 		overflow:auto;
 	}
 	
-	#header4 .well .btn {
-		margin: 15px 0 0 130px;
-	}
-	
-	#header3staff {
-		background-color: #D4D4D4;
-		background-repeat: repeat-x;
-		border-bottom: 1px solid #BCBCBC;
-		border-top: 1px solid #BCBCBC;
-		height: 70px;
-	}
-	
-	.divider {
-		margin-top:40px;
-		float:left;
-	}
-	
-	#stafftwitter {
-		height: 100px;
-		height: 100px;
-	}
-	
-	#staffform {
-		margin-top: 40px;
-		width:310px;
-	}
-	
-	#staffsocial img {
-		width:60px;
-		margin-bottom:15px;
-	}
-	
-	#staffsocial{
-		margin: 20px 0 5px 0;
-	}
-	
-	#staffsocial a {
-		font-size:14px;
-		text-decoration:underline;
-		margin-right:20px
-	}
-	
-	#staffsocial #links {
-		width:175px;
-		float:right;
-		margin:11px 30px 10px 0;
-	}
-	
-	#staffsocial #singlelinks {
-		width:175px;
-		float:right;
-		margin:18px 30px 10px 0;
-	}
-	
-	
-	#followstaff {
-		margin: 40px 0 0 20px;
-	}
-	
-	#staffformcontainer .span4 {
-		margin-left:0; 
-	}
-	
-	#staffform .btn{
-		float:right;
-		margin-right:5px;
-		width:150px;
-	}
-	
-	#staffform  .form-horizontal {
-		margin-top:20px;
-	}
-	
-	#staffform .form-horizontal .control-label {
-		text-align:left;
-		width: 80px;
-	}
-	
-	#staffform .form-horizontal .controls {
-		margin-left:0;
-	}
-
-	#staffform  label.checkbox {
-		font-size:12px;
-	}
-	
-	#staffheader {
-		margin-top:14px;
-	}
-	
-	#staffphoto {
-		float:left;
-		margin-top:20px;
-	}
-	
-	#staffphoto img {
-		border: 1px solid #bcbcbc
-	}
-	
-	#staffbio {
-		float:right;
-		margin-top:18px;
-		width:400px;
-	}
-	
-	#staffbio p {
-		font-size:14px;
-	}
-	
 	#header4 .checklist .control-group .controls{
 		border-top:1px solid #eef3eb;
 		padding-left:7px;
 	}
 	
-	#header4.well button {
-		margin: 20px 0 0 132px;
-	}
-
 	#header4 .mainpropimage {
 		margin-top:21px;
-	}
-
-	#propdetailsform .form-horizontal label.control-label{
-		width:100px;
-		text-align:left;
-		padding-left:20px;	
-		margin-top:15px
-	}
-
-	#propdetailsform .form-horizontal label.checkbox {
-		padding-left:38px;
-	}
-
-	#propdetailsform .form-horizontal .controls {
-		margin-left:0;
-		margin-top:15px;
-	}
-
-	#propdetailsform .form-horizontal .control-group {
-		margin-bottom: 8px;
-	}
-
-	#propdetailsform .form-horizontal select {
-		border: 1px solid #CCC;
-	}
-
-	#propdetailsform .form-horizontal .btn {
-		float:right;
-		margin-right:40px;
-	}
-
-	#propdetailsform .form-horizontal {
-		background-color: #E8E8E8;
-		min-height:430px;
-		box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
-		border-left: 1px solid #DCDCDC;
-		border-right: 1px solid #DCDCDC;
-		border-bottom: 1px solid #DCDCDC;
-		border-radius: 0px 0px 4px 4px;
-	}
-
-	#propdetailsform .form-horizontal select {
-		font-weight:normal;
-		color:#999999;
 	}
 
 	#header4 .propertydes {
@@ -582,42 +399,7 @@
 	#header4 #photoreel {
 		margin-top:10px;
 	}
-
-	#header4point5 {
-		background-color:#B5B5B5;
-		background-repeat:repeat-x;
-		height:50px;
-		border-top: 1px solid #9e9e9e;
-		margin-top:50px;
-	}
-
-	#header4point5 #leftbutton button{
-		display:inline;
-		float:left;
-		width:165px;
-	}
-
-	#header4point5 #rightbutton button{
-		display:inline;
-		float:right;
-		width:165px;
-		margin-right:20px;
-	}
-
-	#header4point5 .form-inline {
-		background-color:transparent;
-		border: none;
-		box-shadow: none;
-		margin-bottom:0;
-		padding:10px 0 0 0;
-	}
-
-	#header4point5 .form-inline input, select {
-		border: 1px solid #000000;
-		color:#606060;
-		font-weight:bold;
-	}
-
+	
 	#photoreel a.leftarrow  {
 		background-image:url("../images/leftarrow.png");
 		background-repeat:no-repeat;
@@ -665,19 +447,163 @@
 	#header4 #photoreel #reelimages {
 		margin-left:0px;
 	}
+	
+	/* ------ header 4 - contains most content and grey fade at top END ------ */
+	
+	.divider {
+		margin-top:40px;
+		float:left;
+	}
+	
+	#stafftwitter {
+		height: 100px;
+		height: 100px;
+	}
+	
+	#staffform {
+		margin-top: 40px;
+		width:310px;
+	}
+	
+	#staffsocial img {
+		width:60px;
+		margin-bottom:15px;
+	}
+	
+	#staffsocial{
+		margin: 20px 0 5px 0;
+	}
+	
+	#staffsocial a {
+		font-size:14px;
+		text-decoration:underline;
+		margin-right:20px
+	}
+	
+	#staffsocial #links {
+		width:175px;
+		float:right;
+		margin:11px 30px 10px 0;
+	}
+	
+	#staffsocial #singlelinks {
+		width:175px;
+		float:right;
+		margin:18px 30px 10px 0;
+	}
+	
+	#followstaff {
+		margin: 40px 0 0 20px;
+	}
+	
+	#staffformcontainer .span4 {
+		margin-left:0; 
+	}
+	
+	#staffform  .form-horizontal {
+		margin-top:20px;
+	}
+	
+	#staffform .form-horizontal .control-label {
+		text-align:left;
+		width: 80px;
+	}
+	
+	#staffform .form-horizontal .controls {
+		margin-left:0;
+	}
 
-	#header2 .form-inline {
+	#staffform  label.checkbox {
+		font-size:12px;
+	}
+	
+	#staffheader {
+		margin-top:14px;
+	}
+	
+	#staffphoto {
+		float:left;
+		margin-top:20px;
+	}
+	
+	#staffphoto img {
+		border: 1px solid #bcbcbc
+	}
+	
+	#staffbio {
+		float:right;
+		margin-top:18px;
+		width:400px;
+	}
+	
+	#staffbio p {
+		font-size:14px;
+	}
+	
+	#propdetailsform .form-horizontal label.control-label{
+		width:100px;
+		text-align:left;
+		padding-left:20px;	
+		margin-top:15px
+	}
+
+	#propdetailsform .form-horizontal label.checkbox {
+		padding-left:38px;
+	}
+
+	#propdetailsform .form-horizontal .controls {
+		margin-left:0;
+		margin-top:15px;
+	}
+
+	#propdetailsform .form-horizontal .control-group {
+		margin-bottom: 8px;
+	}
+
+	#propdetailsform .form-horizontal select {
+		border: 1px solid #CCC;
+	}
+
+	#propdetailsform .form-horizontal {
+		background-color: #E8E8E8;
+		min-height:430px;
+		box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
+		border-left: 1px solid #DCDCDC;
+		border-right: 1px solid #DCDCDC;
+		border-bottom: 1px solid #DCDCDC;
+		border-radius: 0px 0px 4px 4px;
+	}
+
+	#propdetailsform .form-horizontal select {
+		font-weight:normal;
+		color:#999999;
+	}
+
+	/* ------ header 4.5 used on property details page for scrolling ------ */
+	
+	#header4point5 {
+		background-color:#B5B5B5;
+		background-repeat:repeat-x;
+		height:50px;
+		border-top: 1px solid #9e9e9e;
+		margin-top:50px;
+	}
+
+	#header4point5 .form-inline {
 		background-color:transparent;
 		border: none;
 		box-shadow: none;
+		margin-bottom:0;
+		padding:10px 0 0 0;
 	}
 
-	#header2 .form-inline input, select {
+	#header4point5 .form-inline input, select {
 		border: 1px solid #000000;
 		color:#606060;
 		font-weight:bold;
-		margin-right:4px;
 	}
+	
+	/* ------ header 4.5 used on property details page for scrolling END ------ */
 
 	#bodytext {
 		width: 500px;
@@ -730,59 +656,6 @@
 	#mainsearch .row2 {
 		margin: 0 0 0 33px;
 		width: 920px;
-	}
-
-	#inlineviews  {
-		margin: 18px 0 0 0;
-		height:30px;
-	}
-
-	#inlineviews a {
-		color: #494949;
-		font-weight: bold;
-		font-size: 12px;
-		text-decoration:none;
-		padding: 0 10px 0 10px;
-	}
-
-	#inlineviews #group1 {
-		display: inline;
-	}
-
-	#inlineviews #group2 {
-		display: inline;
-	}
-
-	#inlineviews  #group1 a.selected {
-		background-image:url("../images/viewlistbg.png");
-		background-repeat:no-repeat;
-		background-position:center center;
-		padding:11px 17px 8px 17px;	
-	}
-
-	#inlineviews  #group2 a.selected {
-		background-image:url("../images/viewsortbg.png");
-		background-repeat:no-repeat;
-		background-position:center center;
-		padding: 11px 19px 7px 19px;	
-	}
-
-	#inlineviews  #group3 a.selected {
-		background-image:url("../images/viewsortbg.png");
-		background-repeat:no-repeat;
-		background-position:center center;
-		padding: 10px 32px 8px 32px;	
-	}
-
-	#inlineviews .titles {
-		color:#acacac;
-		font-weight:bold;
-		margin: 0 12px 0 0;
-		font-size: 12px;
-	}
-
-	#inlineviews  #group2 .titles {
-		margin-left: 40px;
 	}
 
 	.topprop {
@@ -873,7 +746,7 @@
 	
 	hr {
 		color:#ededed;
-		margin: 0px 0 14px 0; <!-- works with margin on propertyimages to space evenly -->
+		margin: 0px 0 14px 0; /* works with margin on propertyimages to space evenly */
 	}
 
 	#propdetailssidebox1 {
@@ -1108,3 +981,170 @@
 		font-weight:normal;
 		font-size:14px;
 	}
+	
+	/* ------ buttons ------ */
+	
+	/* main orange buttons */
+	
+	.btn-primary {
+		background-color:#ef9702;
+		*background-color: #ef9702;
+		background-image: -moz-linear-gradient(center top, #ffc51c, #ef9702);
+		background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#ffc51c), to(#ef9702)); 
+		background-image: -webkit-linear-gradient(top, #ffc51c, #ef9702);
+		background-image: -o-linear-gradient(top, #ffc51c, #ef9702);
+		background-image: linear-gradient(to bottom, #ffc51c, #ef9702);
+		background-image: -moz-linear-gradient(top, #ffc51c, #ef9702); 
+		border-color: #ffc51c #ef9702 #d38502; 
+		filter: progid:dximagetransform.microsoft.gradient(startColorstr='#ffffc51c', ENDColorstr='#ffef9702', GradientType=0);
+		font-size:15px;
+		text-shadow:none;
+		font-weight:bold;
+	}
+
+	.btn-primary:hover,
+	.btn-primary:active,
+	.btn-primary.active,
+	.btn-primary.disabled,
+	.btn-primary[disabled] {
+		  color: #ffffff;
+		  background-color: #ef9702;
+		  *background-color: #ef9702; 
+		  filter: progid:dximagetransform.microsoft.gradient(startColorstr='#ffef9702', ENDColorstr='#ffffc51c', GradientType=0);
+	}
+
+	.btn-primary:active,
+		.btn-primary.active {
+		  background-color: #ef9702 \9; 
+	}
+	
+	/* main orange buttons END */
+	
+	
+	#header2 form .btn-primary {
+		margin:0 0 0 3px;
+		width:87px;
+	}
+	
+	#smallergreenheader #centrebuttons .btn-primary {
+		background-color:#a1a1a1;
+		*background-color: #a1a1a1;
+		background-image: -moz-linear-gradient(center top, #cfcdcd, #a1a1a1);
+		background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#cfcdcd), to(#a1a1a1)); 
+		background-image: -webkit-linear-gradient(top, #cfcdcd, #a1a1a1);
+		background-image: -o-linear-gradient(top, #cfcdcd, #a1a1a1);
+		background-image: linear-gradient(to bottom, #cfcdcd, #a1a1a1);
+		background-image: -moz-linear-gradient(top, #cfcdcd, #a1a1a1); 
+		border-color: #a1a1a1 #a1a1a1 #a1a1a1; 
+		filter: progid:dximagetransform.microsoft.gradient(startColorstr='#ffcfcdcd', ENDColorstr='#ffa1a1a1', GradientType=0);
+		margin:0 0 0 6px;
+		width:180px;
+		color:#ffffff;
+		text-shadow:none;
+	}
+
+	#smallergreenheader #centrebuttons .btn-primary:hover,
+	.btn-primary:active,
+	.btn-primary.active,
+	.btn-primary.disabled,
+	.btn-primary[disabled] {
+		background-color:#ef9702;
+		*background-color: #ef9702;
+		background-image: -moz-linear-gradient(center top, #ffc51c, #ef9702);
+		background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#ffc51c), to(#ef9702)); 
+		background-image: -webkit-linear-gradient(top, #ffc51c, #ef9702);
+		background-image: -o-linear-gradient(top, #ffc51c, #ef9702);
+		background-image: linear-gradient(to bottom, #ffc51c, #ef9702);
+		background-image: -moz-linear-gradient(top, #ffc51c, #ef9702); 
+		border-color: #ffc51c #ef9702 #d38502; 
+		filter: progid:dximagetransform.microsoft.gradient(startColorstr='#ffef9702', ENDColorstr='#ffffc51c', GradientType=0);
+	}
+ 
+	#smallergreenheader #centrebuttons btn-primary:active,
+		.btn-primary.active {
+		background-color:#ef9702 \9; 
+	}
+	
+	#smallergreenheader form .btn-primary {
+		margin:0 0 0 3px;
+		width:170px;
+	}
+
+	#smallergreenheader #staffbuttons button{
+		margin-right: 10px;
+		margin-left:0;
+	}
+	
+	#smallergreenheader #leftbutton button{
+		margin-left:0;
+	}
+	
+	#header3 form .btn-primary {
+		background-color:#a1a1a1;
+		*background-color: #a1a1a1;
+		background-image: -moz-linear-gradient(center top, #cfcdcd, #a1a1a1);
+		background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#cfcdcd), to(#a1a1a1)); 
+		background-image: -webkit-linear-gradient(top, #cfcdcd, #a1a1a1);
+		background-image: -o-linear-gradient(top, #cfcdcd, #a1a1a1);
+		background-image: linear-gradient(to bottom, #cfcdcd, #a1a1a1);
+		background-image: -moz-linear-gradient(top, #cfcdcd, #a1a1a1); 
+		border-color: #a1a1a1 #a1a1a1 #a1a1a1; 
+		filter: progid:dximagetransform.microsoft.gradient(startColorstr='#ffcfcdcd', ENDColorstr='#ffa1a1a1', GradientType=0);
+		margin:0 0 0 6px;
+		width:170px;
+		color:#ffffff;
+		text-shadow:none;
+	}
+
+	#header3 form .btn-primary:hover,
+	.btn-primary:active,
+	.btn-primary.active,
+	.btn-primary.disabled,
+	.btn-primary[disabled] {
+		background-color:#ef9702;
+		*background-color: #ef9702;
+		background-image: -moz-linear-gradient(center top, #ffc51c, #ef9702);
+		background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#ffc51c), to(#ef9702)); 
+		background-image: -webkit-linear-gradient(top, #ffc51c, #ef9702);
+		background-image: -o-linear-gradient(top, #ffc51c, #ef9702);
+		background-image: linear-gradient(to bottom, #ffc51c, #ef9702);
+		background-image: -moz-linear-gradient(top, #ffc51c, #ef9702); 
+		border-color: #ffc51c #ef9702 #d38502; 
+		filter: progid:dximagetransform.microsoft.gradient(startColorstr='#ffef9702', ENDColorstr='#ffffc51c', GradientType=0);
+	}
+ 
+	#header3 form btn-primary:active,
+		.btn-primary.active {
+		background-color:#ef9702 \9; 
+	}
+	
+	#header4 .well .btn {
+		margin: 15px 0 0 130px;
+	}
+	
+	#header4point5 #leftbutton button{
+		display:inline;
+		float:left;
+		width:165px;
+	}
+
+	#header4point5 #rightbutton button{
+		display:inline;
+		float:right;
+		width:165px;
+		margin-right:20px;
+	}
+	
+	#staffform .btn{
+		float:right;
+		margin-right:5px;
+		width:150px;
+	}
+	
+	#propdetailsform .form-horizontal .btn {
+		float:right;
+		margin-right:40px;
+	}
+	
+	/* ------ buttons END ------ */
+
