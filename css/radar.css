@@ -495,7 +495,7 @@
 	}
 	
 	#header6 a {
-		color:#DCDCDC;
+		color:#e6e6e6;
 		font-weight:normal;
 	}
 	
@@ -515,6 +515,10 @@
 		font-size:14px;
 	}
 	
+	#footer .links img {
+		margin-bottom:2px;
+	}
+	
 	/* ------ header 5 and header 6 contain footer items END ------ */
 	
 	/* Staff page - individual staff member's page*/
@@ -529,7 +533,6 @@
 	}
 	
 	#staffsocial img {
-		width:60px;
 		margin-bottom:15px;
 	}
 	
@@ -544,24 +547,24 @@
 	}
 	
 	#staffsocial #links {
-		width:175px;
+		width:170px;
 		float:right;
-		margin:11px 30px 10px 0;
+		margin:0px 45px 10px 0;
 	}
 	
 	#staffsocial #singlelinks {
-		width:175px;
+		width:170px;
 		float:right;
-		margin:18px 30px 10px 0;
+		margin:10px 45px 10px 0;
 	}
 	
 	.divider {
-		margin-top:40px;
+		margin:40px 0 0 5px;
 		float:left;
 	}
 	
 	#followstaff {
-		margin: 40px 0 0 20px;
+		margin: 40px 0 0 28px;
 	}
 	
 	#staffformcontainer .span4 {
@@ -606,6 +609,13 @@
 	
 	#staffbio p {
 		font-size:14px;
+	}
+	
+	#agentsnippet p {
+		clear:both;
+		font-size:16px;
+		font-style:italic;
+		font-weight:bold;
 	}
 	
 	/* ------ Staff page - individual staff member's page END ------ */
