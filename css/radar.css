@@ -947,7 +947,7 @@
 
 	#header5 {
 		height:150px;
-		background:#E8E8E8;
+		background:#D4D4D4;
 		border-top: 1px solid #DCDCDC;
 	}
 
@@ -973,13 +973,13 @@
 	}
 
 	#footer .titles{
-		color:#979797;
+		color:#494949;
 		font-weight:bold;
 		font-size:16px;
 	}
 
 	#footer .links a{
-		color:#B5B5B5;
+		color:#717171;
 		font-weight:normal;
 		font-size:14px;
 	}
