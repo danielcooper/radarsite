@@ -788,15 +788,19 @@
 	}
 	
 	.secondaryimages img{
-		border: 1px solid #DCDCDC;
+		border:1px solid #DCDCDC;
+		width:75px;
+		height:56px;
 	}
 	
-	.mainimage	{
+	.mainimage {
 		width:160px;
 	}
 
 	.mainimage img {
 		border:1px solid #DCDCDC;
+		width:160px;
+		height:117px;
 	}
 	
 	hr {
