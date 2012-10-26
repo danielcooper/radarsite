@@ -288,6 +288,7 @@
 	#homeheader3 {
 		background-image:url("../images/greybackground.png");
 		background-repeat:repeat-x;
+		margin-bottom: 100px;
 	}
 
 	/* ------ header 3 - lighter grey fill - used on prop results and details ------ */
