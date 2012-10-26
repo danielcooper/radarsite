@@ -372,7 +372,7 @@
 		font-weight: bold;
 		font-size: 12px;
 		text-decoration:none;
-		padding: 0 10px 0 10px;
+		
 	}
 
 	#inlineviews #group1 {
@@ -387,9 +387,16 @@
 		background-image:url("../images/viewlistbg.png");
 		background-repeat:no-repeat;
 		background-position:center center;
-		padding:11px 17px 8px 17px;	
+		padding:11px 14px 8px 14px;	
 	}
 
+	#inlineviews  #group1 a.wideselected {
+		background-image:url("../images/viewsortbg.png");
+		background-repeat:no-repeat;
+		background-position:center center;
+		padding:12px 22px 8px 22px;	
+	}
+	
 	#inlineviews  #group2 a.selected {
 		background-image:url("../images/viewsortbg.png");
 		background-repeat:no-repeat;
