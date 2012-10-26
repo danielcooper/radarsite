@@ -520,6 +520,10 @@
 	#header4 .mainpropimage {
 		margin-top:21px;
 	}
+	
+	#header4 .mainpropimage {
+		border: 1px solid #BCBCBC;
+	}
 
 	#header4 .propertydes {
 		margin: 25px 0 45px 0;
@@ -987,7 +991,7 @@
 	.sideboxcontent {
 		padding: 14px 14px 0 16px;
 	}
-
+	
 	.sideboxcontent p {
 		font-weight:bold;
 	}
