@@ -661,7 +661,7 @@
 	}
 	
 	#staffform {
-		margin-top: 40px;
+		margin-top: 20px;
 		width:310px;
 	}
 	
@@ -692,12 +692,12 @@
 	}
 	
 	.divider {
-		margin:40px 0 0 5px;
+		margin:20px 0 0 5px;
 		float:left;
 	}
 	
 	#followstaff {
-		margin: 40px 0 0 28px;
+		margin: 20px 0 0 28px;
 	}
 	
 	#staffformcontainer .span4 {
