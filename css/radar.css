@@ -148,11 +148,13 @@
 		background-color:#7bb075;
 		background-repeat:repeat-x;
 		height: 180px;
+		border-bottom: 1px solid #BCBCBC;
 	}
 
 	#homeheader2 form {
-		margin: 20px 0 0 0;
+		margin: 30px 0 0 30px;
 		padding: 0;
+		width:920px;
 	}
 
 	#homeheader2 .form-inline {
@@ -179,10 +181,10 @@
 	#homeheader2 h1 {
 		color:#ffffff;
 		font-weight:normal;
-		font-size:24px;
+		font-size:26px;
 		width:550px;
 		margin-left:130px;
-		padding-top:2px;
+		padding-top:4px;
 	}
 	
 	#homeheader2 #mainbuttons {
@@ -203,11 +205,54 @@
 	#homeheader2 .form-inline a {
 		color:#ffffff;
 		font-weight:normal;
-		margin-left:55px;
+		margin-left:45px;
+	}
+	
+	#unselected .btn-primary {
+		background-color:#a1a1a1;
+		*background-color: #a1a1a1;
+		background-image: -moz-linear-gradient(center top, #cfcdcd, #a1a1a1);
+		background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#cfcdcd), to(#a1a1a1)); 
+		background-image: -webkit-linear-gradient(top, #cfcdcd, #a1a1a1);
+		background-image: -o-linear-gradient(top, #cfcdcd, #a1a1a1);
+		background-image: linear-gradient(to bottom, #cfcdcd, #a1a1a1);
+		background-image: -moz-linear-gradient(top, #cfcdcd, #a1a1a1); 
+		border-color: #a1a1a1 #a1a1a1 #a1a1a1; 
+		filter: progid:dximagetransform.microsoft.gradient(startColorstr='#ffcfcdcd', ENDColorstr='#ffa1a1a1', GradientType=0);
+		margin:0 0 0 6px;
+		width:170px;
+		color:#ffffff;
+		text-shadow:none;
+	}
+
+	#unselected  .btn-primary:hover,
+	.btn-primary:active,
+	.btn-primary.active,
+	.btn-primary.disabled,
+	.btn-primary[disabled] {
+		background-color:#a1a1a1;
+		*background-color: #a1a1a1;
+		background-image: -moz-linear-gradient(center top, #cfcdcd, #a1a1a1);
+		background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#cfcdcd), to(#a1a1a1)); 
+		background-image: -webkit-linear-gradient(top, #cfcdcd, #a1a1a1);
+		background-image: -o-linear-gradient(top, #cfcdcd, #a1a1a1);
+		background-image: linear-gradient(to bottom, #cfcdcd, #a1a1a1);
+		background-image: -moz-linear-gradient(top, #cfcdcd, #a1a1a1); 
+		border-color: #a1a1a1 #a1a1a1 #a1a1a1; 
+		filter: progid:dximagetransform.microsoft.gradient(startColorstr='#ffa1a1a1', ENDColorstr='#ffcfcdcd', GradientType=0);
+	}
+ 
+	#unselected  btn-primary:active,
+		.btn-primary.active {
+		background-color:#a1a1a1 \9; 
 	}
 	
 	/* ------ Home header2 green fill END ------ */	
 
+	iframe {
+		margin-top:45px;
+	}
+	
 	/* ------ smaller green fill header on staff page etc ------ */	
 	
 	#smallergreenheader {
@@ -735,10 +780,9 @@
 	/* ------ Prop details form - used on prop details page to customise form END ------  */
 
 	#bodytext {
-		width: 500px;
-		margin: 10px 0 0 420px;
 		line-height:125%;
 		padding: 0;
+		margin-top:40px;
 	}
 
 	/* ------ Main search related styles on the home page ------ */
@@ -1135,7 +1179,7 @@
 	}
 	
 	#homeheader2 form .btn-primary {
-		margin:0 130px 0 3px;
+		margin:0 120px 0 3px;
 		width:157px;
 		float:right;
 	}
