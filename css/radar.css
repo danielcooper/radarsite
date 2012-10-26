@@ -372,7 +372,8 @@
 		font-weight: bold;
 		font-size: 12px;
 		text-decoration:none;
-		
+		padding:0;
+		margin:0 2px 0 2px;
 	}
 
 	#inlineviews #group1 {
@@ -396,7 +397,7 @@
 		background-position:center center;
 		padding:12px 22px 8px 22px;	
 	}
-	
+
 	#inlineviews  #group2 a.selected {
 		background-image:url("../images/viewsortbg.png");
 		background-repeat:no-repeat;
