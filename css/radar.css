@@ -141,6 +141,72 @@
 	}
 
 	/* ------ header2 green fill END ------ */	
+	
+	/* ------ Home header2 green fill - contains main search form ------ */
+	
+	#homeheader2 {
+		background-color:#7bb075;
+		background-repeat:repeat-x;
+		height: 180px;
+	}
+
+	#homeheader2 form {
+		margin: 20px 0 0 0;
+		padding: 0;
+	}
+
+	#homeheader2 .form-inline {
+		background-color:transparent;
+		border: none;
+		box-shadow: none;
+	}
+
+	#homeheader2 .form-inline input, select {
+		border: 1px solid #000000;
+		color:#606060;
+		font-weight:bold;
+		margin-right:4px;
+	}
+	
+	#homeheader2 .form-inline input {
+		margin-bottom:12px;
+	}
+	
+	#homeheader2 .form-inline select {
+		margin-right:12px;
+	}
+	
+	#homeheader2 h1 {
+		color:#ffffff;
+		font-weight:normal;
+		font-size:24px;
+		width:550px;
+		margin-left:130px;
+		padding-top:2px;
+	}
+	
+	#homeheader2 #mainbuttons {
+		float:left;
+		width:290px;
+	}
+	
+	#homeheader2 #mainbuttons .btn-primary {
+		margin:0 10px 0 0;
+		float:left;
+		width: 130px;
+	}
+	
+	#homeheader2 #line1 {
+		margin-bottom:20px;
+	}
+	
+	#homeheader2 .form-inline a {
+		color:#ffffff;
+		font-weight:normal;
+		margin-left:55px;
+	}
+	
+	/* ------ Home header2 green fill END ------ */	
 
 	/* ------ smaller green fill header on staff page etc ------ */	
 	
@@ -174,6 +240,11 @@
 
 	/* ------ smaller green fill header on staff page etc END ------ */	
 	
+	#homeheader3 {
+		background-image:url("../images/greybackground.png");
+		background-repeat:repeat-x;
+	}
+
 	/* ------ header 3 - lighter grey fill - used on prop results and details ------ */
 	
 	#header3 {
@@ -1061,6 +1132,12 @@
 	#header2 form .btn-primary {
 		margin:0 0 0 3px;
 		width:87px;
+	}
+	
+	#homeheader2 form .btn-primary {
+		margin:0 130px 0 3px;
+		width:157px;
+		float:right;
 	}
 	
 	#smallergreenheader #centrebuttons .btn-primary {
