@@ -520,10 +520,6 @@
 	#header4 .mainpropimage {
 		margin-top:21px;
 	}
-	
-	#header4 .mainpropimage {
-		border: 1px solid #BCBCBC;
-	}
 
 	#header4 .propertydes {
 		margin: 25px 0 45px 0;
@@ -542,7 +538,7 @@
 		height:66px;
 		width:29px;
 		float:left;
-		margin-right:10px;
+		margin-right:8px;
 	}
 
 	#photoreel a:hover.leftarrow  {
@@ -577,7 +573,7 @@
 
 	#header4 #photoreel img {
 		display:inline;
-		margin: 0 5px 0 0;
+		margin: 0 4px 0 0;
 	}
 
 	#header4 #photoreel #reelimages {
@@ -983,11 +979,7 @@
 	#sidebox3 {
 		height: 250px;
 	}
-
-	#sidebox2 img {
-		border: 1px solid #bcbdb7;
-	}
-
+	
 	.sideboxcontent {
 		padding: 14px 14px 0 16px;
 	}
@@ -1070,7 +1062,16 @@
 	#staffsidebox1 {
 		height:400px;
 	}
+	
+	#branchsidebox {
+		height:430px;
+	}
 
+	#branchsidebox .sideboxcontent p {
+		font-weight: normal;
+		margin-top: 10px;
+	}
+	
 	#shortlistsidebox {
 		height: 200px;
 	}
@@ -1123,6 +1124,10 @@
 		font-weight:bold;
 	}
 
+	.bordered  {
+		border: 1px solid #BCBCBC;
+	}
+		
 	/* ------ SIDEBOXES END ------ */
 	
 	/* ------ Pagination for page cycling ------ */
