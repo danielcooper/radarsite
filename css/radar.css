@@ -146,6 +146,11 @@
 		font-weight:bold;
 		margin-right:4px;
 	}
+	
+	#header2 .form-inline select {
+		height:30px;
+	}
+		
 
 	/* ------ header2 green fill END ------ */	
 	
