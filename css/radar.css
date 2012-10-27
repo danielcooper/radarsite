@@ -1362,7 +1362,6 @@
 
 	#navigation ul li {
 		display: inline;
-		height:25px;
 	}
 
 	#navigation li a {
@@ -1384,6 +1383,7 @@
 		background: url("../images/viewlistbg.png");
 		background-repeat:no-repeat;
 		background-position:center center;
+		height:50px;
 	}	
 	.gate {
 		margin-top:2px;
