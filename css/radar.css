@@ -1346,8 +1346,8 @@
 
 	#navigation {
 		float:left;
-		margin-top:16px;
-		width: 775px;
+		margin-top:18px;
+		width: 785px;
 	}
 
 	#navigation ul, #navigation ul li {
@@ -1368,8 +1368,8 @@
 		color: #494949;
 		font-weight: bold;
 		font-size: 12px;
-		padding-top:14px;
-		padding-bottom:15px;
+		padding-top:10px;
+		padding-bottom:9px;
 		text-decoration:none;
 	}
 
@@ -1383,7 +1383,6 @@
 		background: url("../images/viewlistbg.png");
 		background-repeat:no-repeat;
 		background-position:center center;
-		height:50px;
 	}	
 	.gate {
 		margin-top:2px;
