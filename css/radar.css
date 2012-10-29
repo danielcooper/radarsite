@@ -676,7 +676,11 @@
 	/* Staff page - individual staff member's page*/
 	
 	#stafftwitter {
-		height: 100px;
+		height: 240px;
+	}
+	
+	#stafftwitter p{
+		
 	}
 	
 	#staffform {
@@ -1160,6 +1164,7 @@
 		color:#2e8b23;
 		font-weight:bold;
 		margin-top:15px;
+		font-size:16px;
 	}
 
 	#pagination a{
