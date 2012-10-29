@@ -129,24 +129,7 @@
 		height: 60px;
 	}
 
-	#header2 form {
-		margin: 15px 0 0 0;
-		padding: 0;
-	}
 
-	#header2 .form-inline {
-		background-color:transparent;
-		border: none;
-		box-shadow: none;
-	}
-
-	#header2 .form-inline input, select {
-		border: 1px solid #000000;
-		color:#606060;
-		font-weight:bold;
-		margin-right:4px;
-	}
-	
 	/* ------ header2 green fill END ------ */	
 	
 	/* ------ Home header2 green fill - contains main search form ------ */
