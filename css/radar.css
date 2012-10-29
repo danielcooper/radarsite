@@ -164,7 +164,7 @@
 	}
 
 	#homeheader2 form {
-		margin: 30px 0 0 30px;
+		margin: 30px 0 0 0px;
 		padding: 0;
 		width:920px;
 	}
@@ -194,18 +194,17 @@
 		color:#ffffff;
 		font-weight:normal;
 		font-size:26px;
-		width:550px;
-		margin-left:130px;
-		padding-top:4px;
+		margin-left:310px;
+		padding-top:3px;
 	}
 	
 	#homeheader2 #mainbuttons {
 		float:left;
-		width:290px;
+		width:300px;
 	}
 	
 	#homeheader2 #mainbuttons .btn-primary {
-		margin:0 10px 0 0;
+		margin:0 20px 0 0;
 		float:left;
 		width: 130px;
 	}
@@ -217,7 +216,7 @@
 	#homeheader2 .form-inline a {
 		color:#ffffff;
 		font-weight:normal;
-		margin-left:45px;
+		margin-left:120px;
 	}
 	
 	#unselected .btn-primary {
@@ -1221,8 +1220,8 @@
 	}
 	
 	#homeheader2 form .btn-primary {
-		margin:0 120px 0 3px;
-		width:157px;
+		margin:0 50px 0 3px;
+		width:150px;
 		float:right;
 	}
 	
@@ -1353,7 +1352,7 @@
 	#navigation {
 		float:left;
 		margin-top:18px;
-		width: 758px;
+		width: 776px;
 	}
 
 	#navigation ul, #navigation ul li {
