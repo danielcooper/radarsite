@@ -541,6 +541,10 @@
 		font-size:14px;
 	}
 
+	#header4 .propertydes a{
+		text-decoration:underline;
+	}
+	
 	#header4 #photoreel {
 		margin-top:10px;
 	}
@@ -757,6 +761,10 @@
 	
 	#staffbio p {
 		font-size:14px;
+	}
+	
+	#staffbio a {
+		text-decoration:underline;
 	}
 	
 	#agentsnippet p {
