@@ -663,7 +663,8 @@
 	}
 	
 	#footer .links img {
-		margin-bottom:2px;
+		margin-bottom:3px;
+		margin-right:2px;
 	}
 	
 	/* ------ header 5 and header 6 contain footer items END ------ */
@@ -1352,7 +1353,7 @@
 	#navigation {
 		float:left;
 		margin-top:18px;
-		width: 754px;
+		width: 758px;
 	}
 
 	#navigation ul, #navigation ul li {
