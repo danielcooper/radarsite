@@ -132,8 +132,6 @@
 	#header2 form {
 		margin: 15px 0 0 0;
 		padding: 0;
-		height:30px;
-		width:932px;
 	}
 
 	#header2 .form-inline {
@@ -147,10 +145,12 @@
 		color:#606060;
 		font-weight:bold;
 		margin-right:4px;
+		padding: 4px 6px;
 	}
 	
 	#header2 .form-inline select {
 		height:30px;
+		padding: 4px 6px;
 	}
 	
 	/* ------ header2 green fill END ------ */	
