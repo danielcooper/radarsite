@@ -73,13 +73,9 @@
 	}
 	
 	#topnav a.selected {
-		background-image:url("../images/greentoppointer.png");
-		background-repeat:no-repeat;
-		background-position:center bottom;
 		color:#ffffff;
-		padding-bottom:21px;
 	}
-
+	
 	/* ------ main top navigation END ------ */
 	
 	/* ------ top right customer login ------ */
