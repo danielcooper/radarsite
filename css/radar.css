@@ -46,17 +46,22 @@
 	/* ------ top header END ------ */
 	
 	#mainlogo {
-		 width: 250px;
-		 float: left;
-		 margin: 17px 0 0 2px;
+		width: 260px;
+		float: left;
+		margin: 17px 0 0 2px;
+		background-image:url("../images/greentoppointer.png");
+		background-repeat:no-repeat;
+		background-position:center bottom;
+		height:64px;
 	}
 
 	/* ------ main top navigation ------ */
 	
 	#topnav {
 		margin: 0px 0 0 0px;
-		padding: 42px 0 20px 0;
+		padding: 41px 0 0px 0;
 		width: 430px;
+		height:40px;
 		text-shadow: 1px 1px 1px #000000;
 	}
 
