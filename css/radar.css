@@ -937,9 +937,9 @@
 	}
 	
 	.progress {
-		width:100%;
+		width:90%;
 		margin-top:5px;
-		height:15px;
+		height:13px;
 		background:#545454;
 		box-shadow:none;
 	}
