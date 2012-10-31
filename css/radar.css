@@ -30,6 +30,10 @@
 		line-height: 24px;
 		margin-bottom:0;
 	}
+	
+	.pgrey {
+		color:#717171;
+	}
 
 	/* ------ top header ------ */
 	
@@ -925,8 +929,35 @@
 		width: 920px;
 	}
 
-	/* ------ Main search related styles on the home page ------ */
+	/* ------ Main search related styles on the home page end ------ */
+	
+	#findagentssp img {
+		display:inline;
+		margin:5px 5px 0 0;
+	}
+	
+	.progress {
+		width:100%;
+	}
+	
+	.progress  .bar{
+	     background-color: #84eb79;
+		background-image: linear-gradient(to bottom, #84eb79, #6dba64);
 		
+		
+	}
+	
+	.progress {
+		border:1px solid #b7b7b7;
+	}
+	
+	#rank {
+		float:right;
+		margin: 10px 0px 0px 0;
+		height:50px;
+		width:80px;
+	}
+
 	/* ------ Property results class elements ------ */
 	
 	.topprop {
