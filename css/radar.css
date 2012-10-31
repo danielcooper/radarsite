@@ -938,33 +938,31 @@
 	
 	.progress {
 		width:100%;
+		margin-top:5px;
+		height:15px;
+		background:#545454;
+		box-shadow:none;
 	}
 	
 	.progress  .bar{
-	    background-color: #84eb79;
-		background-image: linear-gradient(to bottom, #84eb79, #6dba64);
-		background-color: #84eb79;
-		background-image: -moz-linear-gradient(top, #84eb79, #6dba64);
-		background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#84eb79), to(#6dba64));
-		background-image: -webkit-linear-gradient(top, #84eb79, #6dba64);
-		background-image: -o-linear-gradient(top, #84eb79, #6dba64);
-		background-image: linear-gradient(to bottom, #84eb79, #6dba64);
+	    background-color: #52b264;
+		background-image: linear-gradient(to bottom, #52b264, #49a35a);
+		background-color: #52b264;
+		background-image: -moz-linear-gradient(top, #52b264, #49a35a);
+		background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#52b264), to(#49a35a));
+		background-image: -webkit-linear-gradient(top, #52b264, #49a35a);
+		background-image: -o-linear-gradient(top, #52b264, #49a35a);
+		background-image: linear-gradient(to bottom, #52b264, #49a35a);
 		background-repeat: repeat-x;
-		filter: progid:dximagetransform.microsoft.gradient(startColorstr='#ff84eb79', endColorstr='#ff6dba64', GradientType=0);
-	}
-	
-	.progress {
-		border:1px solid #b7b7b7;
+		filter: progid:dximagetransform.microsoft.gradient(startColorstr='#ff52b264', endColorstr='#ff49a35a', GradientType=0);
 	}
 	
 	#rank {
-		float:right;
-		margin: 10px 0px 0px 0;
-		height:50px;
-		width:80px;
-		text-align:center;
+		float:left;
+		margin: 0px 0px 0px 0;
+		width:76px;
 	}
-
+	
 	/* ------ Property results class elements ------ */
 	
 	.topprop {
@@ -983,49 +981,49 @@
 		width:434px;
 	}
 
-	.propertytext .propertyheading a {
+	.recordtext .recordheading a {
 		color: #ff5a00;
 		font-weight: bold;
 		font-size: 16px;
 		text-decoration:none;
 	}
 
-	.propertytext .propertyheading p {
+	.recordtext .recordheading p {
 		margin-bottom:4px;
 	}
 
-	.propertytext .secondaryheading p{
+	.recordtext .secondaryheading p{
 		margin-bottom:3px;
 	}
 
-	.propertytext .secondaryheading a{
+	.recordtext .secondaryheading a{
 		color:#434343;
 		font-weight:bold;
 		font-size: 16px;
 	}
 
-	.propertytext  .propertysummary p{
+	.recordtext  .recordsummary p{
 		text-align:justify;	
 		margin-bottom:2px;
 		color:#717171;
 	}
 
-	.propertytext .contacttools a{
+	.recordtext .contacttools a{
 		color:#006f00;
 		text-decoration:underline;
 		font-weight:normal;
 	}
 
-	.propertytext .contacttools p{
+	.recordtext .contacttools p{
 		color:#006f00;
 		margin-bottom:0;
 	}
 
-	.propertyimages img{
+	.recordimages img{
 		padding:0px;
 	}
 
-	.propertyimages {
+	.recordimages {
 		float:left;
 		background-color:#e8e8e8;
 		text-align:center;
@@ -1033,6 +1031,7 @@
 		border:1px solid #dcdcdc;
 		margin-bottom:15px;
 		margin-right:0;
+		margin-top:3px;
 	}
 
 	.secondaryimages {
@@ -1054,7 +1053,7 @@
 	
 	hr {
 		color:#ededed;
-		margin: 0px 0 14px 0; /* works with margin on propertyimages to space evenly */
+		margin: 0px 0 14px 0; /* works with margin on recordimages to space evenly */
 	}
 
 	/* ------ Property results class elements END ------ */
