@@ -945,16 +945,7 @@
 	}
 	
 	.progress  .bar{
-	    background-color: #52b264;
-		background-image: linear-gradient(to bottom, #52b264, #49a35a);
-		background-color: #52b264;
-		background-image: -moz-linear-gradient(top, #52b264, #49a35a);
-		background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#52b264), to(#49a35a));
-		background-image: -webkit-linear-gradient(top, #52b264, #49a35a);
-		background-image: -o-linear-gradient(top, #52b264, #49a35a);
-		background-image: linear-gradient(to bottom, #52b264, #49a35a);
-		background-repeat: repeat-x;
-		filter: progid:dximagetransform.microsoft.gradient(startColorstr='#ff52b264', endColorstr='#ff49a35a', GradientType=0);
+	
 	}
 	
 	#rank {
@@ -962,6 +953,7 @@
 		margin: 0px 0px 0px 0;
 		width:76px;
 	}
+	
 	
 	/* ------ Property results class elements ------ */
 	
