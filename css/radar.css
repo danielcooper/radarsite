@@ -1,3 +1,7 @@
+	.container {
+		padding-left:5px;
+	}
+	
 	body {
 		background-image:url("../images/greybackground.png");
 		background-repeat:repeat-x;
@@ -410,6 +414,11 @@
 		font-size:16px;
 		color:#979797;
 		font-weight:bold;
+	}
+	
+	.largegreen {
+		font-size:14px;
+		color:#429140;
 	}
 	
 	#header3staff {
@@ -1269,32 +1278,40 @@
 	
 	/* ------ Pagination for page cycling ------ */
 	
-	#pagination{
+	#toppagination {
+		float:right;
+		height:18px;
+		margin-right:145px;
+		margin-top:-2px;
+	}
+	
+	.pagination {
 		color:#2e8b23;
 		font-weight:bold;
-		margin-top:15px;
-		font-size:16px;
+		font-size:14px;
+		margin:0;
+		height:18px;
 	}
 
-	#pagination a{
+	.pagination a{
 		text-decoration: underline;
 	}
 
-	#pagination table{
+	.pagination table{
 		color:#2e8b23;
 		width: 620px;
 	}
 
-	#pagination td{
+	.pagination td{
 		width:33.3%;
 	}
 
-	#pagination .pages {
+	.pagination .pages {
 		color:#979797;
 		text-align:center;
 	}
 
-	#pagination .pages a{
+	.pagination .pages a{
 		color:#979797;
 	}
 	
@@ -1505,16 +1522,16 @@
 		background: url("../images/viewsortbg.png");
 		background-repeat:no-repeat;
 		background-position:center center;
-		padding-top:10px;
-		padding-bottom:7px;
+		padding-top:9px;
+		padding-bottom:8px;
 	}	
 	
 	#navigation ul li a.smallselected {
 		background: url("../images/viewlistbg.png");
 		background-repeat:no-repeat;
 		background-position:center center;
-		padding-top:10px;
-		padding-bottom:7px;
+		padding-top:9px;
+		padding-bottom:8px;
 	}	
 	.gate {
 		margin:1px 0 0 0;
