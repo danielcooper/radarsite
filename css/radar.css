@@ -275,20 +275,25 @@
 	#findgreenheader {
 		background-color:#7bb075;
 		background-repeat:repeat-x;
-		height: 160px;
+		height: 110px;
 	}
 	
 	#findgreenheader .form-horizontal {
-		width:670px;
+		width:900px;
 		margin-top:15px;
 	}
 	
 	#findgreenheader .form-horizontal select {
-		
+		margin-left:12px;
 	}
 	
 	#findgreenheader .form-horizontal input {
 		border:1px solid #000000;
+	}
+	
+	#findgreenheader .form-horizontal input,select {
+		color:#606060;
+		font-weight:bold;
 	}
 	
 	#findgreenheader .form-horizontal .controls{
@@ -299,6 +304,8 @@
 		text-align:left;
 		width:120px;
 		color:#ffffff;
+		font-size:18px;
+		margin-right:10px;
 	}
 	
 	#findgreenheader .form-horizontal h1 {
@@ -310,8 +317,8 @@
 	
 	#findgreenheader .btn-primary {
 		float:right;
-		width:150px;
-		margin-right:45px;
+		width:87px;
+		margin-right:130px;
 	}
 	
 	/* ------ Find agents header end ------ */
@@ -334,7 +341,7 @@
 	
 	#smallergreenheader #centrebuttons {
 		display:inline;
-		margin: 0 85px 0 85px;
+		margin: 0 80px 0 80px;
 	}
 
 	#smallergreenheader #leftbutton {
@@ -348,7 +355,7 @@
 	
 	#smallergreenheader #rightbutton button {
 		display:inline;
-		width:185px;
+		width:190px;
 	}
 
 	/* ------ smaller green fill header on staff page etc END ------ */	
@@ -1380,7 +1387,7 @@
 	
 	#smallergreenheader #leftbutton button{
 		margin-left:0;
-		width:185px;
+		width:190px;
 	}
 	
 	#header3 form .btn-primary {
@@ -1429,13 +1436,13 @@
 	#header4point5 #leftbutton button{
 		display:inline;
 		float:left;
-		width:185px;
+		width:190px;
 	}
 
 	#header4point5 #rightbutton button{
 		display:inline;
 		float:right;
-		width:185px;
+		width:190px;
 		margin-right:15px;
 	}
 	
