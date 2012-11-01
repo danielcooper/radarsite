@@ -802,6 +802,7 @@
 	
 	#staffform  .form-horizontal {
 		margin-top:20px;
+		width:310px;
 	}
 	
 	#staffform .form-horizontal .control-label {
