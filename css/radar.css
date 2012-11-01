@@ -945,7 +945,14 @@
 	}
 	
 	.progress  .bar{
-	
+		  background-color: #72b67f;
+		  background-image: -moz-linear-gradient(top, #72b67f, #70ad7c);
+		  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#72b67f), to(#70ad7c));
+		  background-image: -webkit-linear-gradient(top, #72b67f, #70ad7c);
+		  background-image: -o-linear-gradient(top, #72b67f, #70ad7c);
+		  background-image: linear-gradient(to bottom, #72b67f, #70ad7c);
+		  background-repeat: repeat-x;
+		  filter: progid:dximagetransform.microsoft.gradient(startColorstr='#ff72b67f', endColorstr='#ff70ad7c', GradientType=0);
 	}
 	
 	#rank {
