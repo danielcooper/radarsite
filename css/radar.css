@@ -273,12 +273,12 @@
 	#findgreenheader {
 		background-color:#7bb075;
 		background-repeat:repeat-x;
-		height: 190px;
+		height: 160px;
 	}
 	
 	#findgreenheader .form-horizontal {
 		width:670px;
-		margin-top:30px;
+		margin-top:15px;
 	}
 	
 	#findgreenheader .form-horizontal select {
