@@ -1066,6 +1066,10 @@
 		margin-top:2px;
 	}
 
+	.mainimage {
+		border:1px solid #DCDCDC;
+	}
+	
 	.recordsocial {
 		float:left;
 		margin-bottom:5px;
@@ -1084,12 +1088,6 @@
 		border:1px solid #DCDCDC;
 		width:75px;
 		height:56px;
-	}
-	
-	.mainimage {
-		border:1px solid #DCDCDC;
-		height:117px;
-		width:160px;
 	}
 	
 	hr {
