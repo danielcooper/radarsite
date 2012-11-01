@@ -39,7 +39,7 @@
 	
 	#header {
 		height:81px;
-		background-image:url("../images/bannerbackground.png");
+		background-image:url("../images/bannerbackgroundalt.png");
 		background-repeat:repeat-x;
 	}
 
@@ -699,7 +699,7 @@
 
 	#header6 {
 		height:50px;
-		background-image:url("../images/bannerbackground.png");
+		background-image:url("../images/bannerbackgroundalt.png");
 		background-repeat:repeat-x;
 		margin-top:0px;
 		border-top: 1px solid #BCBCBC;
