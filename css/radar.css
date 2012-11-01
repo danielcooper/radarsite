@@ -1151,7 +1151,11 @@
 		font-weight:bold;
 		line-height:14px;
 	}
-
+	
+	.sideboxcontent ol  {
+		margin: 0 0 10px 25px;
+	}
+	
 	.sidephoto { 
 		float: left;
 		padding: 0 12px 5px 0;
