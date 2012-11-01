@@ -1256,18 +1256,20 @@
 	}
 
 	.agentrecord {
-		padding: 7px 0 8px 15px;
+		padding: 7px 0 0 15px;
+		margin-bottom:5px;
+		height:70px;
 	}
 
 	.agentrecord img {
 		float:left;
-		margin-top:0px;
-		border:1px solid #bcbcbc;
+		margin-top:5px;
 	}
 
 	.agentrecord p {
-		margin: 0 0 0 58px;
+		margin: 0 65px 0 0px;
 		font-weight:bold;
+		float:right;
 	}
 
 	.bordered  {
