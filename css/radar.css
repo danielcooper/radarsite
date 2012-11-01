@@ -101,10 +101,8 @@
 		margin: 6px 1px 0 8px;
 	 }
 
-	#toprightnav .social{
-		padding:0 0 3px 0;
-		height:22px;
-		width:22px;
+	#toprightnav #social1{
+		margin-bottom:3px;
 	}
 
 	#toprightnav a {
@@ -115,6 +113,10 @@
 		text-decoration: none;
 	 }
 
+	#toprightnav a:hover {
+		color: #ffffff;
+	}
+	 
 	 #toprightnav p {
 		color: #ffffff;
 		font-size: 11px;
