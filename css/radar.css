@@ -752,16 +752,15 @@
 	/* ------ header 5 and header 6 contain footer items ------ */
 	
 	#header5 {
-		height:150px;
-		background:#D4D4D4;
+		height:50px;
+		background:#ffffff;
 	}
 
 	#header6 {
-		height:50px;
+		height:80px;
 		background-image:url("../images/bannerbackgroundalt.png");
 		background-repeat:repeat-x;
 		margin-top:0px;
-		border-top: 1px solid #BCBCBC;
 	}
 	
 	#header6 p {
