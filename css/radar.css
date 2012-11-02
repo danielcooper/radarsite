@@ -381,7 +381,7 @@
 	#homeheader4 {
 		background-color:#588481;
 		background-repeat:repeat-x;
-		height: 220px;
+		height: 160px;
 		border-bottom: 1px solid #bcbcbc;
 		border-top: 1px solid #bcbcbc;
 	}
@@ -406,24 +406,14 @@
 	
 	#homeheader4 h1 {
 		color:#ffffff;
+		margin-top:20px;
 	}
 	
-	.fiveagents {
-		width:170px;
-		float:left;
-		margin:0 15px 0 0;
-		height:160px;
-	}
-	
-	#fiveagents {
-		margin:20px 0 0 0;
-	}
-	
-	.homeheadersh2 {
-		font-size:18px;
-		color:#ffffff;
+	#homeheader4 img {
+		margin:10px 20px 0 0;
 	}
 
+	
 	/* ------ home headers END ------ */
 	
 	/* ------ header 3 - lighter grey fill - used on prop results and details ------ */
