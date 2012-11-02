@@ -406,6 +406,31 @@
 		margin:10px 0 20px 0;
 	}
 
+	#homeheader4 .span3 {
+		width:190px;
+	}
+	
+	#homeheader4  #photoreel .leftarrow, .rightarrow {
+		margin-top:40px;
+	}
+	
+	#homeheader4  #photoreel a.leftarrow  {
+		background-image:url("../images/leftarrowroll.png");
+		background-repeat:no-repeat;
+		height:66px;
+		width:29px;
+		float:left;
+		margin-right:8px;
+	}
+
+	#homeheader4  #photoreel a.rightarrow  {
+		background-image:url("../images/rightarrowroll.png");
+		background-repeat:no-repeat;
+		height:66px;
+		width:29px;
+		float:right;
+	}
+
 	
 	/* ------ home headers END ------ */
 	
