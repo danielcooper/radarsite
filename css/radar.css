@@ -397,12 +397,14 @@
 	#homeheader4point5 h1 {
 		font-size:24px;
 		color:#ffffff;
+		font-weight:normal;
 		margin:30px 0 20px 25px;
 	}
 	
 	#homeheader4 h1 {
 		font-size:24px;
 		color:#ffffff;
+		font-weight:normal;
 		margin:18px 0 20px 25px;
 	}
 
