@@ -374,7 +374,7 @@
 	#homeheader3 {
 		background-image:url("../images/greybackground.png");
 		background-repeat:repeat-x;
-		margin-bottom: 25px;
+		margin-bottom: 15px;
 		border-top: 1px solid #BCBCBC;
 	}
 	
@@ -957,7 +957,7 @@
 	#bodytext {
 		line-height:125%;
 		padding: 0;
-		margin-top:40px;
+		margin-top:20px;
 	}
 
 	/* ------ Main search related styles on the home page ------ */
