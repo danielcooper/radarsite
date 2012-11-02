@@ -407,7 +407,7 @@
 	}
 
 	#homeheader4 .span3 {
-		width:195px;
+		width:170px;
 	}
 	
 	#homeheader4point5 .span3 {
@@ -1112,10 +1112,10 @@
 	
 	.homerecordimages {
 		float:left;
-		background-color:#878787;
+		background-color:#33454E;
 		text-align:center;
-		padding:8px;
-		border:1px solid #dcdcdc;
+		padding:4px;
+		border:1px solid #657780;
 		margin-bottom:15px;
 		margin-right:0;
 		margin-top:2px;
