@@ -389,10 +389,8 @@
 	#homeheader4point5 {
 		background-color:#e8e8e8;
 		background-repeat:repeat-x;
-		height: 120px;
+		height: 180px;
 		border-bottom: 1px solid #bcbcbc;
-		border-top: 1px solid #bcbcbc;
-		margin-top:10px
 	}
 	
 	#homeheader4point6 {
@@ -404,12 +402,11 @@
 		margin-top:10px
 	}
 	
-	#homeheader4 h1 {
-		color:#ffffff;
+	#homeheader4point5 h1 {
 		margin-top:30px;
 	}
 	
-	#homeheader4 img {
+	#homeheader4point5 img {
 		margin:10px 20px 0 0;
 	}
 
@@ -748,7 +745,7 @@
 	#header5 {
 		height:150px;
 		background:#D4D4D4;
-		border-top: 1px solid #DCDCDC;
+		border-top: 1px solid #b8b8b8;
 	}
 
 	#header6 {
