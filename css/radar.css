@@ -368,13 +368,64 @@
 
 	/* ------ smaller green fill header on staff page etc END ------ */	
 	
+	/* ------ home headers ------ */
+	
+	
 	#homeheader3 {
 		background-image:url("../images/greybackground.png");
 		background-repeat:repeat-x;
-		margin-bottom: 100px;
+		margin-bottom: 25px;
 		border-top: 1px solid #BCBCBC;
 	}
+	
+	#homeheader4 {
+		background-color:#588481;
+		background-repeat:repeat-x;
+		height: 220px;
+		border-bottom: 1px solid #bcbcbc;
+		border-top: 1px solid #bcbcbc;
+	}
+	
+	#homeheader4point5 {
+		background-color:#e8e8e8;
+		background-repeat:repeat-x;
+		height: 120px;
+		border-bottom: 1px solid #bcbcbc;
+		border-top: 1px solid #bcbcbc;
+		margin-top:10px
+	}
+	
+	#homeheader4point6 {
+		background-color:#e8e8e8;
+		background-repeat:repeat-x;
+		height: 120px;
+		border-bottom: 1px solid #bcbcbc;
+		border-top: 1px solid #bcbcbc;
+		margin-top:10px
+	}
+	
+	#homeheader4 h1 {
+		color:#ffffff;
+	}
+	
+	.fiveagents {
+		width:170px;
+		float:left;
+		margin:0 15px 0 0;
+		height:160px;
+	}
+	
+	#fiveagents {
+		margin:20px 0 0 0;
+	}
+	
+	.homeheadersh2 {
+		font-size:18px;
+		color:#ffffff;
+	}
 
+	/* ------ home headers END ------ */
+	
 	/* ------ header 3 - lighter grey fill - used on prop results and details ------ */
 	
 	#header3 {
@@ -911,7 +962,6 @@
 		line-height:125%;
 		padding: 0;
 		margin-top:40px;
-		margin-bottom:100px;
 	}
 
 	/* ------ Main search related styles on the home page ------ */
