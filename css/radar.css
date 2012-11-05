@@ -374,21 +374,20 @@
 	#homeheader3 {
 		background-image:url("../images/greybackground.png");
 		background-repeat:repeat-x;
-		margin-bottom: 25px;
 		border-top: 1px solid #BCBCBC;
 	}
 	
 	#homeheader4 {
 		background-color:#33454e;
 		background-repeat:repeat-x;
-		height: 260px;
+		height: 280px;
 		border-bottom: 1px solid #bcbcbc;
 		border-top: 1px solid #bcbcbc;
 	}
 	
 	#homeheader3point5 {
 		background-repeat:repeat-x;
-		height: 120px;
+		height: 160px;
 		background-image:url("../images/threepoint.png");
 	}
 	
@@ -397,6 +396,7 @@
 		border: none;
 		box-shadow: none;
 		margin-left:6px;
+		margin-top:70px;
 	}
 	
 	#homeheader3point5 .form-inline input, select {
@@ -416,11 +416,6 @@
 		margin:20px 0 20px 25px;
 		font-size:24px;
 		font-weight:normal;
-	}
-	
-	#helpheaderh1 { 
-		margin-left:25px;
-		color:#333333;
 	}
 	
 	#homeheader4point5 {
