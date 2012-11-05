@@ -380,7 +380,7 @@
 	#homeheader4 {
 		background-color:#33454e;
 		background-repeat:repeat-x;
-		height: 280px;
+		height: 290px;
 		border-bottom: 1px solid #bcbcbc;
 		border-top: 1px solid #bcbcbc;
 	}
@@ -1379,7 +1379,6 @@
 
 	.agentrecordhome p {
 		margin: 0 10px 0 10px;
-		font-weight:bold;
 		float:left;
 		color:#ffffff;
 	}
