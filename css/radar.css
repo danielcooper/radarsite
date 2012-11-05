@@ -429,12 +429,14 @@
 	
 	#homeheader4 .span3 {
 		width:168px;
-		
-		
+		margin-right:0;
+		margin-left:15px;
 	}
 	
 	#homeheader4point5 .span3 {
 		width:200px;
+		margin-left:15px;
+		margin-right:0;
 	}
 
 	
@@ -973,6 +975,7 @@
 	#bodytext {
 		line-height:125%;
 		padding: 0;
+		width:370px;
 	}
 	
 	#bodytext p	{
