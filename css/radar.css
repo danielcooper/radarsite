@@ -421,7 +421,7 @@
 	#homeheader4point5 {
 		background-color:#878787;
 		background-repeat:repeat-x;
-		height: 260px;
+		height: 280px;
 		border-bottom: 1px solid #bcbcbc;
 	}
 
@@ -979,7 +979,7 @@
 	}
 	
 	#bodytext p	{
-		font-size:16px;
+		font-size:18px;
 		color:#3E4E3D;
 	}
 
