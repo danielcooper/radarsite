@@ -813,6 +813,11 @@
 		margin-right:2px;
 	}
 	
+	#radarsocial {
+		float:left;
+		margin-top:15px;
+	}
+	
 	/* ------ header 5 and header 6 contain footer items END ------ */
 	
 	/* Staff page - individual staff member's page*/
