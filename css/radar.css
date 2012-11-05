@@ -374,7 +374,7 @@
 	#homeheader3 {
 		background-image:url("../images/greybackground.png");
 		background-repeat:repeat-x;
-		margin-bottom: 15px;
+		margin-bottom: 25px;
 		border-top: 1px solid #BCBCBC;
 	}
 	
@@ -385,6 +385,38 @@
 		padding-top:20px;
 		border-bottom: 1px solid #bcbcbc;
 		border-top: 1px solid #bcbcbc;
+	}
+	
+	#homeheader3point5 {
+		background-color:#d4d4d4;
+		background-repeat:repeat-x;
+		height: 140px;
+	}
+	
+	#homeheader3point5 .form-inline {
+		background-color: transparent;
+		border: none;
+		box-shadow: none;
+		margin-left:6px;
+	}
+	
+	#homeheader3point5 .form-inline input, select {
+		border: 1px solid black;
+		color: #606060;
+		font-weight: bold;
+		margin-right: 6px;
+	}
+	
+	#homeheader3point5 button {
+		margin-left:10px;
+		width:160px;
+	}
+	
+	#homeheader3point5 h1 {
+		color:#4B4B4B;
+		margin:30px 0 0 25px;
+		font-size:24px;
+		font-weight:normal;
 	}
 	
 	#homeheader4point5 {
@@ -418,7 +450,7 @@
 	#homeheader4point5 .span3 {
 		width:170px;
 		margin-left:10px;
-		margin-right:45px;
+		margin-right:35px;
 	}
 
 	
