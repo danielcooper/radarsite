@@ -1,3 +1,7 @@
+	.span2 {
+		border:1px solid;
+	}
+	
 	.container {
 		padding-left:8px;
 	}
@@ -1373,7 +1377,16 @@
 		margin-right:8px;
 	}
 
-	.agentrecordhome {
+	.agentrecordstaff p {
+		float:left;
+	}
+	
+	.agentrecordstaff img {
+		float:left;
+		margin:3px 5px 0 0;
+	}
+	
+	.agentrecordbody {
 		padding: 0 0 0 0 ;
 		margin-bottom:5px;
 		height:70px;
@@ -1381,16 +1394,16 @@
 		float:left;
 	}
 
-	.agentrecordhome img {
+	.agentrecordbody img {
 		float:left;
 		margin:0 0 10px 0;
 	}
 	
-	.agentrecordhome a{
+	.agentrecordbody a{
 		color:#2A2A2A;
 	}
 
-	.agentrecordhome p {
+	.agentrecordbody p {
 		margin: 0 10px 0 10px;
 		float:left;
 		color:#ffffff;
