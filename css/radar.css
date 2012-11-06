@@ -35,6 +35,12 @@
 		margin-bottom:0;
 	}
 	
+	.alargeul {
+		font-size:14px;
+		font-weight:normal;
+		text-decoration:underline;
+	}
+	
 	.pgrey {
 		color:#717171;
 	}
