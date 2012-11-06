@@ -1379,11 +1379,22 @@
 
 	.agentrecordstaff p {
 		float:left;
+		color:#717171;
+	}
+
+	.agentrecordstaffa{
+		font-size:16px;
+		color:#000000;
+	}
+	
+	.agentrecordstaffa:hover{
+		text-decoration:none;
+		color:#000000;
 	}
 	
 	.agentrecordstaff img {
 		float:left;
-		margin:3px 5px 3px 0;
+		margin:1px 5px 3px 0;
 	}
 	
 	.agentrecordbody {
