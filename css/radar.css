@@ -35,12 +35,6 @@
 		margin-bottom:0;
 	}
 	
-	.alargeul {
-		font-size:14px;
-		font-weight:normal;
-		text-decoration:underline;
-	}
-	
 	.pgrey {
 		color:#717171;
 	}
@@ -1051,6 +1045,10 @@
 	#findagentssp img {
 		display:inline;
 		margin:5px 5px 0 0;
+	}
+	
+	#findagentssp {
+		margin-bottom:5px;
 	}
 	
 	.progress {
