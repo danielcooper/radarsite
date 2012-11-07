@@ -909,6 +909,14 @@
 		margin-top:14px;
 	}
 	
+	#staffheader a{
+		font-size: 20px;
+		margin: 14px 0 0 0;
+		color:#000000;
+		text-decoration:none;
+		display:block;
+	}
+	
 	#supportphoto {
 		float:left;
 		margin-top:20px;
@@ -970,7 +978,7 @@
 
 	#propdetailsform .form-horizontal {
 		background-color: #E8E8E8;
-		min-height:430px;
+		min-height:420px;
 		box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
 		border-left: 1px solid #DCDCDC;
 		border-right: 1px solid #DCDCDC;
@@ -1489,6 +1497,19 @@
 	
 	/* ------ Pagination for page cycling END ------ */
 
+	.tandcs {
+		float:left;
+		margin:0 0 10px 0;
+		font-size:11px;
+		line-height:12px;
+		color:#949494;
+	}
+	
+	.tandcs a {
+		color:#949494;
+		font-weight:bold;
+	}
+		
 	/* ------------ BUTTONS ------------ */
 	
 	/* main orange buttons */
