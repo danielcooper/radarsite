@@ -106,9 +106,10 @@
 	
 	#toprightnav .avatar {
 		float:right;
-		margin: 6px 1px 0 8px;
+		margin: 4px 1px 0 8px;
+		border: 1px solid #ffffff;
 	 }
-
+	 
 	#toprightnav #social1{
 		margin-bottom:3px;
 	}

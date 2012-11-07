@@ -1,0 +1,400 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+	<title>Radarhomes.co.uk</title>
+	<link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+	<link href="css/radar.css" rel="stylesheet" type="text/css">
+	<style type="text/css">
+		#mainlogo {
+				background-image:url("images/greentoppointeralt.png");
+				background-repeat:no-repeat;
+				background-position:center bottom;
+		}
+	</style>
+</head>
+<body>
+<div id="header">
+	<!-- Bootstrap container -->
+	<div class="container">
+		<!-- Bootstrap row with three columns -->
+		<div class="row">
+			<div class="span3">
+				<div id="mainlogo">
+					<a href="index.html">
+						<img src="images/radarlogosmnoco.png" border="0"/>
+					</a>
+				</div>
+			</div>
+			<div class="span5">
+				<div id="topnav">
+					<a href="propertyresults.html">Search</a>
+					<a href="findagents.html" >Find Agents</a>
+					<a href="getvaluation.html">Get Valuation</a>
+					<a href="aboutus.html">About Us</a>
+				</div>
+			</div>
+			<div class="span4">
+				<div id="toprightnav">		
+					<div class="socialcluster">
+						<div id="social1">
+							<img src="images/facebooksmall.png" height="22" width="22" style="height:22px;width:22px;" />
+							<img src="images/twittersmall.png" height="22" width="22" style="height:22px;width:22px;"/>
+						</div>
+						<div id="social2">
+							<img src="images/linkedinsmall.png" height="22" width="22" style="height:22px;width:22px;"/>
+							<img src="images/googleplussmall.png" height="22" width="22" style="height:22px;width:22px;"/>
+						</div>
+					</div>
+					<img src="images/noone.png" class="avatar" height="49" width="49"/>
+					<p>
+						Welcome, guest<br />
+						<a href="#">24 saved properties</a><br />
+						<a href="#">3 saved searches</a>
+					</p>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<div id="altgreenheader2">
+	<!-- Bootstrap container -->
+	<div class="container">
+		<!-- Bootstrap inline form-->
+		<form class="well form-inline">
+			<div id="line1">
+				<div id="mainbuttons">
+					<button type="submit" class="btn btn-primary">Buy</button>
+					<!-- unselected id used to grey out inactive button ...
+						you'll probably have a better solution! -->
+					<div id="unselected">
+						<button type="submit" class="btn btn-primary">Rent</button>
+					</div>
+				</div>
+				<h1>Find your home on our Radar</h1>
+			</div>
+			<input type="text" class="span9" placeholder="Exeter, Devon">
+			<button type="submit" class="btn btn-primary">Search</button>
+			  <select id="minprice" class="span2">
+				<option selected="selected">Min price</option>
+				<option title="£50,000" value="50000">£50,000</option>
+				<option title="£75,000" value="75000">£75,000</option>
+				<option title="£100,000" value="100000">£100,000</option>
+				<option title="£125,000" value="125000">£125,000</option>
+				<option title="£150,000" value="150000">£150,000</option>
+				<option title="£175,000" value="175000">£175,000</option>
+				<option title="£200,000" value="200000">£200,000</option>
+				<option title="£225,000" value="225000">£225,000</option>
+				<option title="£250,000" value="250000">£250,000</option>
+				<option title="£275,000" value="275000">£275,000</option>
+				<option title="£300,000" value="300000">£300,000</option>
+				<option title="£325,000" value="325000">£325,000</option>
+				<option title="£350,000" value="350000">£350,000</option>
+				<option title="£375,000" value="375000">£375,000</option>
+				<option title="£400,000" value="400000">£400,000</option>
+				<option title="£425,000" value="425000">£425,000</option>
+				<option title="£450,000" value="450000">£450,000</option>
+				<option title="£475,000" value="475000">£475,000</option>
+				<option title="£500,000" value="500000">£500,000</option>
+				<option title="£550,000" value="550000">£550,000</option>
+				<option title="£600,000" value="600000">£600,000</option>
+				<option title="£650,000" value="650000">£650,000</option>
+				<option title="£700,000" value="700000">£700,000</option>
+				<option title="£750,000" value="750000">£750,000</option>
+				<option title="£800,000" value="800000">£800,000</option>
+				<option title="£900,000" value="900000">£900,000</option>
+				<option title="£1,000,000" value="1000000">£1,000,000</option>
+				<option title="£1,100,000" value="1100000">£1,100,000</option>
+				<option title="£1,200,000" value="1200000">£1,200,000</option>
+				<option title="£1,300,000" value="1300000">£1,300,000</option>
+				<option title="£1,400,000" value="1400000">£1,400,000</option>
+				<option title="£1,500,000" value="1500000">£1,500,000</option>
+				<option title="£2,000,000" value="2000000">£2,000,000</option>
+				<option title="£3,000,000" value="3000000">£3,000,000</option>
+				<option title="£4,000,000" value="4000000">£4,000,000</option>
+				<option title="£5,000,000" value="5000000">£5,000,000</option>
+				<option title="£10,000,000" value="10000000">£10,000,000</option>
+			  </select>
+			  <select id="select01" class="span2">
+				<option selected="selected">Max price</option>
+				<option title="£50,000" value="50000">£50,000</option>
+				<option title="£75,000" value="75000">£75,000</option>
+				<option title="£100,000" value="100000">£100,000</option>
+				<option title="£125,000" value="125000">£125,000</option>
+				<option title="£150,000" value="150000">£150,000</option>
+				<option title="£175,000" value="175000">£175,000</option>
+				<option title="£200,000" value="200000">£200,000</option>
+				<option title="£225,000" value="225000">£225,000</option>
+				<option title="£250,000" value="250000">£250,000</option>
+				<option title="£275,000" value="275000">£275,000</option>
+				<option title="£300,000" value="300000">£300,000</option>
+				<option title="£325,000" value="325000">£325,000</option>
+				<option title="£350,000" value="350000">£350,000</option>
+				<option title="£375,000" value="375000">£375,000</option>
+				<option title="£400,000" value="400000">£400,000</option>
+				<option title="£425,000" value="425000">£425,000</option>
+				<option title="£450,000" value="450000">£450,000</option>
+				<option title="£475,000" value="475000">£475,000</option>
+				<option title="£500,000" value="500000">£500,000</option>
+				<option title="£550,000" value="550000">£550,000</option>
+				<option title="£600,000" value="600000">£600,000</option>
+				<option title="£650,000" value="650000">£650,000</option>
+				<option title="£700,000" value="700000">£700,000</option>
+				<option title="£750,000" value="750000">£750,000</option>
+				<option title="£800,000" value="800000">£800,000</option>
+				<option title="£900,000" value="900000">£900,000</option>
+				<option title="£1,000,000" value="1000000">£1,000,000</option>
+				<option title="£1,100,000" value="1100000">£1,100,000</option>
+				<option title="£1,200,000" value="1200000">£1,200,000</option>
+				<option title="£1,300,000" value="1300000">£1,300,000</option>
+				<option title="£1,400,000" value="1400000">£1,400,000</option>
+				<option title="£1,500,000" value="1500000">£1,500,000</option>
+				<option title="£2,000,000" value="2000000">£2,000,000</option>
+				<option title="£3,000,000" value="3000000">£3,000,000</option>
+				<option title="£4,000,000" value="4000000">£4,000,000</option>
+				<option title="£5,000,000" value="5000000">£5,000,000</option>
+				<option title="£10,000,000" value="10000000">£10,000,000</option>
+			  </select>
+			  <select id="select01" class="span2">
+				<option selected="selected">Type</option>
+				<option value="">Any</option>
+				<option value="houses">Houses</option>
+				<option value="flats">Flats / Apartments</option>
+				<option value="bungalows">Bungalows</option>
+				<option value="land">Land</option>
+				<option value="commercial">Commercial Property</option>
+				<option value="other">Other</option>
+			  </select>
+			  <select id="select01" class="span2">
+				<option selected="selected">Beds</option>
+				<option>Studio</option>
+				<option>1+</option>
+				<option>2+</option>
+				<option>3+</option>
+				<option>4+</option>
+				<option>5+</option>
+			  </select>
+			  <a href="#">More search options</a>
+		</form>
+	</div>
+</div>
+<div id="homeheader3">
+	<!-- property search results and sidebar content -->
+	<!--Utilises 2 Bootstrap colummns: main = span 8, sidebar = span 4 -->
+	<div class="container">
+		<div class="row">
+		<!--Main column content-->
+			<div class="span7">
+				<img src="images/yt.png" style="margin-top:43px;border:2px solid #000000"/>
+			</div>
+			<div class="span5">
+				<img src="images/different.png" style="margin-top:55px;margin-left:70px"/>
+				<div id="bodytext">
+					<p>
+						Our team of local search specialists listen
+						carefully to exactly what you are looking for.
+						Then we set about finding the perfect place 
+						for you.  It’s free, and because we work closely 
+						with local agents, we can often find you 
+						properties before they come to the market.
+					</p>
+					<p>
+						This service is integrated with our site, which is 
+						faster, more fun - and remembers you and the 
+						properties we find together.  It also comes in a 
+						handy pocket sized version, so we’re always 
+						at your side.
+					</p>	
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<div id="homeheader3point5">
+	<div class="container">
+		<div class="row">
+			<div class="span12">
+				<img src="images/waitingfor.png" style="margin-left:50px;margin-top:30px" />
+				<!-- Bootstrap inline form-->
+				<form class="well form-inline">
+					<input type="text" class="input-medium" placeholder="First name">
+					<input type="text" class="input-medium" placeholder="Last name">
+					<input type="text" class="input-medium" placeholder="Telephone">
+					<input type="text" class="input-medium" placeholder="your@email.com">
+					<button type="submit" class="btn btn-primary">Let's get started!</button>
+				</form>
+			</div>
+		</div>
+	</div>
+</div>
+<div id="homeheader4">
+	<div class="container">
+		<div class="row">
+			<div style="float:left;margin-top:120px;">
+				<a href="propertydetails.html"><img src="images/leftarrow1.png"></a>
+			</div>
+			<div style="float:right;margin-top:120px;">
+				<a href="propertydetails.html"><img src="images/rightarrow1.png"></a>
+			</div>
+			<h1 class="homeheaderh1">We think you'll find these places interesting... <a href="#" style="color:#475258;font-weight:normal">(why?)</a></h1>
+			<div class="span3">
+				<div class="homerecordimages">
+					<a href="propertydetails.html">
+						<img src="images/bradleys1.png" width="160" height="117" style="height:117px;160px"/>
+					</a>
+				</div>
+				<div class="subtitles">
+					<a href="propertydetails.html">Brookfield Gardens</a><br />
+					<a href="propertydetails.html"><span class="price">£320k</span></a>
+				</div>
+			</div>
+			<div class="span3">
+				<div class="homerecordimages">
+					<a href="propertydetails.html">
+						<img src="images/whitton1.png" width="160" height="117" style="height:117px;160px"/>
+					</a>
+				</div>
+				<div class="subtitles">
+					<a href="propertydetails.html">Exeter Street</a><br />
+					<a href="propertydetails.html"><span class="price">£1.5m</span></a>
+				</div>
+			</div>
+			<div class="span3">
+				<div class="homerecordimages">
+					<a href="propertydetails.html">
+						<img src="images/hallscott1.png" width="160" height="117" style="height:117px;160px"/>
+					</a>
+				</div>
+				<div class="subtitles">
+					<a href="propertydetails.html">Green Acres</a><br />
+					<a href="propertydetails.html"><span class="price">£320k</span></a>
+				</div>
+			</div>
+			<div class="span3">
+				<div class="homerecordimages">
+					<a href="propertydetails.html">
+						<img src="images/pre1.png" width="160" height="117" style="height:117px;160px"/>
+					</a>
+				</div>
+				<div class="subtitles">
+					<a href="propertydetails.html">Brookfield Gardens</a><br />
+					<a href="propertydetails.html"><span class="price">£550k</span></a>
+				</div>
+			</div>
+			<div class="span3">
+				<div class="homerecordimages">
+					<a href="propertydetails.html">
+						<img src="images/pre5.png" width="160" height="117" style="height:117px;160px"/>
+					</a>
+				</div>
+				<div class="subtitles">
+					<a href="propertydetails.html">Salisbury Road</a><br />
+					<a href="propertydetails.html"><span class="price">£220k</span></a>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<div id="homeheader4point5">
+	<div class="container">
+		<div class="row">
+		<div style="float:left;margin-top:120px;">
+			<a href="propertydetails.html"><img src="images/locationleft.png"></a>
+		</div>
+		<div style="float:right;margin-top:120px;">
+			<a href="propertydetails.html"><img src="images/locationright.png"></a>
+		</div>
+		<h1 class="homeheaderh1">You love Exeter? So do they...</h1>
+			<div class="span3">
+				<div class="agentrecordbody">
+					<a href="staff.html">	
+						<img src="images/roger.png" class="bordered"/>
+					</a>
+					<p>
+						<a href="staff.html">Roger Wilkinson</a><br />
+						Director<br />
+						<a href="staff.html">Wilkinson Grant</a><br />
+						01544 545454
+					</p>
+					<img src="http://danielcooper.github.com/radarsite/images/wilk.png" class="bordered" style="clear:both">
+				</div>
+			</div>
+			<div class="span3">
+				<div class="agentrecordbody">
+					<a href="staff.html">	
+						<img src="http://danielcooper.github.com/radarsite/images/vick.png" class="bordered"/>
+					</a>
+					<p>
+						<a href="staff.html">Sam Smith</a><br />
+						Property Negotiator<br />
+						<a href="staff.html">Webbers</a><br />
+						01544 545454
+					</p>
+					<img src="http://danielcooper.github.com/radarsite/images/web.png" class="bordered" style="clear:both">
+				</div>
+			</div>
+			<div class="span3">
+				<div class="agentrecordbody">
+					<a href="staff.html">	
+						<img src="http://danielcooper.github.com/radarsite/images/jt.png" class="bordered"/>
+					</a>
+					<p>
+						<a href="staff.html">Jim Smith</a><br />
+						Property Negotiator<br />
+						<a href="staff.html">Bowden</a><br />
+						01544 545454
+					</p>
+					<img src="http://danielcooper.github.com/radarsite/images/bow.png" class="bordered" style="clear:both">
+				</div>
+			</div>
+			<div class="span3">
+				<div class="agentrecordbody">
+					<a href="staff.html">	
+						<img src="http://danielcooper.github.com/radarsite/images/mf.png" class="bordered"/>
+					</a>
+					<p>
+						<a href="staff.html">Michael Foundley</a><br />
+						Owner<br />
+						<a href="staff.html">Chamberlains</a><br />
+						01544 545454
+					</p>
+					<img src="http://danielcooper.github.com/radarsite/images/cham.png" class="bordered" style="clear:both">
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<div id="header6">
+	<div class="container">
+		<div class="row">
+			<div class="span12">
+				<div id="radarsocial">
+					<a href="http://www.facebook.com/radarhomes.co.uk" target="blank"><img src="images/facebooksmall.png" height="28" width="28" style="height:28px;width:28px"></a>
+					<a href="http://twitter.com/radarhomes" target="blank"><img src="images/twittersmall.png" height="28" width="28" style="height:28px;width:28px"></a>
+					<a href="http://www.linkedin.com/groups?gid=4685916" target="blank"><img src="images/linkedinsmall.png" height="28" width="28" style="height:28px;width:28px"></a>
+					<a href="#" target="blank"><img src="images/googleplussmall.png" height="28" width="28" style="height:28px;width:28px"></a>
+				</div>
+				<p style="text-align:right;color:#727272">
+					<a href="contactus.html">Contact us</a> |
+					<a href="aboutus.html">About us</a> |
+					<a href="#">Become a member</a> |
+					<a href="#">Radar packages</a> |
+					<a href="#">Register with us</a> |
+					<a href="#">Agent login</a> | 
+					<a href="#">Sitemap</a>
+				</p>
+				<p style="text-align:right;margin-top:5px;color:#727272">
+					<a href="#" style="color:#727272">Terms of Use</a> | 
+					<a href="#" style="color:#727272">Cookie Policy</a> | 
+					<a href="http://www.homeflow.co.uk" target="blank" style="color:#727272">Powered by Homeflow</a>
+				</p>
+			</div>
+		</div>
+	</div>
+</div>
+</body>
+</html>
+
+
+
+
+
