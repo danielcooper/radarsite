@@ -1280,6 +1280,10 @@
 	#locationsidebox {	
 		height: 210px;
 	}
+	
+	#locationsidebox p{	
+		color:#7B7B7B;
+	}
 
 	#meetstaffsidebox {
 		height: 330px;
