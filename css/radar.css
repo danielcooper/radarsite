@@ -986,7 +986,6 @@
 	/* ------ Prop details form - used on prop details page to customise form END ------  */
 
 	#bodytext {
-		line-height:125%;
 		padding: 0;
 		width:370px;
 	}
@@ -994,6 +993,7 @@
 	#bodytext p	{
 		font-size:18px;
 		color:#3E4E3D;
+		line-height:20px;
 	}
 
 	/* ------ Main search related styles on the home page ------ */
@@ -1344,6 +1344,11 @@
 		font-weight:bold;
 	}
 
+	#featured_property_data ul li a {
+		color:#7B7B7B;
+		font-weight:bold;
+	}
+	
 	#shortlistsidebox .listrecord {
 		height: 60px;
 		margin-bottom:5px;
@@ -1432,6 +1437,10 @@
 		font-weight:bold;
 	}
 		
+	.subtitles a {
+		color:#ffffff;	
+	}
+	
 	.subtitles .price {
 		color:#57666D;
 	}
