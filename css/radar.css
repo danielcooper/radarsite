@@ -1,7 +1,3 @@
-	.span2 {
-		border:1px solid;
-	}
-	
 	.container {
 		padding-left:8px;
 	}
@@ -273,10 +269,6 @@
 	
 	
 	/* ------ Home header2 green fill END ------ */	
-
-	iframe {
-		margin-top:45px;
-	}
 	
 	/* ------ Find agents header ------ */
 	
@@ -443,7 +435,6 @@
 		margin-right:10px;
 	}
 
-	
 	/* ------ home headers END ------ */
 	
 	/* ------ header 3 - lighter grey fill - used on prop results and details ------ */
@@ -502,10 +493,6 @@
 		border-bottom: 1px solid #BCBCBC;
 		border-top: 1px solid #BCBCBC;
 		height: 70px;
-	}
-	
-	#agentprofile {
-		
 	}
 	
 	#agentprofile p {
@@ -830,12 +817,8 @@
 	
 	/* Staff page - individual staff member's page*/
 	
-	#stafftwitter {
+	#agenttwitter {
 		height: 320px;
-	}
-	
-	#stafftwitter p{
-		
 	}
 	
 	#supportform {
@@ -843,27 +826,27 @@
 		width:310px;
 	}
 	
-	#staffsocial img {
+	#agentsocial img {
 		margin-bottom:15px;
 	}
 	
-	#staffsocial{
+	#agentsocial{
 		margin: 20px 0 5px 0;
 	}
 	
-	#staffsocial a {
+	#agentsocial a {
 		font-size:14px;
 		text-decoration:underline;
 		margin-right:15px
 	}
 	
-	#staffsocial #links {
+	#agentsocial #links {
 		width:170px;
 		float:right;
 		margin:0px 45px 10px 0;
 	}
 	
-	#staffsocial #singlelinks {
+	#agentsocial #singlelinks {
 		width:170px;
 		float:right;
 		margin:10px 45px 10px 0;
@@ -939,17 +922,17 @@
 		border: 1px solid #bcbcbc
 	}
 	
-	#staffbio {
+	#bio {
 		float:right;
 		margin-top:18px;
 		width:400px;
 	}
 	
-	#staffbio p {
+	#bio p {
 		font-size:14px;
 	}
 	
-	#staffbio a {
+	#bio a {
 		text-decoration:underline;
 	}
 	
@@ -1016,56 +999,6 @@
 		line-height:20px;
 	}
 
-	/* ------ Main search related styles on the home page ------ */
-	
-	#mainsearch {
-		width:977px;
-		background-image:url("../images/buysearchnorent.png");
-		background-repeat:no-repeat;
-		height: 190px;
-		margin: 18px 0 0 0;
-	}
-
-	#mainsearch form {
-		float:left;
-		margin: 32px 0 0 0;
-	}
-
-	#mainsearch form input {
-		font-size: 16px;
-		font-weight: bold;
-		color: #d9d9d9;
-		width: 663px;
-		border: 1px solid #486745;
-		height: 30px;
-		-webkit-box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
-		-moz-box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
-		box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
-		-webkit-border-radius: 7px; -moz-border-radius: 7px; border-radius: 7px;
-	}
-
-	#mainsearch form select {
-		width: 163px;
-		height: 30px;
-		border: 1px solid #486745;
-		-webkit-box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
-		-moz-box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
-		box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.3);
-		cursor: pointer;
-		margin: 0 3px 0 0;
-	}
-
-	#mainsearch .row1 {
-		margin: 0 0 3px 33px;
-	}
-
-	#mainsearch .row2 {
-		margin: 0 0 0 33px;
-		width: 920px;
-	}
-
-	/* ------ Main search related styles on the home page end ------ */
-	
 	#findagentssp img {
 		display:inline;
 		margin:5px 5px 0 0;
@@ -1073,36 +1006,6 @@
 	
 	#findagentssp {
 		margin-bottom:5px;
-	}
-	
-	.progress {
-		width:40%;
-		margin-top:7px;
-		height:13px;
-		background:#545454;
-		box-shadow:none;
-	}
-	
-	.progress  .bar{
-		background-color: #72b67f;
-		background-image: -moz-linear-gradient(top, #72b67f, #70ad7c);
-		background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#72b67f), to(#70ad7c));
-		background-image: -webkit-linear-gradient(top, #72b67f, #70ad7c);
-		background-image: -o-linear-gradient(top, #72b67f, #70ad7c);
-		background-image: linear-gradient(to bottom, #72b67f, #70ad7c);
-		background-repeat: repeat-x;
-		filter: progid:dximagetransform.microsoft.gradient(startColorstr='#ff72b67f', endColorstr='#ff70ad7c', GradientType=0);
-	}
-	
-	#rank {
-		float:left;
-		margin: 0px 0px 0px 8px;
-		width:150px;
-	}
-	
-	#rank img {
-		float:left;
-		padding-right:5px;
 	}
 	
 	/* ------ Property results class elements ------ */
@@ -1738,6 +1641,7 @@
 		padding-top:9px;
 		padding-bottom:8px;
 	}	
+	
 	.gate {
 		margin:1px 0 0 0;
 	}
