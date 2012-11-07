@@ -838,7 +838,7 @@
 		
 	}
 	
-	#staffform {
+	#supportform {
 		margin-top: 20px;
 		width:310px;
 	}
@@ -891,29 +891,29 @@
 		color:#000000;
 	}
 	
-	#staffformcontainer .span4 {
+	#formcontainer .span4 {
 		margin-left:0; 
 	}
 	
-	#staffform  .form-horizontal {
+	#supportform  .form-horizontal {
 		margin-top:20px;
 		width:310px;
 	}
 	
-	#staffform  .form-horizontal fieldset{
+	#supportform  .form-horizontal fieldset{
 		width: 310px;
 	}
 	
-	#staffform .form-horizontal .control-label {
+	#supportform .form-horizontal .control-label {
 		text-align:left;
 		width: 80px;
 	}
 	
-	#staffform .form-horizontal .controls {
+	#supportform .form-horizontal .controls {
 		margin-left:0;
 	}
 
-	#staffform  label.checkbox {
+	#supportform  label.checkbox {
 		font-size:12px;
 	}
 	
@@ -1681,7 +1681,7 @@
 		margin-right:15px;
 	}
 	
-	#staffform .btn{
+	#supportform .btn{
 		float:right;
 		margin-right:5px;
 		width:150px;
