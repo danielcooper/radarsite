@@ -874,9 +874,21 @@
 		float:left;
 	}
 	
-	#followstaff {
+	#span4container {
 		margin: 20px 0 0 28px;
 		width:272px;
+	}
+	
+	#span4container .agentrecord {
+		padding-left:0;
+	}
+	
+	#span4container .agentrecord img{
+		margin-top:4px;
+	}
+	
+	#span4container .blackanchor {
+		color:#000000;
 	}
 	
 	#staffformcontainer .span4 {
