@@ -35,6 +35,12 @@
 		margin-bottom:0;
 	}
 	
+	h2 {
+		font-size:16px;
+		margin-bottom:0;
+		line-height:24px;
+	}
+	
 	.pgrey {
 		color:#717171;
 	}
@@ -1648,4 +1654,38 @@
 	
 	.gate {
 		margin:1px 0 0 0;
+	}
+	
+	#postcodeform  .well {
+		width:450px;
+		height:42px;
+		min-height:42px;
+		margin: 0 0 0 20px;
+		background:none;
+		border:none;
+		box-shadow:none;
+	}
+	
+	#postcodeform  .well .btn {
+		margin: 0 0 0 10px;
+	}
+	
+	#postcodeform  .well label {
+		margin-right:10px;
+	}
+	
+	#valuationform .well {
+		background:none;
+		border:none;
+		margin:0;
+		box-shadow:none;
+	}
+	
+	#valuationform .well .btn {
+		float:right;
+		margin: 10px 15px 0 0;
+	}
+	
+	#valuationform .checklist .control-group {
+		margin-top:15px;
 	}
