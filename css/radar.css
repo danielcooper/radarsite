@@ -32,7 +32,7 @@
 	h1 {
 		font-size: 20px;
 		line-height: 24px;
-		margin-bottom:0;
+		margin-bottom:0; /* improve this */
 	}
 	
 	h2 {
