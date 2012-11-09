@@ -1,3 +1,6 @@
+	/* This is for iPads etc - adds some padding to left so the container
+	   so the site has some breathing space */
+	   
 	.container {
 		padding-left:8px;
 	}
@@ -823,10 +826,6 @@
 	
 	/* Staff page - individual staff member's page*/
 	
-	#agenttwitter {
-		height: 320px;
-	}
-	
 	#supportform {
 		margin-top: 20px;
 		width:310px;
@@ -1137,6 +1136,10 @@
 		width: 272px;
 	}
 	
+	.sidebox form{
+		margin:10px 0 4px 0;
+	}
+	
 	.sideboxheader {
 		background-color:#b5b5b5;	
 		font-size:18px;
@@ -1149,20 +1152,8 @@
 		padding: 11px 0 0 17px;
 	}
 	
-	#sidebox1 {
-		height: 245px;
-	}
-
-	#sidebox2 {
-		height: 320px;
-	}
-
-	#sidebox3 {
-		height: 250px;
-	}
-	
 	.sideboxcontent {
-		padding: 14px 14px 0 16px;
+		padding: 14px 14px 10px 16px;
 	}
 	
 	.sideboxcontent p {
@@ -1170,17 +1161,9 @@
 	}
 	
 	#sidebox3 .sideboxcontent {
-		padding: 14px 0px 0 8px;
+		padding: 14px 0px 10px 8px;
 	}
 
-	#sidebox4 {
-		height: 490px;
-	}
-
-	#sidebox5 {
-		height: 160px;
-	}
-	
 	.sideboxcontent ol  li{
 		font-size: 11px;
 		font-weight:bold;
@@ -1214,54 +1197,19 @@
 
 	/* Property details sidebox - agent's profile */
 	
-	#propdetailssidebox1 {
-		height: 540px;
-	}
-
-	#propdetailssidebox1 .sideboxcontent {
-		padding: 14px 14px 0 16px;
-	}
-
-	#propdetailssidebox1 .sideboxcontent a{
+	#agentlinks a{
 		text-decoration:underline;
 		line-height:25px;
 		font-size:14px;
 	}
-
-	#propdetailssidebox1 .sideboxcontent p{
-		margin-top:10px;
-		font-weight:normal;
-	}
 	
-	#propdetailssidebox1 #agentlinks img {
+	#agentlinks img {
 		margin:0 4px 2px 0;
 	}
 	
 	/* Property details sidebox - agent's profile END */
 
-	#staffsidebox1 .sideboxcontent p {
-		font-weight: normal;
-		margin-top: 10px;
-	}
-	
-	#staffsidebox1 {
-		height:400px;
-	}
-	
-	#branchsidebox {
-		height:430px;
-	}
-
-	#branchsidebox .sideboxcontent p {
-		font-weight: normal;
-		margin-top: 10px;
-	}
-	
-	#shortlistsidebox {
-		height: 200px;
-	}
-	
-	#shortlistsidebox img {
+	.listrecord img {
 		float:left;
 		margin:5px 10px 0 0;
 		border: 1px solid #bcbcbc;
@@ -1278,29 +1226,21 @@
 		font-weight:bold;
 	}
 	
-	#shortlistsidebox .listrecord {
+	.listrecord {
 		height: 60px;
 		margin-bottom:5px;
 	}
-
-	#locationsidebox {	
-		height: 210px;
-	}
 	
-	#locationsidebox p{	
+	.sideboxp{	
 		color:#7B7B7B;
 	}
 
-	#meetstaffsidebox {
-		height: 330px;
-	}
-
 	#meetstaffsidebox .sideboxcontent {
-		padding: 8px 0px 0 2px;
+		padding: 8px 0px 15px 2px;
 	}
 	
 	#sidebox4 .sideboxcontent {
-		padding: 8px 0px 0 2px;
+		padding: 8px 0px 15px 2px;
 	}
 
 	.agentrecord {
