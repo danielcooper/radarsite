@@ -44,10 +44,6 @@
 		line-height:24px;
 	}
 	
-	.pgrey {
-		color:#717171;
-	}
-
 	/* ------ top header ------ */
 	
 	#header {
@@ -374,7 +370,6 @@
 	/* ------ smaller green fill header on staff page etc END ------ */	
 	
 	/* ------ home headers ------ */
-	
 	
 	#homeheader3 {
 		background-image:url("../images/greybackground.png");
@@ -1184,17 +1179,6 @@
 		border:1px solid #bcbcbcl;
 	}
 		
-	.sidetext  p {
-		font-weight:bold;
-		color: #7b7b7b;
-		line-height:16px;
-		margin-left:95px;
-	}
-	
-	.sidetext a {
-		text-decoration:underline;
-	}
-
 	/* Property details sidebox - agent's profile */
 	
 	#agentlinks a{
