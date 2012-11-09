@@ -1543,13 +1543,13 @@
 	#navigation {
 		float:left;
 		margin-top:18px;
-		width: 776px;
+		width: 706px;
 	}
 
 	#navigation ul, #navigation ul li {
 		list-style: none;
-		margin:0 0 0 0;
-		padding: 0
+		padding: 0;
+		margin:0 -1px 0 -1px;
 	}
 
 	#navigation ul {
@@ -1558,6 +1558,7 @@
 
 	#navigation ul li {
 		display: inline;
+		padding:0;
 	}
 
 	#navigation li a {
@@ -1567,12 +1568,17 @@
 		text-decoration:none;
 	}
 
+	#navigation li a:hover{
+		color:#636363;
+	}
+
 	#navigation ul li a.selected {
 		background: url("../images/viewsortbg.png");
 		background-repeat:no-repeat;
 		background-position:center center;
 		padding-top:9px;
 		padding-bottom:8px;
+		color: #494949;
 	}	
 	
 	#navigation ul li a.smallselected {
@@ -1581,11 +1587,8 @@
 		background-position:center center;
 		padding-top:9px;
 		padding-bottom:8px;
+		color: #494949;
 	}	
-	
-	.gate {
-		margin:1px 0 0 0;
-	}
 	
 	#postcodeform  .well {
 		width:450px;
