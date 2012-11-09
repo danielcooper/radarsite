@@ -694,7 +694,7 @@
 	#photoreel a.leftarrow  {
 		background-image:url("../images/leftarrow.png");
 		background-repeat:no-repeat;
-		height:66px;
+		height:68px;
 		width:29px;
 		float:left;
 		margin-right:8px;
@@ -703,7 +703,7 @@
 	#photoreel a:hover.leftarrow  {
 		background-image:url("../images/leftarrowroll.png");
 		background-repeat:no-repeat;
-		height:66px;
+		height:68px;
 		width:29px;
 		float:left;
 	}
@@ -711,7 +711,7 @@
 	#photoreel a.rightarrow  {
 		background-image:url("../images/rightarrow.png");
 		background-repeat:no-repeat;
-		height:66px;
+		height:68px;
 		width:29px;
 		float:right;
 	}
@@ -719,7 +719,7 @@
 	#photoreel a:hover.rightarrow  {
 		background-image:url("../images/rightarrowroll.png");
 		background-repeat:no-repeat;
-		height:66px;
+		height:68px;
 		width:29px;
 		float:right;
 	}
