@@ -1620,3 +1620,21 @@
 	#valuationform .checklist .control-group {
 		margin-top:15px;
 	}
+	
+	#vid {
+		float: left;
+		margin-top: 1.75em;
+		margin-bottom: 1.75em;
+		display: none;
+		height: 390px;
+		width: 610px;
+		background: black;
+	}
+	
+	#vidholder {
+		float:left;
+		margin-bottom:1.75em;
+		margin-top:1.75em;
+		width:610px;
+		cursor:pointer;
+	}
