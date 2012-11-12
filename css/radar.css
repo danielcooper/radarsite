@@ -772,14 +772,14 @@
 	}
 
 	#header6 {
-		height:73px;
+		height:81px;
 		background-image:url("../images/bannerbackgroundalt.png");
 		background-repeat:repeat-x;
 		margin-top:0px;
 	}
 	
 	#header6 p {
-		margin: 17px 0 0 0;
+		margin: 20px 0 0 0;
 	}
 	
 	#header6 a {
@@ -810,7 +810,7 @@
 	
 	#radarsocial {
 		float:left;
-		margin-top:15px;
+		margin-top:20px;
 	}
 	
 	#radarsocial img{
