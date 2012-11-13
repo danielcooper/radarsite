@@ -158,8 +158,8 @@
 		border: 1px solid #000000;
 		color:#606060;
 		font-weight:bold;
-		margin-right:4px;
 		padding: 4px 6px;
+		margin-right:4px;
 	}
 	
 	#header2 .form-inline select {
@@ -1590,8 +1590,6 @@
 		padding-top:9px;
 		padding-bottom:8px;
 		color: #494949;
-		width:104px;
-		height:29px;
 	}	
 	
 	#navigation ul li a.smallselected {
