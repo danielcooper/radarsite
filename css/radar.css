@@ -1390,7 +1390,7 @@
 		background-image: -o-linear-gradient(top, #ffc51c, #ef9702);
 		background-image: linear-gradient(to bottom, #ffc51c, #ef9702);
 		background-image: -moz-linear-gradient(top, #ffc51c, #ef9702); 
-		border-color: #ef9702;
+		border-color: #FAA515;
 		filter: progid:dximagetransform.microsoft.gradient(startColorstr='#ffffc51c', ENDColorstr='#ffef9702', GradientType=0);
 		font-size:15px;
 		text-shadow:none;
