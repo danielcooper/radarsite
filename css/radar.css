@@ -287,13 +287,9 @@
 		width:920px;
 		margin-top:15px;
 	}
-	
-	#findgreenheader .form-horizontal .control-group {
-		margin-bottom:12px;
-	}
-	
+
 	#findgreenheader .form-horizontal select {
-		margin-left:8px;
+		margin-left:12px;
 	}
 	
 	#findgreenheader .form-horizontal input {
@@ -307,6 +303,7 @@
 	
 	#findgreenheader .form-horizontal .controls{
 		margin-left:0;
+		margin-bottom:10px;
 	}
 	
 	#findgreenheader .form-horizontal .control-label {
@@ -316,7 +313,7 @@
 		font-size:18px;
 		margin-right:10px;
 	}
-	
+
 	#findgreenheader .form-horizontal h1 {
 		float:left;
 		margin:0;
@@ -326,8 +323,8 @@
 	
 	#findgreenheader .btn-primary {
 		float:right;
-		width:150px;
-		margin-right:80px;
+		width:170px;
+		margin:1px 53px 0 0;
 	}
 	
 	/* ------ Find agents header end ------ */
@@ -489,6 +486,7 @@
 	.largegreen {
 		font-size:14px;
 		color:#429140;
+		margin-left:5px;
 	}
 	
 	#header3staff {
