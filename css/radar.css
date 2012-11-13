@@ -154,7 +154,15 @@
 		box-shadow: none;
 	}
 
-	#header2 .form-inline input, select {
+	#header2 .form-inline input{
+		border: 1px solid #000000;
+		color:#606060;
+		font-weight:bold;
+		margin-right:4px;
+		padding: 4px 6px;
+	}
+	
+	#header2 .form-inline select {
 		border: 1px solid #000000;
 		color:#606060;
 		font-weight:bold;
@@ -164,7 +172,7 @@
 	
 	#header2 .form-inline select {
 		height:30px;
-		padding: 4px 6px;
+		padding: 4px 4px;
 	}
 	
 	/* ------ header2 green fill END ------ */	
