@@ -1391,6 +1391,8 @@
 		font-size:15px;
 		text-shadow:none;
 		font-weight:bold;
+		outline:none;
+		-ms-box-sizing:border-box;
 	}
 
 	.btn-primary:hover,
