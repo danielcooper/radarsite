@@ -777,14 +777,14 @@
 	}
 
 	#header6 {
-		height:81px;
-		background-image:url("../images/bannerbackgroundalt.png");
+		height:100px;
+		background-image:url("../images/bannerbackgroundfooter.png");
 		background-repeat:repeat-x;
 		margin-top:0px;
 	}
 	
 	#header6 p {
-		margin: 20px 0 0 0;
+		margin: 30px 0 0 0;
 	}
 	
 	#header6 a {
@@ -793,7 +793,7 @@
 	}
 	
 	#footer {
-		padding: 15px 0 0 0;
+		padding: 10px 0 0 0;
 	}
 
 	#footer .titles{
@@ -815,7 +815,7 @@
 	
 	#radarsocial {
 		float:left;
-		margin-top:20px;
+		margin-top:25px;
 		width:140px;
 	}
 	
