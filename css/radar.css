@@ -55,6 +55,13 @@
 	#header a:hover {
 		color:#b7b6b6;
 	}
+	
+	#mainlogo {
+		height:81px;
+		width: 210px;
+		background-image:url("../images/1high.gif");
+		background-repeat:no-repeat;
+	}
 
 	/* ------ top header END ------ */
 
