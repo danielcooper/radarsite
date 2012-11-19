@@ -1,6 +1,10 @@
-#mainlogo {
-	height:81px;
-	width: 210px;
-	background-image:url("../images/1highnotri.png");
-	background-repeat:no-repeat;
-}
+	#mainlogo {
+		height:81px;
+		width: 210px;
+		background-image:url("../images/1highnotri.png");
+		background-repeat:no-repeat;
+	}
+
+	#propdetailsform .form-horizontal {
+		min-height:395px
+	}
