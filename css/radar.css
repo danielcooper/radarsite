@@ -1241,8 +1241,9 @@
 
 	.agentrecord {
 		padding: 7px 0 0 15px;
-		margin-bottom:15px;
+		margin-bottom:10px;
 		width:230px;
+		height:79px;
 	}
 	
 	.agentrecord #mainimg {
