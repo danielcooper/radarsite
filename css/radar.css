@@ -1379,7 +1379,7 @@
 	
 	/* main orange buttons */
 	
-	.btn-primary {
+	form .btn-primary {
 		background: #ED821F;
 		background-color: #ED821F;
 		*background-color: #ED821F;
@@ -1397,7 +1397,7 @@
 		border: 1px solid #BC5F0D;
 	}
 
-	.btn-primary:hover,
+	form .btn-primary:hover,
 	.btn-primary:active,
 	.btn-primary.active,
 	.btn-primary.disabled,
@@ -1411,9 +1411,15 @@
 		background-image: -o-linear-gradient(top,#F48722 0,#D06B13 100%);
 		background-image: -webkit-gradient(linear,left top,left bottom,color-stop(0%,#F48722),color-stop(100%,#D06B13));
 		background-image: linear-gradient(top,#F48722 0,#D06B13 100%);
+		font-weight: bold;
+		color: white;
+		text-shadow: 0 1px 1px rgba(95, 49, 9, 1),0px 1px 0 rgba(255, 255, 255, 0);
+		outline: none;
+		box-sizing: border-box;
+		border: 1px solid #BC5F0D;
 	}
 
-	.btn-primary:active,
+	form .btn-primary:active,
 		.btn-primary.active {
 		background: #ED821F;
 		background-color: #ED821F;
@@ -1424,6 +1430,12 @@
 		background-image: -o-linear-gradient(top,#F48722 0,#D06B13 100%);
 		background-image: -webkit-gradient(linear,left top,left bottom,color-stop(0%,#F48722),color-stop(100%,#D06B13));
 		background-image: linear-gradient(top,#F48722 0,#D06B13 100%);
+		font-weight: bold;
+		color: white;
+		text-shadow: 0 1px 1px rgba(95, 49, 9, 1),0px 1px 0 rgba(255, 255, 255, 0);
+		outline: none;
+		box-sizing: border-box;
+		border: 1px solid #BC5F0D;
 	}
 	
 	/* main orange buttons END */
@@ -1438,7 +1450,7 @@
 		width:150px;
 		float:right;
 	}
-	
+
 	#smallergreenheader #centrebuttons .btn-primary {
 		background-color: #A1A1A1;
 		background-image: -moz-linear-gradient(center top, #B0B0B0, #A1A1A1);
