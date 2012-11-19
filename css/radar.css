@@ -152,6 +152,9 @@
 		background-color:transparent;
 		border: none;
 		box-shadow: none;
+		margin-right:0;
+		padding-right:0;
+		width:932px;
 	}
 
 	#header2 .form-inline input{
@@ -238,7 +241,7 @@
 	#altgreenheader2 .form-inline a {
 		color:#ffffff;
 		font-weight:normal;
-		margin-left:115px;
+		margin-left:75px;
 	}
 	
 	#unselected .btn-primary {

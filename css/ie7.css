@@ -1,15 +1,32 @@
-#altgreenheader2 .form-inline h1 {
-	margin:0;
-}
+	#altgreenheader2 .form-inline h1 {
+		margin:0;
+	}
 
-#altgreenheader2 .form-inline a {
-	margin-left:110px;
-}
+	#altgreenheader2 .form-inline a {
+		margin-left:70px;
+	}
 
-#altgreenheader2 .form-inline select {
-	line-height:40px;
-}
+	#altgreenheader2 .form-inline select {
+		line-height:40px;
+	}
 
-.subtitles {
-	width:200px;
-}
+	.subtitles {
+		width:200px;
+	}
+
+	#header3 .well  {
+		margin-right:12px;
+	}
+
+	#header2 .form-inline input {
+		margin-right:6px;
+	}
+
+	#header2 form .btn-primary {
+		margin-left:5px;
+	}
+
+	#navigation {
+		padding: 4px 0 8px 0;
+		margin-top: 10px;
+	}
