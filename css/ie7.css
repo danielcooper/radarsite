@@ -32,6 +32,6 @@
 	}
 	
 	#navigation ul li a.smallselected {
-		margin-left:0;
+		margin-left:3px;
 		padding-left:0;
 	}
