@@ -226,7 +226,7 @@
 	}
 	
 	#altgreenheader2 #mainbuttons .btn-primary {
-		margin:0 20px 0 0;
+		margin:0 5px 0 0;
 		float:left;
 		width: 130px;
 	}
@@ -238,7 +238,7 @@
 	#altgreenheader2 .form-inline a {
 		color:#ffffff;
 		font-weight:normal;
-		margin-left:120px;
+		margin-left:115px;
 	}
 	
 	#unselected .btn-primary {
@@ -1449,9 +1449,8 @@
 	}
 	
 	#altgreenheader2 form .btn-primary {
-		margin:0 50px 0 3px;
+		margin:0 0px 12px 8px;
 		width:150px;
-		float:right;
 	}
 
 	#smallergreenheader #centrebuttons .btn-primary {
