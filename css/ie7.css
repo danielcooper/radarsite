@@ -48,6 +48,10 @@
 		margin: 8px 0 8px 0;
 	}
 	
+	.pagination {
+		margin-top:15px;
+	}
+	
 	#supportform {
 		margin-top:10px;
 	}
