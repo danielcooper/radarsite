@@ -44,14 +44,14 @@
 		margin-top:10px;
 	}
 	
-	hr {
-		margin: 8px 0 8px 0;
-	}
-	
 	#supportform {
 		margin-top:10px;
 	}
 	
 	#propdetailsform .form-horizontal label.control-label {
 		width:80px;
+	}
+	
+	hr {
+		margin: 6px 0 5px 0;
 	}

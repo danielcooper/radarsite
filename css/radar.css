@@ -948,11 +948,13 @@
 		text-decoration:underline;
 	}
 	
-	#agentsnippet p {
+	.agentsnippetp {
 		clear:both;
 		font-size:16px;
 		font-style:italic;
 		font-weight:bold;
+		padding:10px 0 0 0;
+		margin: 0;
 	}
 	
 	/* ------ Staff page - individual staff member's page END ------ */
@@ -1082,7 +1084,6 @@
 		text-align:center;
 		padding:8px;
 		border:1px solid #dcdcdc;
-		margin-bottom:15px;
 		margin-right:0;
 		margin-top:2px;
 	}
@@ -1125,7 +1126,7 @@
 	
 	hr {
 		color:#ededed;
-		margin: 0px 0 14px 0; /* works with margin on recordimages to space evenly */
+		margin: 12px 0 12px 0;
 	}
 
 	/* ------ Property results class elements END ------ */
