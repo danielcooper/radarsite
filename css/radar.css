@@ -1395,6 +1395,7 @@
 		outline: none;
 		box-sizing: border-box;
 		border: 1px solid #BC5F0D;
+		overflow:hidden;
 		filter: progid:dximagetransform.microsoft.gradient(startColorstr='#ffED821F', ENDColorstr='#ffD06B13', GradientType=0);
 	}
 
