@@ -849,7 +849,8 @@
 	#agentsocial a {
 		font-size:14px;
 		text-decoration:underline;
-		margin-right:15px
+		margin-right:15px;
+		margin-top:10px;
 	}
 	
 	#agentsocial #links {
@@ -861,7 +862,7 @@
 	#agentsocial #singlelinks {
 		width:170px;
 		float:right;
-		margin:10px 45px 10px 0;
+		margin:10px 45px 0px 0;
 	}
 	
 	.divider {
@@ -1395,7 +1396,6 @@
 		outline: none;
 		box-sizing: border-box;
 		border: 1px solid #BC5F0D;
-		overflow:hidden;
 		filter: progid:dximagetransform.microsoft.gradient(startColorstr='#ffED821F', ENDColorstr='#ffD06B13', GradientType=0);
 	}
 
@@ -1561,7 +1561,7 @@
 	}
 	
 	#header4 .well .btn {
-		margin: 15px 0 0 130px;
+		margin: 15px 0 0 134px;
 	}
 	
 	#header4point5 #leftbutton button{
