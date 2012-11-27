@@ -1,5 +1,5 @@
 	form .btn-primary {
-		border:none;
+		background-color: #E27C1E;	
 	}
 	
 	form .btn-primary:hover,
@@ -7,7 +7,7 @@
 	.btn-primary.active,
 	.btn-primary.disabled,
 	.btn-primary[disabled] {
-		border:none;
+		background-color: #E27C1E;
 	}
 	
 	#altgreenheader2 .form-inline h1 {
