@@ -11,6 +11,9 @@
 			background-image:url("images/1high.gif");
 		}
 	</style>
+	<!--[if gte IE 9]>
+		<link rel="stylesheet" type="text/css" href="css/ie9.css" />
+	<![endif]-->
 	<!--[if lt IE 9]>
 		<link rel="stylesheet" type="text/css" href="css/ie.css" />
 		<style type="text/css">
@@ -74,17 +77,17 @@
 		<form class="well form-inline">
 			<div id="line1">
 				<div id="mainbuttons">
-					<button type="submit" class="btn btn-primary">Buy</button>
+					<button type="submit" class="btn btn-primary"><div class="gradient">Buy</div></button>
 					<!-- unselected id used to grey out inactive button ...
 						you'll probably have a better solution! -->
 					<div id="unselected">
-						<button type="submit" class="btn btn-primary">Rent</button>
+						<button type="submit" class="btn btn-primary"><div class="gradient">Rent</div></button>
 					</div>
 				</div>
 				<h1>Find your home on our Radar</h1>
 			</div>
 			<input type="text" id="location" class="span9" placeholder="e.g Exeter">
-			<button type="submit" class="btn btn-primary">Search</button>
+			<button type="submit" class="btn btn-primary"><div class="gradient">Search</div></button>
 			  <select id="minprice" class="input-medium">
 				<option selected="selected">Min price</option>
 				<option title="£50,000" value="50000">£50,000</option>
@@ -231,7 +234,7 @@
 					<input type="text" id="lastname" class="input-medium" placeholder="Last name">
 					<input type="text" id="telephone" class="input-medium" placeholder="Telephone">
 					<input type="text" id="email" class="input-medium" placeholder="your@email.com">
-					<button type="submit" class="btn btn-primary">Let's get started!</button>
+					<button type="submit" class="btn btn-primary"><div class="gradient">Let's get started!</div></button>
 				</form>
 			</div>
 		</div>

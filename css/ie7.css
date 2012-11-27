@@ -1,3 +1,15 @@
+	form .btn-primary {
+		border:none;
+	}
+	
+	form .btn-primary:hover,
+	.btn-primary:active,
+	.btn-primary.active,
+	.btn-primary.disabled,
+	.btn-primary[disabled] {
+		border:none;
+	}
+	
 	#altgreenheader2 .form-inline h1 {
 		margin:0;
 	}
