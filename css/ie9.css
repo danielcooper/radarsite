@@ -6,3 +6,13 @@
 		background-color: #E27C1E;
 		filter:none;
 	}	
+	
+	form .btn-primary:hover,
+	.btn-primary:active,
+	.btn-primary.active,
+	.btn-primary.disabled,
+	.btn-primary[disabled] {
+		background-color: #E27C1E;
+		filter:none;
+	}
+	
