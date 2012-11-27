@@ -18,3 +18,66 @@
 		.btn-primary.active {
 		filter:none;
 	}
+	
+	#unselected .btn-primary {
+		filter:none;
+	}
+	
+	#unselected  .btn-primary:hover,
+	.btn-primary:active,
+	.btn-primary.active,
+	.btn-primary.disabled,
+	.btn-primary[disabled] {
+		filter:none;
+	}
+ 
+	#unselected  .btn-primary:active,
+		.btn-primary.active {
+		filter:none;
+	}
+	
+	#header2 form .btn-primary {
+		filter:none;
+	}
+	
+	#altgreenheader2 form .btn-primary {
+		filter:none;
+	}
+	
+	#smallergreenheader #centrebuttons .btn-primary {
+		filter:none;
+	}
+
+	#smallergreenheader #centrebuttons .btn-primary:hover,
+	.btn-primary:active,
+	.btn-primary.active,
+	.btn-primary.disabled,
+	.btn-primary[disabled] {
+		filter:none;
+	}
+ 
+	#smallergreenheader #centrebuttons .btn-primary:active,
+		.btn-primary.active {
+		filter:none;
+	}
+	
+	#smallergreenheader form .btn-primary {
+		filter:none;
+	}
+	
+	#header3 form .btn-primary {
+		filter:none;
+	}
+
+	#header3 form .btn-primary:hover,
+	.btn-primary:active,
+	.btn-primary.active,
+	.btn-primary.disabled,
+	.btn-primary[disabled] {
+		filter:none;
+	}
+ 
+	#header3 form .btn-primary:active,
+		.btn-primary.active {
+		filter:none;
+	}
