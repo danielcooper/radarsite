@@ -5,3 +5,16 @@
 	form .btn-primary {
 		filter:none;
 	}	
+	
+	form .btn-primary:hover,
+	.btn-primary:active,
+	.btn-primary.active,
+	.btn-primary.disabled,
+	.btn-primary[disabled] {
+		filter:none;
+	}	
+	
+	form .btn-primary:active,
+		.btn-primary.active {
+		filter:none;
+	}
