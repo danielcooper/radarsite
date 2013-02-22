@@ -35,7 +35,7 @@
 	h1 {
 		font-size: 20px;
 		line-height: 24px;
-		margin-bottom:0; /* improve this */
+	
 	}
 	
 	h2 {
@@ -1710,4 +1710,14 @@
 		margin-top:1.75em;
 		width:610px;
 		cursor:pointer;
+	}
+	
+	#aboutlist {
+		margin: 10px 0 0 0;
+	}
+	
+	#aboutlist li{
+		list-style-type:square;
+		font-size:18px;
+		padding-bottom:20px;
 	}
