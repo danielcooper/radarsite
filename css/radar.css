@@ -353,6 +353,14 @@
 		border-top: 1px solid #bcbcbc;
 	}
 	
+	#aboutheader4 {
+		background-color:#33454e;
+		background-repeat:repeat-x;
+		height: 360px;
+		border-bottom: 1px solid #bcbcbc;
+		border-top: 1px solid #bcbcbc;
+	}
+	
 	#homeheader3point5 {
 		background-repeat:repeat-x;
 		height: 180px;
@@ -1056,7 +1064,18 @@
 		margin-right:0;
 		margin-top:2px;
 	}
-
+	
+	.aboutrecordimages {
+		float: left;
+		background-color: #33454E;
+		text-align: center;
+		padding: 3px;
+		border: 1px solid #657780;
+		margin-bottom: 15px;
+		margin-right: 0;
+		margin-top: 2px;
+	}
+	
 	.mainimage {
 		border:1px solid #DCDCDC;
 	}
@@ -1720,4 +1739,11 @@
 		list-style-type:square;
 		font-size:18px;
 		padding-bottom:20px;
+	}
+	
+	.generallist li {
+		list-style-type:square;
+		font-size:14px;
+		color:#ffffff;
+		padding-bottom:10px;
 	}
