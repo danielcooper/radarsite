@@ -1258,7 +1258,7 @@
 	}
 	
 	.agentrecordbody {
-		padding: 0 0 0 0 ;
+		padding: 0 0 0 0;
 		margin-bottom:5px;
 		height:70px;
 		width:215px;
@@ -1745,5 +1745,5 @@
 		list-style-type:square;
 		font-size:14px;
 		color:#ffffff;
-		padding-bottom:10px;
+		padding-bottom:8px;
 	}
