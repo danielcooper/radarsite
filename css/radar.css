@@ -400,6 +400,10 @@
 		height: 280px;
 		border-bottom: 1px solid #bcbcbc;
 	}
+	
+	#aboutheader1 {
+		border-top: 1px solid #bcbcbc;
+	}
 
 	/* rejigged spans to fit content */
 	
@@ -1767,13 +1771,13 @@
 	
 	#aboutlist li{
 		list-style-type:square;
-		font-size:18px;
+		font-size:16px;
 		padding-bottom:20px;
 	}
 	
 	.generallist li {
 		list-style-type:square;
-		font-size:14px;
+		font-size:16px;
 		color:#ffffff;
 		padding-bottom:8px;
 	}
