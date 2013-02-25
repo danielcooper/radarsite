@@ -394,28 +394,28 @@
 	}
 	
 	#aboutheader4point5 {
-		background-color:#878787;
+		background-color:#4a6361;
 		background-repeat:repeat-x;
 		height: 320px;
 		border-bottom: 1px solid #bcbcbc;
 	}
 	
 	#aboutheader5 {
-		background-color:#d7ae8f;
+		background-color:#8D3D41;
 		background-repeat:repeat-x;
 		height: 390px;
 		border-bottom: 1px solid #bcbcbc;
 	}
 	
 	#aboutheader5point5{
-		background-color:#391d1d;
+		background-color:#33454e;
 		background-repeat:repeat-x;
 		height: 360px;
 		border-bottom: 1px solid #bcbcbc;
 	}
 	
 	#aboutheader5point6{
-		background-color:#7bb075;
+		background-color:#668463;
 		background-repeat:repeat-x;
 		height: 400px;
 		border-bottom: 1px solid #bcbcbc;
@@ -1100,7 +1100,7 @@
 	
 	.aboutrecordimages {
 		float: left;
-		background-color: #33454E;
+		background-color: #33454e;
 		text-align: center;
 		padding: 3px;
 		border: 1px solid #657780;
@@ -1111,7 +1111,7 @@
 	
 	.aboutrecordimages1 {
 		float: left;
-		background-color: #33454E;
+		background-color: #33454e;
 		text-align: center;
 		padding: 3px;
 		border: 1px solid #657780;
@@ -1122,7 +1122,7 @@
 	
 	.aboutrecordimages2 {
 		float: left;
-		background-color: #33454E;
+		background-color: #33454e;
 		text-align: center;
 		padding: 3px;
 		border: 1px solid #657780;
