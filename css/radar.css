@@ -419,15 +419,12 @@
 	}
 	
 	#aboutheader1 {
-		background-color: #33454e;
-		background-repeat: repeat-x;
 		border-top: 1px solid #bcbcbc;
 		height:380px;
 	}
 
 	#aboutheader4 {
-		background-image: url("../images/greybackground.png");
-		background-repeat: repeat-x;
+		background-color: #E9E9E9;
 		height: 360px;
 		border-bottom: 1px solid #bcbcbc;
 		border-top: 1px solid #bcbcbc;
@@ -1798,7 +1795,7 @@
 	}
 	
 	#aboutlist li{
-		color:#f1f1f1;
+		color:#333333;
 		list-style-type:square;
 		font-size:16px;
 		padding-bottom:15px;
