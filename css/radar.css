@@ -401,6 +401,13 @@
 	}
 	
 	#aboutheader5 {
+		background-color:#d7ae8f;
+		background-repeat:repeat-x;
+		height: 360px;
+		border-bottom: 1px solid #bcbcbc;
+	}
+	
+	#aboutheader5point5{
 		background-color:#391d1d;
 		background-repeat:repeat-x;
 		height: 360px;
