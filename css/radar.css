@@ -353,14 +353,6 @@
 		border-top: 1px solid #bcbcbc;
 	}
 	
-	#aboutheader4 {
-		background-color:#33454e;
-		background-repeat:repeat-x;
-		height: 350px;
-		border-bottom: 1px solid #bcbcbc;
-		border-top: 1px solid #bcbcbc;
-	}
-	
 	#homeheader3point5 {
 		background-repeat:repeat-x;
 		height: 180px;
@@ -415,12 +407,19 @@
 		border-bottom: 1px solid #bcbcbc;
 	}
 	
-	
 	#aboutheader1 {
 		border-top: 1px solid #bcbcbc;
-		height:320px;
+		height:340px;
 	}
 
+	#aboutheader4 {
+		background-color:#33454e;
+		background-repeat:repeat-x;
+		height: 360px;
+		border-bottom: 1px solid #bcbcbc;
+		border-top: 1px solid #bcbcbc;
+	}
+	
 	/* rejigged spans to fit content */
 	
 	#homeheader4 .span3 {
