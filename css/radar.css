@@ -1795,13 +1795,13 @@
 	}
 	
 	#aboutlist {
-		margin: 30px 0 0 30px;
+		margin: 60px 0 0 30px;
 	}
 	
 	#aboutlist li{
 		list-style-type:square;
 		font-size:16px;
-		padding-bottom:20px;
+		padding-bottom:10px;
 	}
 	
 	.generallist li {
