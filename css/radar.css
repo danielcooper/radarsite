@@ -401,6 +401,21 @@
 		border-bottom: 1px solid #bcbcbc;
 	}
 	
+	#aboutheader4point5 {
+		background-color:#878787;
+		background-repeat:repeat-x;
+		height: 320px;
+		border-bottom: 1px solid #bcbcbc;
+	}
+	
+	#aboutheader5 {
+		background-color:#391d1d;
+		background-repeat:repeat-x;
+		height: 360px;
+		border-bottom: 1px solid #bcbcbc;
+	}
+	
+	
 	#aboutheader1 {
 		border-top: 1px solid #bcbcbc;
 		height:320px;
