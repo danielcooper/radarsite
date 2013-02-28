@@ -72,7 +72,7 @@
 		padding: 0;
 		width: 430px;
 		height:40px;
-		text-shadow: 1px 1px 1px #000000;
+		text-shadow: 1px 1px 1px #333333;
 	}
 
 	#topnav a {
@@ -158,7 +158,7 @@
 	}
 
 	#header2 .form-inline input{
-		border: 1px solid #000000;
+		border: 1px solid #333333;
 		color:#606060;
 		font-weight:bold;
 		padding: 4px 6px;
@@ -166,7 +166,7 @@
 	}
 	
 	#header2 .form-inline select {
-		border: 1px solid #000000;
+		border: 1px solid #333333;
 		color:#606060;
 		font-weight:bold;
 		margin-right:4px;
@@ -201,7 +201,7 @@
 	}
 
 	#altgreenheader2 .form-inline input, select {
-		border: 1px solid #000000;
+		border: 1px solid #333333;
 		color:#606060;
 		font-weight:bold;
 		margin-right:4px;
@@ -264,7 +264,7 @@
 	}
 	
 	#findgreenheader .form-horizontal input {
-		border:1px solid #000000;
+		border:1px solid #333333;
 	}
 	
 	#findgreenheader .form-horizontal input,select {
@@ -477,7 +477,7 @@
 		font-size: 20px;
 		margin: 14px 0 0 0;
 		padding-top: 0px;
-		color:#000000
+		color:#333333;
 	}
 
 	#header3 #pricelarge {
@@ -762,7 +762,7 @@
 	}
 
 	#header4point5 .form-inline input, select {
-		border: 1px solid #000000;
+		border: 1px solid #333333;
 		color:#606060;
 		font-weight:bold;
 	}
@@ -912,7 +912,7 @@
 	#staffheader a{
 		font-size: 20px;
 		margin: 14px 0 0 0;
-		color:#000000;
+		color:#333333;
 		text-decoration:none;
 		display:block;
 	}
@@ -1306,7 +1306,7 @@
 	
 	.agentrecordstaffa:hover{
 		text-decoration:none;
-		color:#000000;
+		color:#333333;
 	}
 	
 	.agentrecordstaff #mainimg {
