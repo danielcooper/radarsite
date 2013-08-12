@@ -27,7 +27,7 @@
 		}
 		
 		.logo {
-			margin-top:25px;
+			margin-top:30px;
 			float:left;
 			width:320px;
 		}
@@ -113,7 +113,7 @@
 		.banner { 
 			position: relative; 
 			overflow: hidden; 
-			height:344px; 
+			height:303px; 
 			width:100%;
 			background-color:#222222;
 			border-bottom:1px solid #abacac;
@@ -121,14 +121,19 @@
 		}
 		
 		.banner img {
+			position: absolute; 
+			top: 0px; 
+			left: 0px;
 			border-top:1px solid #abacac;
 			border-right:1px solid #abacac;
 			border-left:1px solid #abacac;
-			position: absolute; 
-			top: 9px; 
-			left: 278px; 
-			width: 645px; 
+		}
+		
+		.fadein {
+			position: relative;
+			width: 550px; 
 			height:334px;
+			margin-top:17px;
 		}
 		
 		.bottom {
@@ -152,11 +157,10 @@
 		}
 		
 		.banner-overlay {
-			width:300px;
+			margin-top:57px;
 			text-align:left;
-			float:right;
-			margin-top:60px;
-			margin-right:140px;
+			width:333px;
+			margin-left:40px;
 		}
 		
 		dt {
@@ -188,6 +192,10 @@
 			}
 			
 			.col-lg-4 {
+				float:left;
+			}
+			
+			.col-lg-6 {
 				float:left;
 			}
 			
@@ -241,16 +249,20 @@
 	</div>
 	<div class="banner">
 		<div class="container">
-			<div class="fadein">
-				<img src="hd.jpg" />
-				<img src="hd2.jpg" />
-				<img src="hd4.jpg" />
+			<div class="col-lg-6">
+				<div class="fadein">
+					<img src="hd.jpg" />
+					<img src="hd2.jpg" />
+					<img src="hd4.jpg" />
+				</div>
 			</div>
-			<div class="banner-overlay">
-				<p>
-					Jenny is a Hair Stylist based in the Gentry saloon, Exeter, EX1. "I have been hair styling for 16 years. I love it! Looking good is feeling good..." Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. <br /><a href="" class="selected">Read more</a>
-				</p>		
-				<h4 style="margin-bottom:0;">Tel: 01392 278426</h4>
+			<div class="col-lg-6">
+				<div class="banner-overlay">
+					<p>
+						Jenny is a Hair Stylist based in the Gentry saloon, Exeter, EX1. "I have been hair styling for 16 years. I love it! Looking good is feeling good..." Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. <br /><a href="" class="selected">Read more</a>
+					</p>		
+					<h4>Tel: 01392 278426</h4>
+				</div>
 			</div>
 		</div>
 	</div>
