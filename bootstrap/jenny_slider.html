@@ -103,13 +103,16 @@
 		
 		.banner { 
 			position: relative; 
-			overflow: hidden; 
+			overflow: auto; 
 			height:320px; 
 			width:100%;
 			background-color:#222222;
 			border-bottom:1px solid #abacac;
 			box-shadow: 0 4px 2px -2px #abacac;
 		}
+		
+		.banner li { list-style: none; }
+        .banner ul li { float: left; }
 		
 		.banner-img {
 			border-top:1px solid #abacac;
@@ -134,9 +137,8 @@
 		}
 		
 		#map-canvas {
-			width: 260px;
-			height: 170px;
-			margin-top:17px;
+			width: 270px;
+			height: 210px;
 		}
 		
 		.banner-overlay {
@@ -159,31 +161,10 @@
 			width:360px;
 		}
 	</style>
-	<!--[if lte IE 8]>
-		<style type="text/css">
-			.articles {
-				max-width:1170px;
-			}
-					
-			.col-lg-3 {
-				width:292px;
-				float:left;
-			}
-			
-			.container {
-				max-width:1170px;
-			}
-			
-			.col-lg-4 {
-				float:left;
-			}
-			
-			.bottom-article {
-				margin-right:90px;
-			}
-		</style>
-	<![endif]-->
-		<script src="http://code.jquery.com/jquery.js"></script>
+		<script src="js/jquery-latest.min.js"></script>
+		<script src="js/unslider.min.js"></script>
+		<script src="js/css3-mediaqueries.js"></script>
+		<script src="js/respond.src.js"></script>
 	    <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false"></script>
      <script>
 		function initialize() {
@@ -204,8 +185,11 @@
 
 		google.maps.event.addDomListener(window, 'load', initialize);
     </script>
-	<script src="js/jquery.js"></script>
-	<script src="js/respond.src.js"></script>
+	<script>
+	$(function() {
+    $('.banner').unslider();
+	});
+	</script>
 </head>
 <body>
 	<div class="navbar navbar-inverse">
@@ -222,14 +206,19 @@
 		</div>
 	</div>
 	<div class="banner">
-		<div class="container">
-			<img src="hd.jpg" class="banner-img"/>
-			<div class="banner-overlay">
-				<p>
-					Jenny is a Hair Stylist based in the Gentry saloon, Exeter, EX1. "I have been hair styling for 16 years. I love it! Looking good is feeling good..." Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. <br /><a href="" class="selected">Read more</a>
-				</p>
-			</div>
-		</div>
+		
+			<ul>
+				<li><img src="hd.jpg" class="banner-img"/></li>
+				<li><img src="hd.jpg" class="banner-img"/>
+					<div class="banner-overlay">
+						<p>
+							Jenny is a Hair Stylist based in the Gentry saloon, Exeter, EX1. "I have been hair styling for 16 years. I love it! Looking good is feeling good..." Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. <br /><a href="" class="selected">Read more</a>
+						</p>
+					</div>
+				</li>
+				<li>This is a final slide.</li>
+			</ul>
+	
 	</div>
 	<div class="articles container">
 		<h3>Jenny is a Hair Stylist based in the Gentry saloon, Exeter, EX1</h3>
