@@ -18,6 +18,10 @@
 			text-decoration:none;
 		}
 		
+		a.selected {
+			color:#FF6F00;
+		}
+		
 		a:hover {
 			color:#FF6F00;
 		}
@@ -100,11 +104,19 @@
 		.banner { 
 			position: relative; 
 			overflow: hidden; 
-			height:500px; 
+			height:320px; 
 			width:100%;
 			background-color:#222222;
 			border-bottom:1px solid #abacac;
 			box-shadow: 0 4px 2px -2px #abacac;
+		}
+		
+		.banner-img {
+			border-top:1px solid #abacac;
+			border-right:1px solid #abacac;
+			border-left:1px solid #abacac;
+			float:left;
+			margin-left:18px;
 		}
 		
 		.bottom {
@@ -122,8 +134,27 @@
 		}
 		
 		#map-canvas {
-			width: 320px;
-			height: 230px;
+			width: 270px;
+			height: 210px;
+		}
+		
+		.banner-overlay {
+			width:300px;
+			text-align:left;
+			margin-left:50px;
+			float:left;
+		}
+		
+		dt {
+			float:left;	
+		}
+		
+		dd {
+			margin-left:30%;
+		}
+		
+		dl {
+			margin-top:0;
 		}
 	</style>
 		<script src="js/css3-mediaqueries.js"></script>
@@ -158,7 +189,7 @@
 				<img src="js.png" class="logo"/>
 			</a>
 			<div class="nav">	
-				<a href="h.html">Home</a> | 
+				<a href="" class="selected">Home</a> | 
 				<a href="">My Services</a> | 
 				<a href="">About Jenny</a> |
 				<a href="">Contact Me</a>
@@ -166,7 +197,14 @@
 		</div>
 	</div>
 	<div class="banner">
-		<img src="hd.jpg" />
+		<div class="container">
+			<img src="hd.jpg" class="banner-img"/>
+			<div class="banner-overlay">
+				<p>
+					Jenny is a Hair Stylist based in the Gentry saloon, Exeter, EX1. "I have been hair styling for 16 years. I love it! Looking good is feeling good..." Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. <br /><a href="" class="selected">Read more</a>
+				</p>
+			</div>
+		</div>
 	</div>
 	<div class="articles container">
 		<h3>Jenny is a Hair Stylist based in the Gentry saloon, Exeter, EX1</h3>
@@ -206,7 +244,7 @@
 					<div id="map-canvas"></div>
 				</div>
 			</div>
-			<div class="col-lg-4">
+			<div class="col-lg-3">
 				<div class="bottom-article">
 					<h3>Contact me...</h3>
 					<p>
@@ -221,7 +259,27 @@
 					</p>
 				</div>
 			</div>
-			<div class="col-lg-4"></div>
+			<div class="col-lg-4">
+				<div class="bottom-article">
+					<h3>Opening hours...</h3>
+					<dl>
+						<dt>Monday</dt>
+						<dd>10.30am - 7.00pm</dd>
+						<dt>Tuesday</dt>
+						<dd>9:00am - 5:30pm</dd>
+						<dt>Wednesday</dt>
+						<dd>9:00am - 6:00pm</dd>
+						<dt>Thursday</dt>
+						<dd>9:00am - 7:00pm</dd>
+						<dt>Friday</dt>
+						<dd>9:00am - 5:30pm</dd>
+						<dt>Saturday</dt>
+						<dd>9:00am - 4:00pm</dd>
+						<dt>Sunday</dt>
+						<dd>Closed</dd>
+					</dl>
+				</div>
+			</div>
 		</div>
 	</div>
 	<div class="footer">
