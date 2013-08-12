@@ -38,7 +38,7 @@
 		
 		.nav {
 			font-family: 'Georgia';
-			padding:50px 0 0 0;
+			padding:59px 80px 0 0;
 			text-align:right;
 			min-width:440px;
 			float:right;
@@ -113,19 +113,22 @@
 		.banner { 
 			position: relative; 
 			overflow: hidden; 
-			height:320px; 
+			height:344px; 
 			width:100%;
 			background-color:#222222;
 			border-bottom:1px solid #abacac;
 			box-shadow: 0 4px 2px -2px #abacac;
 		}
 		
-		.banner-img {
+		.banner img {
 			border-top:1px solid #abacac;
 			border-right:1px solid #abacac;
 			border-left:1px solid #abacac;
-			float:left;
-			margin-left:14px;
+			position: absolute; 
+			top: 9px; 
+			left: 278px; 
+			width: 645px; 
+			height:334px;
 		}
 		
 		.bottom {
@@ -151,9 +154,9 @@
 		.banner-overlay {
 			width:300px;
 			text-align:left;
-			margin-left:60px;
-			float:left;
-			margin-top:40px;
+			float:right;
+			margin-top:60px;
+			margin-right:140px;
 		}
 		
 		dt {
@@ -215,6 +218,12 @@
 
 		google.maps.event.addDomListener(window, 'load', initialize);
     </script>
+	<script>
+		$(function(){
+			$('.fadein img:gt(0)').hide();
+			setInterval(function(){$('.fadein :first-child').fadeOut(900).next('img').fadeIn(900).end().appendTo('.fadein');}, 3700);
+		});	
+	</script>
 </head>
 <body>
 	<div class="navbar navbar-inverse">
@@ -232,12 +241,16 @@
 	</div>
 	<div class="banner">
 		<div class="container">
-			<img src="hd.jpg" class="banner-img"/>
+			<div class="fadein">
+				<img src="hd.jpg" />
+				<img src="hd2.jpg" />
+				<img src="hd4.jpg" />
+			</div>
 			<div class="banner-overlay">
 				<p>
 					Jenny is a Hair Stylist based in the Gentry saloon, Exeter, EX1. "I have been hair styling for 16 years. I love it! Looking good is feeling good..." Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. <br /><a href="" class="selected">Read more</a>
 				</p>		
-				<h4>Tel: 01392 278426</h4>
+				<h4 style="margin-bottom:0;">Tel: 01392 278426</h4>
 			</div>
 		</div>
 	</div>
