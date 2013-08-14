@@ -9,31 +9,6 @@
 	<script src="js/respond.src.js"></script>
 	<script src="https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false"></script>
     <style>
-		.footer {
-			clear:both;
-			position:absolute;
-			bottom:0px;
-			width:100%;
-			background-color:#000000;
-			height:100px;
-			text-align:center;
-			font-size:60%;
-			color:#ffffff;
-			text-shadow:none;
-			font-family: Georgia;
-		}
-		
-		.footer a {
-			font-family: Georgia;
-			text-shadow:none;
-			color:#FF6F00;
-			padding:0 10px 0 0;
-		}
-		
-		.footer p {
-			margin-top:45px;
-		}
-		
 		.ui-body-c, .ui-dialog.ui-overlay-c {
 			background-color:#ffffff;
 			background:#ffffff;
@@ -61,6 +36,41 @@
 			font-family: Georgia;
 			font-size:14px;
 		}
+		
+		.bottom {
+			position:relative;
+			width:100%;
+			min-height:100%;
+			clear:both;
+			background-color:#000000;
+			text-align:center;
+		}
+		
+		.footer {
+			position:absolute;
+			bottom:0px;
+			clear:both;
+			height:100px;
+			width:100%;
+			font-size:60%;
+			color:#ffffff;
+			text-shadow:none;
+			font-family: Georgia;
+			text-align:center;
+			background-color:#222222;
+		}
+		
+		.footer a {
+			font-family: Georgia;
+			text-shadow:none;
+			color:#FF6F00;
+			padding:0 10px 0 0;
+		}
+		
+		.footer p {
+			margin-top:45px;
+		}
+		
 	</style>
 </head>
 <body>
@@ -76,10 +86,13 @@
 				<li><a href="">About Jenny</a></li>
 				<li><a href="">Contact Me</a></li>
 			</ul>
+			
+			<div class="footer">
+				<p><a href="">View Desktop Site</a> | <span style="padding-left:10px;">Copyright &copy; Jenny</span></p>
+			</div>
+		
 		</div><!-- /content -->
-		<div class="footer">
-			<p><a href="">View Desktop Site</a> | <span style="padding-left:10px;">Copyright &copy; Jenny</span></p>
-		</div>
+		
 	</div><!-- /page -->
 </body>
 </html>
