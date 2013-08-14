@@ -38,18 +38,7 @@
 			font-size:70%;
 		}
 		
-		.bottom {
-			position:relative;
-			width:100%;
-			min-height:100%;
-			clear:both;
-			background-color:#000000;
-			text-align:center;
-		}
-		
 		.footer {
-			position:absolute;
-			bottom:0px;
 			clear:both;
 			height:80px;
 			width:100%;
@@ -69,37 +58,27 @@
 		}
 		
 		.footer p {
-			margin-top:35px;
-		}
-		
-		.container {
-			position:relative;
-			min-height:100%;
-			min-width:100%;
-			margin:0;
-			padding:0;
+			padding-top:35px;
 		}
 	</style>
 </head>
 <body>
-	<div class="container">
-		<div data-role="page">
-			<div data-role="header">
-				<img src="mobile.png" class="logo"/>
-				<h1>Hair Stylist in Exeter</h1>
-				<h1>Tel: 01392 278426</h1>
-			</div><!-- /header -->
-			<div data-role="content">	
-				<ul data-role="listview" data-inset="true" data-filter="false" data-theme="a">
-					<li><a href="">My Services</a></li>
-					<li><a href="">About Jenny</a></li>
-					<li><a href="">Contact Me</a></li>
-				</ul>
-			</div><!-- /content -->
-			<div class="footer">
-				<p><a href="">View Desktop Site</a> | <span style="padding-left:10px;">Copyright &copy; Jenny</span></p>
-			</div>
-		</div><!-- /page -->
-	</div>
+	<div data-role="page">
+		<div data-role="header">
+			<img src="mobile.png" class="logo"/>
+			<h1>Hair Stylist in Exeter</h1>
+			<h1>Tel: 01392 278426</h1>
+		</div><!-- /header -->
+		<div data-role="content">	
+			<ul data-role="listview" data-inset="true" data-filter="false" data-theme="a">
+				<li><a href="">My Services</a></li>
+				<li><a href="">About Jenny</a></li>
+				<li><a href="">Contact Me</a></li>
+			</ul>
+		</div><!-- /content -->
+		<div class="footer">
+			<p><a href="">View Desktop Site</a> | <span style="padding-left:10px;">Copyright &copy; Jenny</span></p>
+		</div>
+	</div><!-- /page -->
 </body>
 </html>
